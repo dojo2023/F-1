@@ -1,0 +1,12 @@
+現在のDBは「jdbc:h2:C:\pleiades\workspace\data\test」の試作版です。
+ユーザー名は「sa」,パスワードなしです。
+
+
+【IDPWテーブルを作成するSQL文】
+CREATE TABLE IDPW (
+  ID VARCHAR(20) PRIMARY KEY,
+  PW VARCHAR(256) NOT NULL,
+  ADMIN VARCHAR(4)NOT NULL,
+  SID VARCHAR(32),
+  SALT VARCHAR(32)
+);
