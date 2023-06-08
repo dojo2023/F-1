@@ -24,7 +24,7 @@ public class IdpwDAO {
 			Class.forName("org.h2.Driver");
 
 			// データベースに接続する テストテーブルに接続しています
-			conn = DriverManager.getConnection("jdbc:h2:file:C:/pleiades/workspace/data/test", "sa", "");
+			conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 			// SELECT文を準備する
 			String sql = "select count(*) from IDPW where ID = ? and PW = ?";
@@ -88,7 +88,7 @@ public class IdpwDAO {
 			Class.forName("org.h2.Driver");
 
 			// データベースに接続する
-			conn = DriverManager.getConnection("jdbc:h2:file:C:/pleiades/workspace/data/test", "sa", "");
+			conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 			String sql = "update IDPW set SID = ? where ID = ?";
 			PreparedStatement pStmt = conn.prepareStatement(sql);
@@ -123,7 +123,7 @@ public class IdpwDAO {
 			Class.forName("org.h2.Driver");
 
 			// データベースに接続する
-			conn = DriverManager.getConnection("jdbc:h2:file:C:/pleiades/workspace/data/test", "sa", "");
+			conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 		String sql = "select IDPW.ID from IDPW where  SID = ?";
 			PreparedStatement pStmt = conn.prepareStatement(sql);
@@ -163,7 +163,7 @@ public  byte[] checkSalt(String id){ //saltをidで確認用(新規追加)
 		Class.forName("org.h2.Driver");
 
 		// データベースに接続する
-		conn = DriverManager.getConnection("jdbc:h2:file:C:/pleiades/workspace/data/test", "sa", "");
+		conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 	String sql = "select IDPW.SALT from IDPW where  ID = ?";
 		PreparedStatement pStmt = conn.prepareStatement(sql);
@@ -200,7 +200,7 @@ public boolean AdminLoginOK(String sid){ // 管理者ログイン用
 		// JDBCドライバを読み込む
 		Class.forName("org.h2.Driver");
 		// データベースに接続する
-		conn = DriverManager.getConnection("jdbc:h2:file:C:/pleiades/workspace/data/test", "sa", "");
+		conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 	String sql = "select IDPW.ADMIN from IDPW where  SID = ?";
 		PreparedStatement pStmt = conn.prepareStatement(sql);

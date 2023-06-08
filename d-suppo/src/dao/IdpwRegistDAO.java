@@ -25,7 +25,7 @@ public class IdpwRegistDAO {
 		Class.forName("org.h2.Driver");
 
 		// データベースに接続する
-		conn = DriverManager.getConnection("jdbc:h2:file:C:/pleiades/workspace/data/test", "sa", "");
+		conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 		// SELECT文を準備する
 		String sql = "select count(*) from IDPW where ID = ?";
@@ -73,7 +73,7 @@ public class IdpwRegistDAO {
 			Class.forName("org.h2.Driver");
 
 			// データベースに接続する
-			conn = DriverManager.getConnection("jdbc:h2:file:C:/pleiades/workspace/data/test", "sa", "");
+			conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 			//conn.setAutoCommit(false);
 
 			//SQL文を準備
