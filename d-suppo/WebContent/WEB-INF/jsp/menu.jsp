@@ -5,7 +5,6 @@
 <meta charset="UTF-8">
 <title>メインメニュー(試作)</title>
 <link rel="stylesheet" type="text/css" href="./css/menu.css">
-</style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -13,9 +12,10 @@
 <h1 id ="logo"><a href="/d-suppo/MenuServlet" alt="メニュー"><img src="./img/title.png" width="300"  alt="試作"></a></h1>
 
   <ul id="nav">
-<li><a href="">1</a></li>
-<li><a href="">2</a></li>
-<li><a href="">3</a></li>
+<li><a href="/d-suppo/RecServlet">(試作1) 提案ページ</a></li>
+<li><a href="/d-suppo/DsServlet">(試作2) 管理ページ</a></li>
+<li><a href="">(3)枠余り</a></li>
+<li><a href="/d-suppo/LogoutServlet">ログアウト</a></li>
 
   </ul>
   <!--上メニュー、下-->
