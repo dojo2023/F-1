@@ -9,7 +9,7 @@
 <body>
 <p>呑まない人用</p>
 
-<form>
+<form method="POST" action="/d-suppo/RecResultServlet">
     <div class="form-check">
         <input class="form-check-input" type="radio" name="maker" value="genre" onclick="formSwitch()" checked>
         <label class="form-check-label"> ジャンルから選ぶ</label>
@@ -42,30 +42,30 @@
 
 <div id="dishList">
     <div  class="form-check">
-      <input class="form-check-input" type="radio" value="3" id="肉メイン" name="dish[]">
+      <input class="form-check-input" type="radio" value="0" id="肉メイン" name="dish[]">
       <label class="form-check-label">肉メイン</label>
     </div>
     <div class="form-check">
-      <input class="form-check-input" type="radio" value="4" id="魚メイン" name="dish[]">
+      <input class="form-check-input" type="radio" value="1" id="魚メイン" name="dish[]">
       <label class="form-check-label">魚メイン</label>
     </div>
     <div class="form-check">
-      <input class="form-check-input" type="radio" value="5" id="野菜メイン" name="dish[]">
+      <input class="form-check-input" type="radio" value="2" id="野菜メイン" name="dish[]">
       <label class="form-check-label">野菜メイン</label>
     </div>
 </div>
 
 <div id="havList">
     <div class="form-check">
-      <input class="form-check-input" type="radio" value="6" id="パン" name="harvest[]">
+      <input class="form-check-input" type="radio" value="0" id="パン" name="harvest[]">
       <label class="form-check-label">パン</label>
     </div>
     <div class="form-check">
-      <input class="form-check-input"  type="radio" value="7" id="米" name="harvest[]">
+      <input class="form-check-input"  type="radio" value="1" id="米" name="harvest[]">
       <label class="form-check-label">米</label>
     </div>
     <div class="form-check">
-      <input class="form-check-input" type="radio" value="8" id="麺" name="harvest[]">
+      <input class="form-check-input" type="radio" value="2" id="麺" name="harvest[]">
       <label class="form-check-label">麺</label>
     </div>
 </div>

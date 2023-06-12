@@ -24,8 +24,8 @@ public class RecResultServlet extends HttpServlet {
 			throws ServletException, IOException {
 		// リクエストパラメータを取得する
 		request.setCharacterEncoding("UTF-8");
-		int alc = Integer.parseInt(request.getParameter("ALC"));
-		int category = Integer.parseInt(request.getParameter("CATEGORY"));
+		//		int alc = Integer.parseInt(request.getParameter("ALC"));
+		//		int category = Integer.parseInt(request.getParameter("CATEGORY"));
 
 		//提案結果ページにフォワードする
 		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/recResult.jsp");
