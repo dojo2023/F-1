@@ -4,12 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>メインメニュー(試作)</title>
+<title>提案結果表示ページ</title>
 <link rel="stylesheet" type="text/css" href="./css/menu.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
 </head>
 <body>
 <c:forEach var="recresult" begin="1"
@@ -19,4 +16,7 @@ end="5" step="1">
 <c:out value="${recd.dietname}" />
 </c:forEach>
 </body>
+  <div id="footer">
+    <marquee>&copy;なんかいれたい</marquee>
+  </div>
 </html>

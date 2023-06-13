@@ -4,13 +4,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>お酒質問</title>
+<link rel="stylesheet" type="text/css" href="./css/rec.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<div class="wrapper">
 <p>お酒を呑みたい気分ですか？</p>
 <form>
 <a href="/d-suppo/RecaServlet"><button type="button">呑む</button></a>
 <a href="/d-suppo/RecdServlet"><button type="button">呑まない</button></a>
 </form>
+</div>
 </body>
+<div id="footer">
+    <marquee>&copy;なんかいれたい</marquee>
+  </div>
 </html>
