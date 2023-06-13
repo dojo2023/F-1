@@ -39,12 +39,11 @@ public class RecaDAO {
 			} else {
 				pStmt.setInt(2, "%");
 			}
-			if (param.getDietname() != 0) {
-				pStmt.setInt(3, "%" + param.getDietname() + "%");
+			if (param.getDietname() != null) {
+				pStmt.setString(3, "%" + param.getDietname() + "%");
 			} else {
-				pStmt.setInt(3, "%");
+				pStmt.setString(3, "%");
 			}
-			
 
 			// SQL文を実行し、結果表を取得する
 			ResultSet rs = pStmt.executeQuery();
@@ -56,7 +55,7 @@ public class RecaDAO {
 						rs.getInt("CATEGORY"),
 						rs.getInt("DIETNAME"),
 
-				alcList.add(alcresult));
+						alcList.add(alcresult));
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -71,11 +70,12 @@ public class RecaDAO {
 					conn.close();
 				} catch (SQLException e) {
 					e.printStackTrace();
-					cardList = null;
+					alcList = null;
 				}
 			}
 		}
 
 		// 結果を返す
-		return cardList;
+		return alcList;
 	}
+}

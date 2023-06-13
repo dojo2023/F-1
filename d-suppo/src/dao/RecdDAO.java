@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import model.Reca;
+import model.Recd;
 
 public class RecdDAO {
 	// 引数paramで検索項目を指定し、検索結果のリストを返す
@@ -49,27 +49,26 @@ public class RecdDAO {
 			} else {
 				pStmt.setString(4, "%");
 			}
-			
 
 			// SQL文を実行し、結果表を取得する
 			ResultSet rs = pStmt.executeQuery();
 
 			// 結果表をコレクションにコピーする
 			while (rs.next()) {
-				Reca alcresult = new Reca(
+				Recd nonalcresult = new Recd(
 						rs.getInt("GENRE"),
 						rs.getInt("DISH"),
 						rs.getInt("HARVEST"),
 						rs.getString("DIETNAME"),
 
-				alcList.add(alcresult));
+						nonalcList.add(nonalcresult));
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
-			alcList = null;
+			nonalcList = null;
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
-			alcList = null;
+			nonalcList = null;
 		} finally {
 			// データベースを切断
 			if (conn != null) {
@@ -77,11 +76,12 @@ public class RecdDAO {
 					conn.close();
 				} catch (SQLException e) {
 					e.printStackTrace();
-					alcList = null;
+					nonalcList = null;
 				}
 			}
 		}
 
 		// 結果を返す
-		return cardList;
+		return nonalcList;
 	}
+}
