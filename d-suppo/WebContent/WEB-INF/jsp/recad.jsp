@@ -16,6 +16,9 @@
 <a href="/d-suppo/RecdServlet"><button type="button">呑まない</button></a>
 </form>
 </div>
+<div>
+<a href="/d-suppo/MenuServlet"><button>戻る</button></a>
+</div>
 </body>
 <div id="footer">
     <marquee>&copy;なんかいれたい</marquee>

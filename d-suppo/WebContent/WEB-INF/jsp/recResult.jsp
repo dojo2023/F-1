@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>  
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,6 +15,8 @@ end="5" step="1">
 <c:out value="${reca.dietname}" />
 <c:out value="${recd.dietname}" />
 </c:forEach>
+
+<a href="/d-suppo/MenuServlet"><button>戻る</button></a>
 </body>
   <div id="footer">
     <marquee>&copy;なんかいれたい</marquee>

@@ -21,33 +21,27 @@ public class RecdDAO {
 			Class.forName("org.h2.Driver");
 
 			// データベースに接続する
-			conn = DriverManager.getConnection("jdbc:h2:file:C:/pleiades/workspace/data/makiBC", "sa", "");
+			conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 			// SQL文を準備する
-			String sql = "select * "
-					+ "from Recd WHERE GENRE LIKE ? AND DISH LIKE ? AND HARVEST LIKE ? AND DIETNAME LIKE ?";
+			String sql = "SELECT * FROM RECD WHERE GENRE = ? OR DISH = ? OR HARVEST = ?";
 			PreparedStatement pStmt = conn.prepareStatement(sql);
 
 			// SQL文を完成させる
-			if (param.getGenre() != 0) {
-				pStmt.setInt(1, "%" + param.getGenre() + "%");
+			if (0 <= param.getGenre() && param.getGenre() < 3){
+				pStmt.setInt(1, param.getGenre());
 			} else {
-				pStmt.setInt(1, "%");
+				pStmt.setInt(1, Integer.parseInt("%"));
 			}
-			if (param.getDish() != 0) {
-				pStmt.setInt(2, "%" + param.getDish() + "%");
+			if (0 <= param.getDish() && param.getDish() < 3) {
+				pStmt.setInt(2, param.getDish());
 			} else {
-				pStmt.setInt(2, "%");
+				pStmt.setInt(2, Integer.parseInt("%"));
 			}
-			if (param.getHarvest() != 0) {
-				pStmt.setInt(3, "%" + param.getHarvest() + "%");
+			if (0 <= param.getHarvest() && param.getHarvest() < 3) {
+				pStmt.setInt(3, param.getHarvest());
 			} else {
-				pStmt.setInt(3, "%");
-			}
-			if (param.getDietname() != null) {
-				pStmt.setString(4, "%" + param.getDietname() + "%");
-			} else {
-				pStmt.setString(4, "%");
+				pStmt.setInt(3, Integer.parseInt("%"));
 			}
 
 			// SQL文を実行し、結果表を取得する
@@ -56,12 +50,12 @@ public class RecdDAO {
 			// 結果表をコレクションにコピーする
 			while (rs.next()) {
 				Recd nonalcresult = new Recd(
-						rs.getInt("GENRE"),
-						rs.getInt("DISH"),
-						rs.getInt("HARVEST"),
-						rs.getString("DIETNAME"),
-
-						nonalcList.add(nonalcresult));
+				rs.getInt("GENRE"),
+				rs.getInt("DISH"),
+				rs.getInt("HARVEST"),
+				rs.getString("DIETNAME")
+				);
+				nonalcList.add(nonalcresult);
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -84,4 +78,5 @@ public class RecdDAO {
 		// 結果を返す
 		return nonalcList;
 	}
+
 }

@@ -21,29 +21,11 @@ public class RecaDAO {
 			Class.forName("org.h2.Driver");
 
 			// データベースに接続する
-			conn = DriverManager.getConnection("jdbc:h2:file:C:/pleiades/workspace/data/makiBC", "sa", "");
+			conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 			// SQL文を準備する
-			String sql = "select * "
-					+ "from Reca WHERE ALC LIKE ? AND CATEGORY LIKE ? AND DIETNAME LIKE ?";
+			String sql = "select * from RECA WHERE ALC in  AND CATEGORY = ?";
 			PreparedStatement pStmt = conn.prepareStatement(sql);
-
-			// SQL文を完成させる
-			if (param.getAlc() != 0) {
-				pStmt.setInt(1, "%" + param.getAlc() + "%");
-			} else {
-				pStmt.setInt(1, "%");
-			}
-			if (param.getCategory() != 0) {
-				pStmt.setInt(2, "%" + param.getCategory() + "%");
-			} else {
-				pStmt.setInt(2, "%");
-			}
-			if (param.getDietname() != null) {
-				pStmt.setString(3, "%" + param.getDietname() + "%");
-			} else {
-				pStmt.setString(3, "%");
-			}
 
 			// SQL文を実行し、結果表を取得する
 			ResultSet rs = pStmt.executeQuery();
@@ -53,9 +35,10 @@ public class RecaDAO {
 				Reca alcresult = new Reca(
 						rs.getInt("ALC"),
 						rs.getInt("CATEGORY"),
-						rs.getInt("DIETNAME"),
+						rs.getString("DIETNAME")
+						);
 
-						alcList.add(alcresult));
+						alcList.add(alcresult);
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
