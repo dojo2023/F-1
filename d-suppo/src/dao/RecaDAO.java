@@ -12,7 +12,7 @@ import model.Reca;
 
 public class RecaDAO {
 	// 引数paramで検索項目を指定し、検索結果のリストを返す
-	public List<Reca> select(Reca param) {
+	public List<Reca> select(int alc,int category) {
 		Connection conn = null;
 		List<Reca> alcList = new ArrayList<Reca>();
 
@@ -24,8 +24,11 @@ public class RecaDAO {
 			conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 			// SQL文を準備する
-			String sql = "select * from RECA WHERE ALC in  AND CATEGORY = ?";
+			String sql = "select * from RECA WHERE ALC= ?  AND CATEGORY = ?";
 			PreparedStatement pStmt = conn.prepareStatement(sql);
+
+			pStmt.setInt(1,alc);
+			pStmt.setInt(2,category);
 
 			// SQL文を実行し、結果表を取得する
 			ResultSet rs = pStmt.executeQuery();

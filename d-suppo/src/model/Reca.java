@@ -7,6 +7,11 @@ public class Reca implements Serializable {
 	private int category;
 	private String dietname;
 
+	public Reca(int alc, int category) {
+		this.alc = alc;
+		this.category = category;
+	}
+
 	public Reca(int alc, int category, String dietname) {
 		super();
 		this.alc = alc;

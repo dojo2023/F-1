@@ -9,11 +9,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<c:forEach var="recresult" begin="1"
-end="5" step="1">
+<c:forEach var="recresult"  items="${cardList}">
 <p>画像</p>
-<c:out value="${reca.dietname}" />
-<c:out value="${recd.dietname}" />
+<c:out value="${recresult.CATEGORY}" />
+<c:out value="${recresult.DIETNAME}" />
+<c:out value="${recresult.ALC}" />
 </c:forEach>
 
 <a href="/d-suppo/MenuServlet"><button>戻る</button></a>
