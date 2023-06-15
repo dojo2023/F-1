@@ -14,7 +14,7 @@
   <ul id="nav">
 <li><a href="/d-suppo/RecServlet">(試作1) 提案ページ</a></li>
 <li><a href="/d-suppo/DsServlet">(試作2) 管理ページ</a></li>
-<li><a href="">(3)枠余り</a></li>
+<li><a href="/d-suppo/ChengePwServlet">(3)枠余り</a></li>
 <li><a href="/d-suppo/LogoutServlet">ログアウト</a></li>
 
   </ul>
