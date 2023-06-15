@@ -30,6 +30,7 @@
 <input type="radio" name="CATEGORY[]" value="1">さっぱり
 <input type="radio" name="CATEGORY[]" value="2">おつまみ系
 <input type="radio" name="CATEGORY[]" value="3">甘いもの
+<br>
 <input type="submit" value="送信">
 
 </form>

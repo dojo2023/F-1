@@ -55,7 +55,7 @@ public class RecaServlet extends HttpServlet {
 		int[] newAlc = new int[alc.length];
         for (int i = 0; i < alc.length; i++) {
             newAlc[i] = Integer.parseInt(alc[i]);
-         // 検索処理を行う
+            // 検索処理を行う
            cardListadd.addAll(recadao.select(newAlc[i],category));
         }
 
