@@ -26,7 +26,7 @@
 <input type="checkbox" name="ALC[]" value="8">カクテル
 <br>
 <p>食事の系統は？</p>
-<input type="radio"  name="CATEGORY[]" value="0">がっつり
+<input type="radio"  name="CATEGORY[]" value="0" checked>がっつり
 <input type="radio" name="CATEGORY[]" value="1">さっぱり
 <input type="radio" name="CATEGORY[]" value="2">おつまみ系
 <input type="radio" name="CATEGORY[]" value="3">甘いもの
