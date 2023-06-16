@@ -6,7 +6,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import model.Reca;
 
@@ -65,5 +67,12 @@ public class RecaDAO {
 		return alcList;
 	}
 
+	public boolean distinct(List<Reca> reca) {
+		Set<Reca> set = new HashSet<Reca>(reca);
+		if(reca.size() != set.size()) {
+			return false;
+	}
+		return true;
+	}
 
 }

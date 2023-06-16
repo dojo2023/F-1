@@ -55,13 +55,13 @@ public class UploadServlet extends HttpServlet {
 				String filename=part.getSubmittedFileName();//ie対応が不要な場合
 				//String filename=Paths.get(part.getSubmittedFileName()).getFileName().toString();
 				//アップロードするフォルダ
-				String path= "C:/dojo6/d-suppo/WebContent/upload/" + filename;  //getServletContext().getRealPath("/upload");
+			String path= "C:/dojo6/d-suppo/WebContent/upload/" + filename;  //getServletContext().getRealPath("/upload");
 				//実際にファイルが保存されるパス確認
-				System.out.println(path);
+			System.out.println(path);
 				//書き込み
 					part.write(path);
 
-					path=getServletContext().getRealPath("/upload/");
+				 path=getServletContext().getRealPath("/upload/");
 					System.out.println(path + "/" +filename);
 					path = path + "/" +filename;
 					part.write(path);

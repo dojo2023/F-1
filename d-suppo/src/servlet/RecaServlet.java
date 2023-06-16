@@ -51,14 +51,21 @@ public class RecaServlet extends HttpServlet {
 		RecaDAO recadao = new RecaDAO();
 		List<Reca> cardListadd = new ArrayList<Reca>();
 
-		//更新中
 		int[] newAlc = new int[alc.length];
+
+		while(true){
         for (int i = 0; i < alc.length; i++) {
-            newAlc[i] = Integer.parseInt(alc[i]);
+			newAlc[i] = Integer.parseInt(alc[i]);
             // 検索処理を行う
             cardListadd.addAll(recadao.select(newAlc[i],category));
-        }
+        	}
+			if(recadao.distinct(cardListadd)){
+				break;
+			}else{
+				cardListadd = new ArrayList<Reca>();
+			}
 
+		}
 		// 検索結果をリクエストスコープに格納する
 		request.setAttribute("cardList", cardListadd);
 
