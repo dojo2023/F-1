@@ -51,7 +51,7 @@ public class RecaServlet extends HttpServlet {
 		RecaDAO recadao = new RecaDAO();
 		List<Reca> cardListadd = new ArrayList<Reca>();
 
-			//更新中
+		//更新中
 		int[] newAlc = new int[alc.length];
         for (int i = 0; i < alc.length; i++) {
             newAlc[i] = Integer.parseInt(alc[i]);

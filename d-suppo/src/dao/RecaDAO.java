@@ -24,7 +24,7 @@ public class RecaDAO {
 			conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 			// SQL文を準備する
-			String sql = "select * from RECA WHERE ALC= ?  AND CATEGORY = ?";
+			String sql = "select * from RECA WHERE ALC= ?  AND CATEGORY = ? ORDER BY RAND() LIMIT 3";
 			PreparedStatement pStmt = conn.prepareStatement(sql);
 
 			pStmt.setInt(1,alc);
@@ -64,4 +64,6 @@ public class RecaDAO {
 		// 結果を返す
 		return alcList;
 	}
+
+
 }
