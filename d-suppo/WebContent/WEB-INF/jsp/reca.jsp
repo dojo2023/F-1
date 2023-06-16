@@ -17,19 +17,21 @@
 
 <input type="checkbox" name="ALC[]" value="0">ビール
 <input type="checkbox" name="ALC[]" value="1">日本酒
-<input type="checkbox" name="ALC[]" value="2">焼酎
-<input type="checkbox" name="ALC[]" value="3">赤ワイン
-<input type="checkbox" name="ALC[]" value="4">白ワイン
-<input type="checkbox" name="ALC[]" value="5">チューハイ
-<input type="checkbox" name="ALC[]" value="6">梅酒
-<input type="checkbox" name="ALC[]" value="7">ハイボール
-<input type="checkbox" name="ALC[]" value="8">カクテル
+<input type="checkbox" name="ALC[]" value="2">芋焼酎
+<input type="checkbox" name="ALC[]" value="3">麦焼酎
+<input type="checkbox" name="ALC[]" value="4">赤ワイン
+<input type="checkbox" name="ALC[]" value="5">白ワイン
+<input type="checkbox" name="ALC[]" value="6">レモンサワー
+<input type="checkbox" name="ALC[]" value="7">梅酒
+<input type="checkbox" name="ALC[]" value="8">ハイボール
+<input type="checkbox" name="ALC[]" value="9">カクテル
 <br>
 <p>食事の系統は？</p>
-<input type="radio"  name="CATEGORY[]" value="0">がっつり
+<input type="radio"  name="CATEGORY[]" value="0" checked>がっつり
 <input type="radio" name="CATEGORY[]" value="1">さっぱり
 <input type="radio" name="CATEGORY[]" value="2">おつまみ系
-<input type="radio" name="CATEGORY[]" value="3">甘いもの
+<input type="radio" name="CATEGORY[]" value="3">デザート
+<br>
 <input type="submit" value="送信">
 
 </form>

@@ -36,12 +36,12 @@ public class RecaDAO {
 			// 結果表をコレクションにコピーする
 			while (rs.next()) {
 				Reca alcresult = new Reca(
-						rs.getInt("ALC"),
-						rs.getInt("CATEGORY"),
-						rs.getString("DIETNAME")
-						);
+					rs.getInt("ALC"),
+					rs.getInt("CATEGORY"),
+					rs.getString("DIETNAME")
+				);
 
-						alcList.add(alcresult);
+				alcList.add(alcresult);
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();

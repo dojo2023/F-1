@@ -30,7 +30,7 @@
 
   <div id="genreList">
     <div class="form-check">
-      <input class="form-check-input" type="radio" value="0" id="和食" name="genre[]">
+      <input class="form-check-input" type="radio" value="0" id="和食" name="genre[]" >
       <label class="form-check-label">和食</label>
     </div>
     <div class="form-check">
@@ -95,6 +95,9 @@ function formSwitch() {
         document.getElementById('dishList').style.display = "none";
         document.getElementById('havList').style.display = "none";
 
+        var inputItem = document.getElementById("genreList").getElementsByTagName("input");
+        inputItem[0].checked = "checked";
+
         var inputItem = document.getElementById("dishList").getElementsByTagName("input");
         for(var i=0; i<inputItem.length; i++){
         inputItem[i].checked = "";
@@ -111,6 +114,9 @@ function formSwitch() {
          document.getElementById('dishList').style.display = "";
          document.getElementById('havList').style.display = "none";
 
+         var inputItem = document.getElementById("dishList").getElementsByTagName("input");
+         inputItem[0].checked = "checked";
+
          var inputItem = document.getElementById("genreList").getElementsByTagName("input");
          for(var i=0; i<inputItem.length; i++){
          inputItem[i].checked = "";
@@ -125,6 +131,9 @@ function formSwitch() {
     	document.getElementById('genreList').style.display = "none";
         document.getElementById('dishList').style.display = "none";
         document.getElementById('havList').style.display = "";
+
+        var inputItem = document.getElementById("havList").getElementsByTagName("input");
+        inputItem[0].checked = "checked";
 
         var inputItem = document.getElementById("genreList").getElementsByTagName("input");
         for(var i=0; i<inputItem.length; i++){

@@ -55,14 +55,14 @@ public class RecaServlet extends HttpServlet {
 		int[] newAlc = new int[alc.length];
         for (int i = 0; i < alc.length; i++) {
             newAlc[i] = Integer.parseInt(alc[i]);
-         // 検索処理を行う
-           cardListadd.addAll(recadao.select(newAlc[i],category));
+            // 検索処理を行う
+            cardListadd.addAll(recadao.select(newAlc[i],category));
         }
 
-				// 検索結果をリクエストスコープに格納する
-				request.setAttribute("cardList", cardListadd);
+		// 検索結果をリクエストスコープに格納する
+		request.setAttribute("cardList", cardListadd);
 
-			    RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/recResult.jsp");
-			    dispatcher.forward(request, response);
-		    }
-        }
+	    RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/recResult.jsp");
+	    dispatcher.forward(request, response);
+    }
+}
