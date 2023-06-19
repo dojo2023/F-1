@@ -11,7 +11,7 @@
 <body>
 <p>呑まない人用</p>
 
-<form method="POST" action="/d-suppo/RecResultServlet">
+<form method="POST" action="/d-suppo/RecdServlet">
     <!-- 呑まない人 = 1 -->
 	<input type = "hidden" name = "DRINK" value = "1">
     <div class="form-check">
