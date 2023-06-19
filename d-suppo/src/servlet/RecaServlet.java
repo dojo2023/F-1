@@ -69,7 +69,7 @@ public class RecaServlet extends HttpServlet {
 		// 検索結果をリクエストスコープに格納する
 		request.setAttribute("cardList", cardListadd);
 
-	    RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/recResult.jsp");
+	    RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/recaResult.jsp");
 	    dispatcher.forward(request, response);
     }
 }
