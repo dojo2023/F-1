@@ -1,7 +1,6 @@
 package servlet;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -31,6 +30,7 @@ public class ResultDsServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+/*
 		// リクエストパラメータを取得する
 		request.setCharacterEncoding("UTF-8");
 		String date = request.getParameter("date");
@@ -44,6 +44,11 @@ public class ResultDsServlet extends HttpServlet {
 		out.println("<p>month：" + month + "</p>");
 		out.println("<p>year：" + year + "</p>");
         out.println("</body></html>");
+*/
+
+        // 管理ページにフォワードする
+ 		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/dsResult.jsp");
+ 		dispatcher.forward(request, response);
 
 		}
 	}
