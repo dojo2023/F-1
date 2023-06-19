@@ -1,8 +1,5 @@
-'use strict';
-
-    var hoge = document.getElementsByName('maker');
 function formSwitch() {
-	var hoge = document.getElementsByName('maker');
+	hoge = document.getElementsByName('maker');
     if (hoge[0].checked) {
         // 好きな食べ物が選択されたら下記を実行します
         document.getElementById('genreList').style.display = "";

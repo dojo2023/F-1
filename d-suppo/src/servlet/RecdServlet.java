@@ -48,27 +48,22 @@ public class RecdServlet extends HttpServlet {
 			throws ServletException, IOException {
 		// リクエストパラメータを取得する
 		request.setCharacterEncoding("UTF-8");
-		String[] alc = request.getParameterValues("ALC[]");
-		int category = Integer.parseInt(request.getParameter("CATEGORY[]"));
-		//Reca reca = new Reca();
+		String maker = request.getParameter("maker");
+		int genre = Integer.parseInt(request.getParameter("genre[]"));
+		int dish = Integer.parseInt(request.getParameter("dish[]"));
+		int harvest = Integer.parseInt(request.getParameter("harvest[]"));
+
 		RecdDAO recddao = new RecdDAO();
 		List<Recd> cardListadd = new ArrayList<Recd>();
 
-		int[] newAlc = new int[alc.length];
-
-		while (true) {
-			for (int i = 0; i < alc.length; i++) {
-				newAlc[i] = Integer.parseInt(alc[i]);
-				// 検索処理を行う
-				cardListadd.addAll(recddao.select(newAlc[i], category));
-			}
-			if (recddao.distinct(cardListadd)) {
-				break;
-			} else {
-				cardListadd = new ArrayList<Recd>();
-			}
-
+		if (maker.equals("genre")) {
+			cardListadd = recddao.select(maker, genre);
+		} else if (maker.equals("dish")) {
+			cardListadd = recddao.select(maker, dish);
+		} else if (maker.equals("harvest")) {
+			cardListadd = recddao.select(maker, harvest);
 		}
+
 		// 検索結果をリクエストスコープに格納する
 		request.setAttribute("cardList", cardListadd);
 

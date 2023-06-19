@@ -14,9 +14,9 @@
 <body>
 <p>呑まない人用</p>
 <div class="wrapper">
-<form method="POST" action="/d-suppo/RecdServlet" id="recd-form">
+<form method="POST" action="/d-suppo/RecdServlet" id="recd-form" name="recdform">
     <!-- 呑まない人 = 1 -->
-    <div class="form-check" >
+    <div class="form-check">
         <input class="form-check-input" type="radio" name="maker" value="genre" id="check1" onclick="formSwitch()" checked>
         <label class="form-check-label"> ジャンルから選ぶ</label>
     </div>
