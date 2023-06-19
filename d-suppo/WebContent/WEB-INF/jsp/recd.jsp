@@ -6,9 +6,6 @@
 <meta charset="UTF-8">
 <title>吞まない人用ページ</title>
 <link rel="stylesheet" type="text/css" href="./css/menu.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="./js/recdjs.js"></script>
-<!-- <script src="./js/recdjq.js"></script> -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -43,6 +40,9 @@
       <input class="form-check-input" type="radio" value="2" id="中華" name="genre[]">
       <label class="form-check-label">中華</label>
     </div>
+    <div class="form-check">
+      <input class="form-check-input" type="hidden" value="5" class="ダミー" name="genre[]" checked>
+    </div>
 </div>
 
 
@@ -59,6 +59,9 @@
       <input class="form-check-input" type="radio" value="2" id="野菜メイン" name="dish[]">
       <label class="form-check-label">野菜メイン</label>
     </div>
+    <div class="form-check">
+      <input class="form-check-input" type="hidden" value="5" class="ダミー" name="dish[]" checked>
+    </div>
 </div>
 
 <div id="havList">
@@ -74,6 +77,9 @@
       <input class="form-check-input" type="radio" value="2" id="麺" name="harvest[]">
       <label class="form-check-label">麺</label>
     </div>
+    <div class="form-check">
+      <input class="form-check-input" type="hidden" value="5" class="ダミー" name="harvest[]" checked>
+    </div>
 </div>
 
 <div>
@@ -82,6 +88,9 @@
   </form>
 <button onclick="/d-suppo/RecServlet">戻る</button>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="./js/recdjs.js"></script>
+
 </body>
 <div id="footer">
     <marquee>&copy;なんかいれたい</marquee>

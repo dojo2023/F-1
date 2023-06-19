@@ -16,6 +16,10 @@ public class Recd implements Serializable {
 		this.dietname = "";
 	}
 
+	public Recd( String dietname) {
+		this.dietname = dietname;
+	}
+
 	public Recd(int genre, int dish, int harvest) {
 		super();
 		this.genre = genre;
