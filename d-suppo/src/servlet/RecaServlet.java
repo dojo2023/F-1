@@ -34,9 +34,12 @@ public class RecaServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+
 		//呑む人用ページにフォワードする
 		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/reca.jsp");
 		dispatcher.forward(request, response);
+
+
 	}
 
 	/**
@@ -66,10 +69,18 @@ public class RecaServlet extends HttpServlet {
 			}
 
 		}
+
 		// 検索結果をリクエストスコープに格納する
 		request.setAttribute("cardList", cardListadd);
 
-	    RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/recaResult.jsp");
-	    dispatcher.forward(request, response);
+		if(alc.length == 0) {
+
+		}
+		else {
+		    RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/recaResult.jsp");
+		    dispatcher.forward(request, response);
+		}
+
+
     }
 }
