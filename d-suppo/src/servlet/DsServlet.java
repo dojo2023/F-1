@@ -33,6 +33,10 @@ public class DsServlet extends HttpServlet {
 		dispatcher.forward(request, response);
 	}
 
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 /*
 		// リクエストパラメータを取得する
