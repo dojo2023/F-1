@@ -18,7 +18,7 @@
 			<li><a href="/d-suppo/LogoutServlet">ログアウト</a></li>
   		</ul>
 
-  		<form method="POST" action="/BCapp/DsUpdateServlet">
+  		<form method="POST" action="/d-suppo/DsUpdateServlet">
 
   			<!--カレンダーを押した年月日を持ってくる-->
   			<label>xxxx年xx月xx日</label>
@@ -32,30 +32,30 @@
 
   			<div>
   				<label>朝</label>
-  				<input type="text" name="DIETNAME[]">
-  				<input type="number" name="CALORIE[]">kcal
-  				<input type="number" name="DIETCOST[]">円
+  				<input type="text" name="DIETNAME">
+  				<input type="number" name="CALORIE">kcal
+  				<input type="number" name="DIETCOST">円
   			</div>
 
   			<div>
   				<label>昼</label>
-  				<input type="text" name="DIETNAME[]">
-  				<input type="number" name="CALORIE[]">kcal
-  				<input type="number" name="DIETCOST[]">円
+  				<input type="text" name="DIETNAME">
+  				<input type="number" name="CALORIE">kcal
+  				<input type="number" name="DIETCOST">円
   			</div>
 
   			<div>
   				<label>夜</label>
-  				<input type="text" name="DIETNAME[]">
-  				<input type="number" name="CALORIE[]">kcal
-  				<input type="number" name="DIETCOST[]">円
+  				<input type="text" name="DIETNAME">
+  				<input type="number" name="CALORIE">kcal
+  				<input type="number" name="DIETCOST">円
   			</div>
 
   			<div>
   				<label>間食</label>
-  				<input type="text" name="DIETNAME[]">
-  				<input type="number" name="CALORIE[]">kcal
-  				<input type="number" name="DIETCOST[]">円
+  				<input type="text" name="DIETNAME">
+  				<input type="number" name="CALORIE">kcal
+  				<input type="number" name="DIETCOST">円
   			</div>
 
   			<div>
