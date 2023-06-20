@@ -25,7 +25,7 @@ public class RecdDAO {
 				conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 				// SQL文を準備する
-				String sql = "SELECT DIETNAME FROM RECD WHERE GENRE = ? ORDER BY RAND() LIMIT 3";
+				String sql = "SELECT DIETNAME,DIETPIC FROM RECD WHERE GENRE = ? ORDER BY RAND() LIMIT 3";
 				PreparedStatement pStmt = conn.prepareStatement(sql);
 
 				// SQL文を完成させる
@@ -37,7 +37,8 @@ public class RecdDAO {
 				// 結果表をコレクションにコピーする
 				while (rs.next()) {
 					Recd genreResult = new Recd(
-							rs.getString("DIETNAME")
+							rs.getString("DIETNAME"),
+							rs.getString("DIETPIC")
 							);
 					genreList.add(genreResult);
 				}
@@ -76,7 +77,7 @@ public class RecdDAO {
 				conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 				// SQL文を準備する
-				String sql = "SELECT DIETNAME FROM RECD WHERE Dish = ? ORDER BY RAND() LIMIT 3";
+				String sql = "SELECT DIETNAME,DIETPIC FROM RECD WHERE Dish = ? ORDER BY RAND() LIMIT 3";
 				PreparedStatement pStmt = conn.prepareStatement(sql);
 
 				// SQL文を完成させる
@@ -88,7 +89,8 @@ public class RecdDAO {
 				// 結果表をコレクションにコピーする
 				while (rs.next()) {
 					Recd genreResult = new Recd(
-							rs.getString("DIETNAME")
+							rs.getString("DIETNAME"),
+							rs.getString("DIETPIC")
 							);
 					genreList.add(genreResult);
 				}
@@ -127,7 +129,7 @@ public class RecdDAO {
 				conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 				// SQL文を準備する
-				String sql = "SELECT DIETNAME FROM RECD WHERE GENRE = ? ORDER BY RAND() LIMIT 3";
+				String sql = "SELECT DIETNAME,DIETPIC FROM RECD WHERE GENRE = ? ORDER BY RAND() LIMIT 3";
 				PreparedStatement pStmt = conn.prepareStatement(sql);
 
 				// SQL文を完成させる
@@ -139,7 +141,8 @@ public class RecdDAO {
 				// 結果表をコレクションにコピーする
 				while (rs.next()) {
 					Recd genreResult = new Recd(
-							rs.getString("DIETNAME")
+							rs.getString("DIETNAME"),
+							rs.getString("DIETPIC")
 							);
 					genreList.add(genreResult);
 				}

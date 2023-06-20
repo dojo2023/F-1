@@ -7,6 +7,7 @@ public class Recd implements Serializable {
 	private int dish;
 	private int harvest;
 	private String dietname;
+	private String dietpic;
 
 	public Recd() {
 		super();
@@ -14,10 +15,12 @@ public class Recd implements Serializable {
 		this.dish = 0;
 		this.harvest = 0;
 		this.dietname = "";
+		this.dietpic = "";
 	}
 
-	public Recd( String dietname) {
+	public Recd( String dietname,String dietpic) {
 		this.dietname = dietname;
+		this.dietpic = dietpic;
 	}
 
 	public Recd(int genre, int dish, int harvest) {
@@ -65,5 +68,14 @@ public class Recd implements Serializable {
 
 	public void setDietname(String dietname) {
 		this.dietname = dietname;
+	}
+
+
+	public String getDietpic() {
+		return dietpic;
+	}
+
+	public void setDietpic(String dietpic) {
+		this.dietpic = dietpic;
 	}
 }
