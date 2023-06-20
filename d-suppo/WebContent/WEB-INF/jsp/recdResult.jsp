@@ -12,14 +12,17 @@
 	</head>
 
 	<body>
-
-		<c:forEach var="recresult"  items="${cardList}">
-		<li><c:out value="${recresult.dietname}" /></li>
-		<img src = "${recresult.dietpic}">
-		</c:forEach>
-
-		<a href="/d-suppo/MenuServlet"><button>戻る</button></a>
-
+	    <div>
+	        <div>
+				<c:forEach var="recresult"  items="${cardList}">
+					<li><c:out value="${recresult.dietname}" /></li>
+					<img src = "${recresult.dietpic}">
+				</c:forEach>
+			</div>
+	        <div>
+				<a href="/d-suppo/MenuServlet"><button>戻る</button></a>
+	        </div>
+        </div>
 	</body>
 
 	<div id="footer">

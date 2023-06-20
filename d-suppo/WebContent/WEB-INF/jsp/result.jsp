@@ -2,18 +2,22 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>シンプル名刺管理</title>
-</head>
-<body>
-	<h1>
-		<c:out value="${result.title}" />
-	</h1>
-	<hr>
-	<p>
-		<c:out value="${result.message}" />
-	</p>
-	<a href="${result.backTo}">メニューへ戻る</a>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>シンプル名刺管理</title>
+	</head>
+	<body>
+		<h1>
+			<c:out value="${result.title}" />
+		</h1>
+		<hr>
+		<div>
+			<p>
+				<c:out value="${result.message}" />
+			</p>
+		</div>
+		<div>
+			<a href="${result.backTo}">メニューへ戻る</a>
+		</div>
+	</body>
 </html>
