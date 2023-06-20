@@ -6,17 +6,24 @@ public class Reca implements Serializable {
 	private int alc;
 	private int category;
 	private String dietname;
+	private String dietpic;
 
 	public Reca(int alc, int category) {
 		this.alc = alc;
 		this.category = category;
 	}
 
-	public Reca(int alc, int category, String dietname) {
+	public Reca( String dietname,String dietpic) {
+		this.dietname = dietname;
+		this.dietpic = dietpic;
+	}
+
+	public Reca(int alc, int category, String dietname, String dietpic) {
 		super();
 		this.alc = alc;
 		this.category = category;
 		this.dietname = dietname;
+		this.dietpic = dietpic;
 	}
 
 	public Reca() {
@@ -24,6 +31,7 @@ public class Reca implements Serializable {
 		this.alc = 0;
 		this.category = 0;
 		this.dietname = "";
+		this.dietpic = "";
 
 	}
 
@@ -49,5 +57,13 @@ public class Reca implements Serializable {
 
 	public void setDietname(String dietname) {
 		this.dietname = dietname;
+	}
+
+	public String getDietpic() {
+		return dietpic;
+	}
+
+	public void setDietpic(String dietpic) {
+		this.dietpic = dietpic;
 	}
 }

@@ -40,7 +40,8 @@ public class RecaDAO {
 				Reca alcresult = new Reca(
 					rs.getInt("ALC"),
 					rs.getInt("CATEGORY"),
-					rs.getString("DIETNAME")
+					rs.getString("DIETNAME"),
+					rs.getString("DIETPIC")
 				);
 
 				alcList.add(alcresult);

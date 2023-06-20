@@ -14,10 +14,9 @@
 	<body>
 
 		<c:forEach var="recresult"  items="${cardList}">
-		<p>画像</p>
-		<li><c:out value="${recresult.alc}" /></li>
-		<li><c:out value="${recresult.category}" /></li>
 		<li><c:out value="${recresult.dietname}" /></li>
+		<img src = "${recresult.dietpic}">
+
 		</c:forEach>
 
 		<a href="/d-suppo/MenuServlet"><button>戻る</button></a>
