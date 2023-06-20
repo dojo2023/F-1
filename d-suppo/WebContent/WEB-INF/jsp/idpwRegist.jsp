@@ -2,18 +2,30 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>新規登録ページ(試作)</title>
-</head>
-<body>
-<p>新規登録ページ(試作)</p>
-<form method="POST" action="/d-suppo/IdpwRegistServlet">
-    ID<input type="text" name="ID"><br>
-    PW<input type="password" name="PW"><br>
-    <input type="submit" name="LOGIN" value="登録">
-    <input type="reset" name="reset" value="リセット">
-    </form>
-   <p><a href="/d-suppo/LoginServlet">ログイン画面へ戻る</a></p>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>新規登録ページ(試作)</title>
+	</head>
+	<body>
+		<div>
+			<div>
+				<p>新規登録ページ(試作)</p>
+			</div>
+			<form method="POST" action="/d-suppo/IdpwRegistServlet">
+		   	 	<div>
+			   	 	ID<input type="text" name="ID"><br>
+			    	PW<input type="password" name="PW"><br>
+		  		</div>
+		   	 	<div>
+			    	<input type="submit" name="LOGIN" value="登録">
+			    </div>
+			    <div>
+			    	<input type="reset" name="reset" value="リセット">
+			    </div>
+		    </form>
+		    <div>
+	   			<p><a href="/d-suppo/LoginServlet">ログイン画面へ戻る</a></p>
+		    </div>
+	    </div>
+	</body>
 </html>
