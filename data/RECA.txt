@@ -7,546 +7,546 @@ CREATE TABLE RECA (
 );
 
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,0,'手羽先','/?/0_手羽先.png');
+VALUES(0,0,'手羽先','./image/alc/ビール/0_手羽先.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,0,'鶏の唐揚げ','/?/0_鶏の唐揚げ.png');
+VALUES(0,0,'鶏の唐揚げ','./image/alc/ビール/0_鶏の唐揚げ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,0,'タコの唐揚げ','/?/0_タコの唐揚げ.png');
+VALUES(0,0,'タコの唐揚げ','./image/alc/ビール/0_タコの唐揚げ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,0,'えのきの唐揚げ','/?/0_えのきの唐揚げ？.png');
+VALUES(0,0,'えのきの唐揚げ','./image/alc/ビール/0_えのきの唐揚げ？.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,0,'餃子','/?/0_餃子.png');
+VALUES(0,0,'餃子','./image/alc/ビール/0_餃子.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,0,'豚キムチ','/?/0_豚キムチ.png');
+VALUES(0,0,'豚キムチ','./image/alc/ビール/0_豚キムチ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,0,'カキフライ','/?/0_カキフライ.png');
+VALUES(0,0,'カキフライ','./image/alc/ビール/0_カキフライ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,0,'にら玉','/?/0_にら玉.png');
+VALUES(0,0,'にら玉','./image/alc/ビール/0_にら玉.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,0,'もつ煮込み','/?/0_もつ煮込み.png');
+VALUES(0,0,'もつ煮込み','./image/alc/ビール/0_もつ煮込み.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,1,'マカロニサラダ','/?/0_マカロニサラダ.png');
+VALUES(0,1,'マカロニサラダ','./image/alc/ビール/0_マカロニサラダ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,1,'ピクルス','/?/0_ピクルス.png');
+VALUES(0,1,'ピクルス','./image/alc/ビール/0_ピクルス.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,1,'サバ缶','/?/0_サバ缶.png');
+VALUES(0,1,'サバ缶','./image/alc/ビール/0_サバ缶.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,1,'スモークサーモン','/?/0_スモークサーモン.png');
+VALUES(0,1,'スモークサーモン','./image/alc/ビール/0_スモークサーモン.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,1,'かつおのたたき','/?/0_かつおのたたき.png');
+VALUES(0,1,'かつおのたたき','./image/alc/ビール/0_かつおのたたき.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,1,'イカ明太子','/?/0_イカ明太子.png');
+VALUES(0,1,'イカ明太子','./image/alc/ビール/0_イカ明太子.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,1,'たこわさ','/?/0_たこわさ.png');
+VALUES(0,1,'たこわさ','./image/alc/ビール/0_たこわさ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,1,'カルパッチョ','/?/0_カルパッチョ.png');
+VALUES(0,1,'カルパッチョ','./image/alc/ビール/0_カルパッチョ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,1,'あさりの酒蒸し','/?/0_あさりの酒蒸し.png');
+VALUES(0,1,'あさりの酒蒸し','./image/alc/ビール/0_あさりの酒蒸し.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,1,'ザーサイ','/?/0_ザーサイ.png');
+VALUES(0,1,'ザーサイ','./image/alc/ビール/0_ザーサイ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,1,'ピーマンとじゃこの醤油炒め','/?/0_ピーマンとじゃこの醤油炒め？.png');
+VALUES(0,1,'ピーマンとじゃこの醤油炒め','./image/alc/ビール/0_ピーマンとじゃこの醤油炒め？.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,2,'枝豆','/?/0_枝豆.png');
+VALUES(0,2,'枝豆','./image/alc/ビール/0_枝豆.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,2,'やみつきキャベツ','/?/0_やみつきキャベツ.png');
+VALUES(0,2,'やみつきキャベツ','./image/alc/ビール/0_やみつきキャベツ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,2,'やみつききゅうり','/?/0_やみつききゅうり.png');
+VALUES(0,2,'やみつききゅうり','./image/alc/ビール/0_やみつききゅうり.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,2,'フライドポテト','/?/0_フライドポテト.png');
+VALUES(0,2,'フライドポテト','./image/alc/ビール/0_フライドポテト.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,2,'鶏皮チップス','/?/0_鶏皮チップス.png');
+VALUES(0,2,'鶏皮チップス','./image/alc/ビール/0_鶏皮チップス.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,2,'ちくわ磯部揚げ','/?/0_ちくわ磯部揚げ.png');
+VALUES(0,2,'ちくわ磯部揚げ','./image/alc/ビール/0_ちくわ磯部揚げ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,2,'ミックスナッツ','/?/0_ミックスナッツ.png');
+VALUES(0,2,'ミックスナッツ','./image/alc/ビール/0_ミックスナッツ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,2,'チーズ','/?/0_チーズ.png');
+VALUES(0,2,'チーズ','./image/alc/ビール/0_チーズ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,2,'柿の種','/?/0_柿の種.png');
+VALUES(0,2,'柿の種','./image/alc/ビール/0_柿の種.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,2,'ポテトチップス','/?/0_ポテトチップス.png');
+VALUES(0,2,'ポテトチップス','./image/alc/ビール/0_ポテトチップス.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,2,'カルパス','/?/0_カルパス.png');
+VALUES(0,2,'カルパス','./image/alc/ビール/0_カルパス.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,3,'チョコレートケーキ','/?/0_チョコレートケーキ.png');
+VALUES(0,3,'チョコレートケーキ','./image/alc/ビール/0_チョコレートケーキ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,3,'チーズケーキ','/?/0_チーズケーキ.png');
+VALUES(0,3,'チーズケーキ','./image/alc/ビール/0_チーズケーキ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,3,'おはぎ','/?/0_おはぎ.png');
+VALUES(0,3,'おはぎ','./image/alc/ビール/0_おはぎ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,3,'みたらし団子','/?/0_みたらし団子.png');
+VALUES(0,3,'みたらし団子','./image/alc/ビール/0_みたらし団子.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(0,3,'ナッツキャラメル','/?/0_ナッツキャラメル.png');
+VALUES(0,3,'ナッツキャラメル','./image/alc/ビール/0_ナッツキャラメル.png');
 
 
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'甘辛ねぎま炒め','/?/1_甘辛ねぎま炒め？.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'豚キムチ','/?/1_豚キムチ？.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'チゲ鍋','/?/1_チゲ鍋.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'お好み焼き','/?/1_お好み焼き.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'目玉焼きトースト','/?/1_目玉焼きトースト.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'焼き鳥','/?/1_焼き鳥.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'鯖缶','/?/1_鯖缶.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'ジンギスカン','/?/1_ジンギスカン.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'ペペロンチーノ','/?/1_ペペロンチーノ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'チキングリル','/?/1_チキングリル.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'牛冷しゃぶ','/?/1_牛冷しゃぶ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'しいたけの照り焼き','/?/1_しいたけの照り焼き.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'酢豚','/?/1_酢豚.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'豚の角煮','/?/1_豚の角煮.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'牛ステーキ','/?/1_牛ステーキ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'牛すじ煮込み','/?/1_牛すじ煮込み.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'手羽先','/?/1_手羽先.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'カレイの煮つけ','/?/1_カレイの煮つけ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'餃子','/?/1_餃子.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'チーズフライ','/?/1_チーズフライ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'グラタン','/?/グラタン.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'ロールキャベツ','/?/ロールキャベツ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'うなぎのかば焼き','/?/うなぎのかば焼き.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'ビーフステーキ','/?/ビーフステーキ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'豚の角煮','/?/豚の角煮.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'麻婆豆腐','/?/麻婆豆腐.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'肉じゃが','/?/肉じゃが.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,1,'かつおのたたき','/?/かつおのたたき.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,1,'シーフードサラダ','/?/シーフードサラダ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,1,'サーモンのマリネ','/?/サーモンのマリネ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,1,'カルパッチョ','/?/カルパッチョ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,1,'刺身盛り','/?/刺身盛り.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,1,'冷奴','/?/冷奴.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,1,'ねぎだくトマト','/?/ねぎだくトマト.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'まぐろのユッケ','/?/まぐろのユッケ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'だし巻き卵','/?/だし巻き卵.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'味玉','/?/味玉.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'温泉たまご','/?/温泉たまご.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'牛すじの煮込み','/?/1_牛すじ煮込み.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'韓国風ピリ辛冷奴','/?/ピリ辛冷奴.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'牡蠣のバターソテー','/?/牡蠣のバター炒め.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'鶏もつ煮','/?/鶏もつ煮.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'卵豆腐','/?/卵豆腐.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'じゃがバター','/?/じゃがバター.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'なめたけ','/?/なめたけ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'ビーフジャーキー','/?/ビーフジャーキー.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'エイヒレ','/?/エイヒレ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'ポテトチップス','/?/ポテトチップス.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'チェダーチーズ','/?/チェダーチーズ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'カマンベールチーズ','/?/カマンベールチーズ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'いぶりがっこ','/?/いぶりがっこ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'たらこ','/?/たらこ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'ホタルイカ','/?/ホタルイカ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'ポテトサラダ','/?/ポテトサラダ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'あさりの酒蒸し','/?/あさりの酒蒸し.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'キムチ','/?/キムチ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'茶碗蒸し','/?/茶碗蒸し.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'バニラアイス','/?/バニラアイス.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'ポン菓子','/?/ポン菓子.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'大福','/?/大福.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'ようかん','/?/ようかん.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'タルト','/?/タルト.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'ティラミス','/?/ティラミス.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'チーズケーキ','/?/チーズケーキ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'メロン','/?/メロン.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'マスカット','/?/マスカット.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'リンゴ','/?/リンゴ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'パイナップル','/?/パイナップル.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'バナナ','/?/バナナ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'桃','/?/桃.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'甘辛ねぎま炒め','./image/alc/日本酒/1_甘辛ねぎま炒め？.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'豚キムチ','./image/alc/日本酒/1_豚キムチ？.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'チゲ鍋','./image/alc/日本酒/1_チゲ鍋.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'お好み焼き','./image/alc/日本酒/1_お好み焼き.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'目玉焼きトースト','./image/alc/日本酒/1_目玉焼きトースト.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'焼き鳥','./image/alc/日本酒/1_焼き鳥.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'鯖缶','./image/alc/日本酒/1_鯖缶.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'ジンギスカン','./image/alc/日本酒/1_ジンギスカン.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'ペペロンチーノ','./image/alc/日本酒/1_ペペロンチーノ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'チキングリル','./image/alc/日本酒/1_チキングリル.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'牛冷しゃぶ','./image/alc/日本酒/1_牛冷しゃぶ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'しいたけの照り焼き','./image/alc/日本酒/1_しいたけの照り焼き.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'酢豚','./image/alc/日本酒/1_酢豚.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'豚の角煮','./image/alc/日本酒/1_豚の角煮.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'牛ステーキ','./image/alc/日本酒/1_牛ステーキ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'牛すじ煮込み','./image/alc/日本酒/1_牛すじ煮込み.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'手羽先','./image/alc/日本酒/1_手羽先.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'カレイの煮つけ','./image/alc/日本酒/1_カレイの煮つけ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'餃子','./image/alc/日本酒/1_餃子.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'チーズフライ','./image/alc/日本酒/1_チーズフライ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'グラタン','./image/alc/日本酒/グラタン.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'ロールキャベツ','./image/alc/日本酒/ロールキャベツ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'うなぎのかば焼き','./image/alc/日本酒/うなぎのかば焼き.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'ビーフステーキ','./image/alc/日本酒/ビーフステーキ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'豚の角煮','./image/alc/日本酒/豚の角煮.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'麻婆豆腐','./image/alc/日本酒/麻婆豆腐.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,0,'肉じゃが','./image/alc/日本酒/肉じゃが.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,1,'かつおのたたき','./image/alc/日本酒/かつおのたたき.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,1,'シーフードサラダ','./image/alc/日本酒/シーフードサラダ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,1,'サーモンのマリネ','./image/alc/日本酒/サーモンのマリネ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,1,'カルパッチョ','./image/alc/日本酒/カルパッチョ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,1,'刺身盛り','./image/alc/日本酒/刺身盛り.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,1,'冷奴','./image/alc/日本酒/冷奴.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,1,'ねぎだくトマト','./image/alc/日本酒/ねぎだくトマト.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'まぐろのユッケ','./image/alc/日本酒/まぐろのユッケ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'だし巻き卵','./image/alc/日本酒/だし巻き卵.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'味玉','./image/alc/日本酒/味玉.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'温泉たまご','./image/alc/日本酒/温泉たまご.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'牛すじの煮込み','./image/alc/日本酒/1_牛すじ煮込み.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'韓国風ピリ辛冷奴','./image/alc/日本酒/ピリ辛冷奴.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'牡蠣のバターソテー','./image/alc/日本酒/牡蠣のバター炒め.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'鶏もつ煮','./image/alc/日本酒/鶏もつ煮.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'卵豆腐','./image/alc/日本酒/卵豆腐.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'じゃがバター','./image/alc/日本酒/じゃがバター.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'なめたけ','./image/alc/日本酒/なめたけ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'ビーフジャーキー','./image/alc/日本酒/ビーフジャーキー.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'エイヒレ','./image/alc/日本酒/エイヒレ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'ポテトチップス','./image/alc/日本酒/ポテトチップス.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'チェダーチーズ','./image/alc/日本酒/チェダーチーズ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'カマンベールチーズ','./image/alc/日本酒/カマンベールチーズ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'いぶりがっこ','./image/alc/日本酒/いぶりがっこ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'たらこ','./image/alc/日本酒/たらこ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'ホタルイカ','./image/alc/日本酒/ホタルイカ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'ポテトサラダ','./image/alc/日本酒/ポテトサラダ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'あさりの酒蒸し','./image/alc/日本酒/あさりの酒蒸し.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'キムチ','./image/alc/日本酒/キムチ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,2,'茶碗蒸し','./image/alc/日本酒/茶碗蒸し.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'バニラアイス','./image/alc/日本酒/バニラアイス.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'ポン菓子','./image/alc/日本酒/ポン菓子.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'大福','./image/alc/日本酒/大福.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'ようかん','./image/alc/日本酒/ようかん.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'タルト','./image/alc/日本酒/タルト.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'ティラミス','./image/alc/日本酒/ティラミス.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'チーズケーキ','./image/alc/日本酒/チーズケーキ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'メロン','./image/alc/日本酒/メロン.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'マスカット','./image/alc/日本酒/マスカット.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'リンゴ','./image/alc/日本酒/リンゴ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'パイナップル','./image/alc/日本酒/パイナップル.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'バナナ','./image/alc/日本酒/バナナ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(1,3,'桃','./image/alc/日本酒/桃.png');
 
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(2,0,'牛豆腐','/?/2_牛豆腐.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(2,0,'牛豆腐','./image/alc/芋焼酎/2_牛豆腐.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,0,'竜田揚げ','/?/2_竜田揚げ.png');
+VALUES(2,0,'竜田揚げ','./image/alc/芋焼酎/2_竜田揚げ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,0,'豚の角煮','/?/2_豚の角煮.png');
+VALUES(2,0,'豚の角煮','./image/alc/芋焼酎/2_豚の角煮.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,0,'ブリの塩焼き','/?/2_ブリの塩焼き.png');
+VALUES(2,0,'ブリの塩焼き','./image/alc/芋焼酎/2_ブリの塩焼き.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,0,'イワシのかば焼き','/?/2_イワシのかば焼き.png');
+VALUES(2,0,'イワシのかば焼き','./image/alc/芋焼酎/2_イワシのかば焼き.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,1,'アボカドサラダ','/?/2_アボカドサラダ.png');
+VALUES(2,1,'アボカドサラダ','./image/alc/芋焼酎/2_アボカドサラダ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,1,'ポテトサラダ','/?/2_ポテトサラダ.png');
+VALUES(2,1,'ポテトサラダ','./image/alc/芋焼酎/2_ポテトサラダ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,1,'ごぼうサラダ','/?/2_ごぼうサラダ.png');
+VALUES(2,1,'ごぼうサラダ','./image/alc/芋焼酎/2_ごぼうサラダ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,1,'チョレギサラダ','/?/2_チョレギサラダ.png');
+VALUES(2,1,'チョレギサラダ','./image/alc/芋焼酎/2_チョレギサラダ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,1,'おでん','/?/2_おでん.png');
+VALUES(2,1,'おでん','./image/alc/芋焼酎/2_おでん.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,2,'ちくわの磯辺揚げ','/?/2_ちくわの磯辺揚げ.png');
+VALUES(2,2,'ちくわの磯辺揚げ','./image/alc/芋焼酎/2_ちくわの磯辺揚げ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,2,'さつま揚げ','/?/2_さつま揚げ.png');
+VALUES(2,2,'さつま揚げ','./image/alc/芋焼酎/2_さつま揚げ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,2,'辛子明太子','/?/2_辛子明太子.png');
+VALUES(2,2,'辛子明太子','./image/alc/芋焼酎/2_辛子明太子.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,2,'チャーシュー','/?/2_チャーシュー.png');
+VALUES(2,2,'チャーシュー','./image/alc/芋焼酎/2_チャーシュー.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,2,'南蛮漬け','/?/2_南蛮漬け.png');
+VALUES(2,2,'南蛮漬け','./image/alc/芋焼酎/2_南蛮漬け.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,3,'ようかん','/?/2_ようかん.png');
+VALUES(2,3,'ようかん','./image/alc/芋焼酎/2_ようかん.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,3,'大学芋','/?/2_大学芋.png');
+VALUES(2,3,'大学芋','./image/alc/芋焼酎/2_大学芋.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,3,'スイートポテト','/?/2_スイートポテト.png');
+VALUES(2,3,'スイートポテト','./image/alc/芋焼酎/2_スイートポテト.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,3,'かりんとう','/?/2_かりんとう.png');
+VALUES(2,3,'かりんとう','./image/alc/芋焼酎/2_かりんとう.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(2,3,'焼き芋','/?/2_焼き芋.png');
-
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,0,'八宝菜','/?/八宝菜.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,0,'オムレツ','/?/オムレツ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,0,'ゴーヤチャンプルー','/?/ゴーヤチャンプルー.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,0,'水餃子','/?/水餃子.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,0,'豆腐ハンバーグ','/?/豆腐ハンバーグ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,1,'ポテトサラダ','/?/ポテトサラダ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,1,'あさりの酒蒸し','/?/あさりの酒蒸し.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,1,'刺身盛り','/?/刺身盛り.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,1,'そうめん','/?/そうめん.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,1,'酢いか','/?/酢いか.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,2,'イカの塩辛','/?/イカの塩辛.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,2,'揚げ出し豆腐','/?/揚げ出し豆腐.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,2,'納豆','/?/納豆.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,2,'かつおユッケ','/?/かつおユッケ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,2,'カプレーゼ','/?/カプレーゼ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,3,'チョコレート','/?/チョコレート.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,3,'フルーツタルト','/?/フルーツタルト.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,3,'ラズベリー','/?/ラズベリー.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,3,'ブルーベリー','/?/ブルーベリー.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(3,3,'チーズケーキ','/?/チーズケーキ.png');
+VALUES(2,3,'焼き芋','./image/alc/芋焼酎/2_焼き芋.png');
 
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,0,'豚まん','/?/豚まん.png'); 
+VALUES(3,0,'八宝菜','./image/alc/麦焼酎/八宝菜.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,0,'オムレツ','./image/alc/麦焼酎/オムレツ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,0,'ゴーヤチャンプルー','./image/alc/麦焼酎/ゴーヤチャンプルー.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,0,'水餃子','./image/alc/麦焼酎/水餃子.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,0,'豆腐ハンバーグ','./image/alc/麦焼酎/豆腐ハンバーグ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,1,'ポテトサラダ','./image/alc/麦焼酎/ポテトサラダ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,1,'あさりの酒蒸し','./image/alc/麦焼酎/あさりの酒蒸し.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,1,'刺身盛り','./image/alc/麦焼酎/刺身盛り.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,1,'そうめん','./image/alc/麦焼酎/そうめん.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,1,'酢いか','./image/alc/麦焼酎/酢いか.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,2,'イカの塩辛','./image/alc/麦焼酎/イカの塩辛.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,2,'揚げ出し豆腐','./image/alc/麦焼酎/揚げ出し豆腐.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,2,'納豆','./image/alc/麦焼酎/納豆.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,2,'かつおユッケ','./image/alc/麦焼酎/かつおユッケ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,2,'カプレーゼ','./image/alc/麦焼酎/カプレーゼ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,3,'チョコレート','./image/alc/麦焼酎/チョコレート.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,3,'フルーツタルト','./image/alc/麦焼酎/フルーツタルト.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,3,'ラズベリー','./image/alc/麦焼酎/ラズベリー.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,3,'ブルーベリー','./image/alc/麦焼酎/ブルーベリー.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(3,3,'チーズケーキ','./image/alc/麦焼酎/チーズケーキ.png');
+
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(4,0,'豚まん','./image/alc/赤ワイン/豚まん.png'); 
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) 
-VALUES(4,0,'甘酢団子','/?/甘酢団子.png'); 
+VALUES(4,0,'甘酢団子','./image/alc/赤ワイン/甘酢団子.png'); 
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,0,'タコ焼き','/?/たこ焼き.png');
+VALUES(4,0,'タコ焼き','./image/alc/赤ワイン/たこ焼き.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,0,'焼きそば','/?/焼きそば.png');  
+VALUES(4,0,'焼きそば','./image/alc/赤ワイン/焼きそば.png');  
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,0,'チンジャオロース','/?/チンジャオロース.png'); 
+VALUES(4,0,'チンジャオロース','./image/alc/赤ワイン/チンジャオロース.png'); 
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,0,'サバの味噌煮','/?/サバの味噌煮.png'); 
+VALUES(4,0,'サバの味噌煮','./image/alc/赤ワイン/サバの味噌煮.png'); 
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,0,'豚の角煮','/?/豚の角煮.png'); 
+VALUES(4,0,'豚の角煮','./image/alc/赤ワイン/豚の角煮.png'); 
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,1,'サバ缶','/?/鯖缶.png');
+VALUES(4,1,'サバ缶','./image/alc/赤ワイン/鯖缶.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,1,'鉄火巻き','/?/鉄火巻き.png');   
+VALUES(4,1,'鉄火巻き','./image/alc/赤ワイン/鉄火巻き.png');   
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,1,'きんぴらごぼう','/?/きんぴらごぼう.png');
+VALUES(4,1,'きんぴらごぼう','./image/alc/赤ワイン/きんぴらごぼう.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,1,'おでん','/?/おでん.png');
+VALUES(4,1,'おでん','./image/alc/赤ワイン/おでん.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,1,'カプレーゼ','/?/カプレーゼ.png');
+VALUES(4,1,'カプレーゼ','./image/alc/赤ワイン/カプレーゼ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,2,'トマトのキムチあえ','/?/トマトのキムチあえ？.png');
+VALUES(4,2,'トマトのキムチあえ','./image/alc/赤ワイン/トマトのキムチあえ？.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,2,'よだれアボカド','/?/よだれアボカド.png');
+VALUES(4,2,'よだれアボカド','./image/alc/赤ワイン/よだれアボカド.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,2,'油揚げチーズ','/?/油揚げチーズ.png');
+VALUES(4,2,'油揚げチーズ','./image/alc/赤ワイン/油揚げチーズ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,2,'ミックスナッツ','/?/ミックスナッツ.png');
+VALUES(4,2,'ミックスナッツ','./image/alc/赤ワイン/ミックスナッツ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,2,'スモークタン','/?/スモークタン.png');
+VALUES(4,2,'スモークタン','./image/alc/赤ワイン/スモークタン.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,2,'するめキムチ','/?/するめキムチ.png');
+VALUES(4,2,'するめキムチ','./image/alc/赤ワイン/するめキムチ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,2,'焼き鳥','/?/焼き鳥.png');
+VALUES(4,2,'焼き鳥','./image/alc/赤ワイン/焼き鳥.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,2,'生ハム','/?/生ハム.png');
+VALUES(4,2,'生ハム','./image/alc/赤ワイン/生ハム.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,2,'ポテトチップス','/?/ポテトチップス.png');
+VALUES(4,2,'ポテトチップス','./image/alc/赤ワイン/ポテトチップス.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,2,'カマンベールチーズ','/?/カマンベールチーズ.png');
+VALUES(4,2,'カマンベールチーズ','./image/alc/赤ワイン/カマンベールチーズ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,2,'カリカリベーコン','/?/カリカリベーコン.png');
+VALUES(4,2,'カリカリベーコン','./image/alc/赤ワイン/カリカリベーコン.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,2,'サラミ','/?/サラミ.png');
+VALUES(4,2,'サラミ','./image/alc/赤ワイン/サラミ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,3,'カヌレ','/?/カヌレ.png');
+VALUES(4,3,'カヌレ','./image/alc/赤ワイン/カヌレ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,3,'抹茶チーズケーキ','/?/抹茶チーズケーキ.png');
+VALUES(4,3,'抹茶チーズケーキ','./image/alc/赤ワイン/抹茶チーズケーキ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,3,'ミルクチョコレート','/?/ミルクチョコレート.png');
+VALUES(4,3,'ミルクチョコレート','./image/alc/赤ワイン/ミルクチョコレート.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,3,'オレンジピールのチョコ','/?/オレンジピールのチョコ.png');
+VALUES(4,3,'オレンジピールのチョコ','./image/alc/赤ワイン/オレンジピールのチョコ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,3,'レーズンチョコレート','/?/レーズンチョコレート.png');
+VALUES(4,3,'レーズンチョコレート','./image/alc/赤ワイン/レーズンチョコレート.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(4,3,'ドライフルーツ','/?/ドライフルーツ.png');
+VALUES(4,3,'ドライフルーツ','./image/alc/赤ワイン/ドライフルーツ.png');
 
 
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,0,'唐揚げ','/?/からあげ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,0,'グラタン','/?/グラタン.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,0,'天ぷら','/?/天ぷら.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,0,'焼き鳥','/?/焼き鳥.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,0,'ペペロンチーノ','/?/ペペロンチーノ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,0,'フライドポテト','/?/フライドポテト.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,1,'ピクルス','/?/ピクルス.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,1,'刺身盛り','/?/刺身盛り.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,1,'サンドイッチ','/?/サンドイッチ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,1,'ポテトサラダ','/?/ポテトサラダ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,1,'冷奴','/?/冷奴.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,2,'フライドポテト','/?/ポテトチップス.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,2,'缶つま','/?/缶つま.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,2,'ポテトチップス','/?/ポテトチップス.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,2,'せんべい','/?/せんべい.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,2,'チーズ','/?/チーズ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,2,'オリーブ','/?/オリーブ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,2,'生ハム','/?/生ハム.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'ドライフルーツ','/?/ドライフルーツ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'チョコ','/?/チョコレート.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'チーズケーキ','/?/チーズケーキ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'タルト','/?/タルト.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'ティラミス','/?/ティラミス.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'オレンジ','/?/オレンジ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'リンゴ','/?/リンゴ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'パイナップル','/?/パイナップル.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'グレープフルーツ','/?/グレープフルーツ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'桃','/?/桃.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'マスカット','/?/マスカット.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,0,'唐揚げ','./image/alc/白ワイン/からあげ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,0,'グラタン','./image/alc/白ワイン/グラタン.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,0,'天ぷら','./image/alc/白ワイン/天ぷら.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,0,'焼き鳥','./image/alc/白ワイン/焼き鳥.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,0,'ペペロンチーノ','./image/alc/白ワイン/ペペロンチーノ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,0,'フライドポテト','./image/alc/白ワイン/フライドポテト.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,1,'ピクルス','./image/alc/白ワイン/ピクルス.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,1,'刺身盛り','./image/alc/白ワイン/刺身盛り.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,1,'サンドイッチ','./image/alc/白ワイン/サンドイッチ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,1,'ポテトサラダ','./image/alc/白ワイン/ポテトサラダ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,1,'冷奴','./image/alc/白ワイン/冷奴.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,2,'フライドポテト','./image/alc/白ワイン/ポテトチップス.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,2,'缶つま','./image/alc/白ワイン/缶つま.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,2,'ポテトチップス','./image/alc/白ワイン/ポテトチップス.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,2,'せんべい','./image/alc/白ワイン/せんべい.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,2,'チーズ','./image/alc/白ワイン/チーズ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,2,'オリーブ','./image/alc/白ワイン/オリーブ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,2,'生ハム','./image/alc/白ワイン/生ハム.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'ドライフルーツ','./image/alc/白ワイン/ドライフルーツ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'チョコ','./image/alc/白ワイン/チョコレート.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'チーズケーキ','./image/alc/白ワイン/チーズケーキ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'タルト','./image/alc/白ワイン/タルト.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'ティラミス','./image/alc/白ワイン/ティラミス.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'オレンジ','./image/alc/白ワイン/オレンジ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'リンゴ','./image/alc/白ワイン/リンゴ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'パイナップル','./image/alc/白ワイン/パイナップル.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'グレープフルーツ','./image/alc/白ワイン/グレープフルーツ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'桃','./image/alc/白ワイン/桃.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(5,3,'マスカット','./image/alc/白ワイン/マスカット.png');
 
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,0,'エビフライ','/?/エビフライ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,0,'唐揚げ','/?/唐揚げ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,0,'春巻き','/?/春巻き.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,0,'焼き鳥','/?/焼き鳥.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,0,'お好み焼き','/?/お好み焼き.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,0,'天ぷら','/?/天ぷら.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,1,'グリル野菜','/?/グリル野菜.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,1,'海藻サラダ','/?/海藻サラダ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,1,'カルパッチョ','/?/カルパッチョ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,1,'刺身盛り','/?/刺身盛り.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,1,'きゅうりの浅漬け','/?/きゅうりの浅漬け.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,2,'チーズ','/?/チーズ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,2,'ポテトチップス','/?/ポテトチップス.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,2,'ミックスナッツ','/?/ミックスナッツ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,2,'明太子','/?/明太子.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,2,'ガーリックシュリンプ','/?/ガーリックシュリンプ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'マンゴー','/?/マンゴー.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'パイナップル','/?/パイナップル.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'スイカ','/?/スイカ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'ブドウ','/?/ブドウ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'アイスクリーム','/?/アイスクリーム.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'レアチーズケーキ','/?/レアチーズケーキ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'チョコレート','/?/チョコレート.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'大福','/?/大福.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'おはぎ','/?/おはぎ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'みたらし団子','/?/みたらし団子.png');
-
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,0,'唐揚げ','/?/7_唐揚げ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,0,'カキフライ','/?/7_カキフライ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,0,'カキのバターソテー','/?/7_カキのバターソテー.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,0,'エビチリ','/?/7_エビチリ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,0,'春巻き','/?/7_春巻き.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,0,'焼き鳥','/?/7_焼き鳥.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,0,'焼肉','/?/7_焼肉.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,0,'餃子','/?/7_餃子.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,0,'タコ焼き','/?/7_タコ焼き.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,0,'ハムカツ','/?/7_ハムカツ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,0,'カルツォーネ','/?/7_カルツォーネ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,1,'ツナサラダ','/?/7_ツナサラダ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,1,'シーフードサラダ','/?/7_シーフードサラダ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,1,'ポテトサラダ','/?/7_ポテトサラダ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,1,'カルパッチョ','/?/7_カルパッチョ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,1,'刺身盛り','/?/7_刺身盛り.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,2,'冷奴','/?/7_冷奴.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,2,'枝豆','/?/7_枝豆.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,2,'チーズ','/?/7_チーズ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,2,'オリーブ','/?/7_オリーブ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,2,'チョリソー','/?/7_チョリソー.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,2,'キムチ','/?/7_キムチ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,3,'チーズケーキ','/?/7_チーズケーキ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,3,'レモンタルト','/?/7_レモンタルト.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,3,'レモンジェラート','/?/7_レモンジェラート.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,3,'ハニーナッツ','/?/7_ハニーナッツ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(7,3,'アイス','/?/7_アイス.png');
-
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,0,'エビフライ','./image/alc/レモンサワー/エビフライ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,0,'唐揚げ','./image/alc/レモンサワー/唐揚げ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,0,'春巻き','./image/alc/レモンサワー/春巻き.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,0,'焼き鳥','./image/alc/レモンサワー/焼き鳥.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,0,'お好み焼き','./image/alc/レモンサワー/お好み焼き.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,0,'天ぷら','./image/alc/レモンサワー/天ぷら.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,1,'グリル野菜','./image/alc/レモンサワー/グリル野菜.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,1,'海藻サラダ','./image/alc/レモンサワー/海藻サラダ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,1,'カルパッチョ','./image/alc/レモンサワー/カルパッチョ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,1,'刺身盛り','./image/alc/レモンサワー/刺身盛り.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,1,'きゅうりの浅漬け','./image/alc/レモンサワー/きゅうりの浅漬け.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,2,'チーズ','./image/alc/レモンサワー/チーズ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,2,'ポテトチップス','./image/alc/レモンサワー/ポテトチップス.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,2,'ミックスナッツ','./image/alc/レモンサワー/ミックスナッツ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,2,'明太子','./image/alc/レモンサワー/明太子.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,2,'ガーリックシュリンプ','./image/alc/レモンサワー/ガーリックシュリンプ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'マンゴー','./image/alc/レモンサワー/マンゴー.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'パイナップル','./image/alc/レモンサワー/パイナップル.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'スイカ','./image/alc/レモンサワー/スイカ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'ブドウ','./image/alc/レモンサワー/ブドウ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'アイスクリーム','./image/alc/レモンサワー/アイスクリーム.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'レアチーズケーキ','./image/alc/レモンサワー/レアチーズケーキ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'チョコレート','./image/alc/レモンサワー/チョコレート.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'大福','./image/alc/レモンサワー/大福.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'おはぎ','./image/alc/レモンサワー/おはぎ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC) VALUES(6,3,'みたらし団子','./image/alc/レモンサワー/みたらし団子.png');
 
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,0,'串カツ','/?/串カツ.png');
+VALUES(7,0,'唐揚げ','./image/alc/梅酒/7_唐揚げ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,0,'クリスピーチキン','/?/クリスピーチキン.png');
+VALUES(7,0,'カキフライ','./image/alc/梅酒/7_カキフライ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,0,'チンジャオロース','/?/チンジャオロース.png');
+VALUES(7,0,'カキのバターソテー','./image/alc/梅酒/7_カキのバターソテー.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,0,'ソース焼きそば','/?/焼きそば.png');
+VALUES(7,0,'エビチリ','./image/alc/梅酒/7_エビチリ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,0,'餃子','/?/餃子.png');
+VALUES(7,0,'春巻き','./image/alc/梅酒/7_春巻き.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,0,'味噌カツ','/?/味噌カツ.png');
+VALUES(7,0,'焼き鳥','./image/alc/梅酒/7_焼き鳥.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,0,'お好み焼き','/?/お好み焼き.png');
+VALUES(7,0,'焼肉','./image/alc/梅酒/7_焼肉.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,0,'ジャーマンポテト','/?/ジャーマンポテト.png');
+VALUES(7,0,'餃子','./image/alc/梅酒/7_餃子.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,0,'ポテトグラタン','/?/ポテトグラタン.png');
+VALUES(7,0,'タコ焼き','./image/alc/梅酒/7_タコ焼き.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,0,'しょうが焼き','/?/しょうが焼き.png');
+VALUES(7,0,'ハムカツ','./image/alc/梅酒/7_ハムカツ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,0,'もつ煮','/?/もつ煮.png');
+VALUES(7,0,'カルツォーネ','./image/alc/梅酒/7_カルツォーネ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,0,'タコ焼き','/?/たこ焼き.png');
+VALUES(7,1,'ツナサラダ','./image/alc/梅酒/7_ツナサラダ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,0,'ペペロンチーノ','/?/ペペロンチーノ.png');
+VALUES(7,1,'シーフードサラダ','./image/alc/梅酒/7_シーフードサラダ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,1,'酢いか','/?/酢いか.png');
+VALUES(7,1,'ポテトサラダ','./image/alc/梅酒/7_ポテトサラダ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,1,'切り干し大根','/?/切り干し大根.png');
+VALUES(7,1,'カルパッチョ','./image/alc/梅酒/7_カルパッチョ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,1,'生春巻き','/?/生春巻き.png');
+VALUES(7,1,'刺身盛り','./image/alc/梅酒/7_刺身盛り.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,1,'レタスサラダ','/?/レタスサラダ.png');
+VALUES(7,2,'冷奴','./image/alc/梅酒/7_冷奴.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,1,'ささみスティック','/?/ささみスティック.png');
+VALUES(7,2,'枝豆','./image/alc/梅酒/7_枝豆.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,1,'よだれ鶏','/?/よだれ鶏.png');
+VALUES(7,2,'チーズ','./image/alc/梅酒/7_チーズ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,2,'ミックスナッツ','/?/ミックスナッツ.png');
+VALUES(7,2,'オリーブ','./image/alc/梅酒/7_オリーブ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,2,'ポテトチップス','/?/ポテトチップス.png');
+VALUES(7,2,'チョリソー','./image/alc/梅酒/7_チョリソー.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,2,'ベーコン','/?/ベーコン.png');
+VALUES(7,2,'キムチ','./image/alc/梅酒/7_キムチ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,2,'鶏の炭火焼','/?/鶏の炭火焼き.png');
+VALUES(7,3,'チーズケーキ','./image/alc/梅酒/7_チーズケーキ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,2,'チーズ鱈','/?/チーズたら.png');
+VALUES(7,3,'レモンタルト','./image/alc/梅酒/7_レモンタルト.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,2,'スモークサーモン','/?/スモークサーモン.png');
+VALUES(7,3,'レモンジェラート','./image/alc/梅酒/7_レモンジェラート.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,2,'いぶりがっこ','/?/いぶりがっこ.png');
+VALUES(7,3,'ハニーナッツ','./image/alc/梅酒/7_ハニーナッツ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,2,'生ハムユッケ','/?/生ハムユッケ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,2,'カマンベールチーズ','/?/カマンベールチーズ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,2,'カプレーゼ','/?/カプレーゼ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,2,'ちくわの磯辺揚げ','/?/ちくわの磯辺揚げ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,2,'味玉','/?/味玉.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,3,'チョコレート','/?/チョコレート.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,3,'マカダミアナッツチョコレート','/?/マカダミアナッツチョコレート.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,3,'チーズケーキ','/?/チーズケーキ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,3,'ガトーショコラ','/?/ガトーショコラ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,3,'ドライフルーツ','/?/ドライフルーツ.png');
-INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(8,3,'レーズンサンド','/?/レーズンサンド.png');
+VALUES(7,3,'アイス','./image/alc/梅酒/7_アイス.png');
+
 
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,0,'麻婆豆腐','/?/麻婆豆腐.png');
+VALUES(8,0,'串カツ','./image/alc/ハイボール/串カツ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,0,'カレーパン','/?/カレーパン.png');
+VALUES(8,0,'クリスピーチキン','./image/alc/ハイボール/クリスピーチキン.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,0,'ミートドリア','/?/ミートドリア.png');
+VALUES(8,0,'チンジャオロース','./image/alc/ハイボール/チンジャオロース.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,0,'春巻き','/?/春巻き.png');
+VALUES(8,0,'ソース焼きそば','./image/alc/ハイボール/焼きそば.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,0,'ローストビーフ','/?/ローストビーフ.png');
+VALUES(8,0,'餃子','./image/alc/ハイボール/餃子.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,0,'ジンギスカン','/?/ジンギスカン.png');
+VALUES(8,0,'味噌カツ','./image/alc/ハイボール/味噌カツ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,0,'ミートボール','/?/ミートボール.png');
+VALUES(8,0,'お好み焼き','./image/alc/ハイボール/お好み焼き.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,0,'ガーリックシュリンプ','/?/ガーリックシュリンプ.png');
+VALUES(8,0,'ジャーマンポテト','./image/alc/ハイボール/ジャーマンポテト.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,0,'カレー','/?/カレー.png');
+VALUES(8,0,'ポテトグラタン','./image/alc/ハイボール/ポテトグラタン.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,0,'肉まん','/?/肉まん.png');
+VALUES(8,0,'しょうが焼き','./image/alc/ハイボール/しょうが焼き.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,1,'チョレギサラダ','/?/チョレギサラダ.png');
+VALUES(8,0,'もつ煮','./image/alc/ハイボール/もつ煮.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,1,'きんぴらごぼう','/?/きんぴらごぼう.png');
+VALUES(8,0,'タコ焼き','./image/alc/ハイボール/たこ焼き.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,1,'かぼちゃサラダ','/?/かぼちゃサラダ.png');
+VALUES(8,0,'ペペロンチーノ','./image/alc/ハイボール/ペペロンチーノ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,1,'ポテトサラダ','/?/ポテトサラダ.png');
+VALUES(8,1,'酢いか','./image/alc/ハイボール/酢いか.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,1,'野菜スティック','/?/野菜スティック.png');
+VALUES(8,1,'切り干し大根','./image/alc/ハイボール/切り干し大根.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,1,'ナムル','/?/ナムル.png');
+VALUES(8,1,'生春巻き','./image/alc/ハイボール/生春巻き.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,1,'アクアパッツァ','/?/アクアパッツァ.png');
+VALUES(8,1,'レタスサラダ','./image/alc/ハイボール/レタスサラダ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,2,'スモークチーズ','/?/スモークチーズ.png');
+VALUES(8,1,'ささみスティック','./image/alc/ハイボール/ささみスティック.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,2,'サラミ','/?/サラミ.png');
+VALUES(8,1,'よだれ鶏','./image/alc/ハイボール/よだれ鶏.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,2,'ビーフジャーキー','/?/ビーフジャーキー.png');
+VALUES(8,2,'ミックスナッツ','./image/alc/ハイボール/ミックスナッツ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,2,'チョリソー','/?/チョリソー.png');
+VALUES(8,2,'ポテトチップス','./image/alc/ハイボール/ポテトチップス.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,2,'フィッシュアンドチップス','/?/フィッシュアンドチップス.png');
+VALUES(8,2,'ベーコン','./image/alc/ハイボール/ベーコン.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,2,'ミックスナッツ','/?/ミックスナッツ.png');
+VALUES(8,2,'鶏の炭火焼','./image/alc/ハイボール/鶏の炭火焼き.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,2,'枝豆','/?/枝豆.png');
+VALUES(8,2,'チーズ鱈','./image/alc/ハイボール/チーズたら.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,2,'バターコーン','/?/バターコーン.png');
+VALUES(8,2,'スモークサーモン','./image/alc/ハイボール/スモークサーモン.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,2,'ポテトチップス','/?/ポテトチップス.png');
+VALUES(8,2,'いぶりがっこ','./image/alc/ハイボール/いぶりがっこ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,2,'クラッカー','/?/クラッカー.png');
+VALUES(8,2,'生ハムユッケ','./image/alc/ハイボール/生ハムユッケ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,3,'アイスクリーム','/?/アイスクリーム.png');
+VALUES(8,2,'カマンベールチーズ','./image/alc/ハイボール/カマンベールチーズ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,3,'生チョコ','/?/生チョコ.png');
+VALUES(8,2,'カプレーゼ','./image/alc/ハイボール/カプレーゼ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,3,'ティラミス','/?/ティラミス.png');
+VALUES(8,2,'ちくわの磯辺揚げ','./image/alc/ハイボール/ちくわの磯辺揚げ.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,3,'オランジェ','/?/オランジェ.png');
+VALUES(8,2,'味玉','./image/alc/ハイボール/味玉.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,3,'ガトーショコラ','/?/ガトーショコラ.png');
+VALUES(8,3,'チョコレート','./image/alc/ハイボール/チョコレート.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,3,'チーズマフィン','/?/チーズマフィン.png');
+VALUES(8,3,'マカダミアナッツチョコレート','./image/alc/ハイボール/マカダミアナッツチョコレート.png');
 INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
-VALUES(9,3,'プリン','/?/プリン.png');
+VALUES(8,3,'チーズケーキ','./image/alc/ハイボール/チーズケーキ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(8,3,'ガトーショコラ','./image/alc/ハイボール/ガトーショコラ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(8,3,'ドライフルーツ','./image/alc/ハイボール/ドライフルーツ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(8,3,'レーズンサンド','./image/alc/ハイボール/レーズンサンド.png');
+
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,0,'麻婆豆腐','./image/alc/カクテル/麻婆豆腐.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,0,'カレーパン','./image/alc/カクテル/カレーパン.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,0,'ミートドリア','./image/alc/カクテル/ミートドリア.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,0,'春巻き','./image/alc/カクテル/春巻き.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,0,'ローストビーフ','./image/alc/カクテル/ローストビーフ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,0,'ジンギスカン','./image/alc/カクテル/ジンギスカン.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,0,'ミートボール','./image/alc/カクテル/ミートボール.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,0,'ガーリックシュリンプ','./image/alc/カクテル/ガーリックシュリンプ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,0,'カレー','./image/alc/カクテル/カレー.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,0,'肉まん','./image/alc/カクテル/肉まん.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,1,'チョレギサラダ','./image/alc/カクテル/チョレギサラダ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,1,'きんぴらごぼう','./image/alc/カクテル/きんぴらごぼう.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,1,'かぼちゃサラダ','./image/alc/カクテル/かぼちゃサラダ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,1,'ポテトサラダ','./image/alc/カクテル/ポテトサラダ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,1,'野菜スティック','./image/alc/カクテル/野菜スティック.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,1,'ナムル','./image/alc/カクテル/ナムル.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,1,'アクアパッツァ','./image/alc/カクテル/アクアパッツァ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,2,'スモークチーズ','./image/alc/カクテル/スモークチーズ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,2,'サラミ','./image/alc/カクテル/サラミ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,2,'ビーフジャーキー','./image/alc/カクテル/ビーフジャーキー.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,2,'チョリソー','./image/alc/カクテル/チョリソー.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,2,'フィッシュアンドチップス','./image/alc/カクテル/フィッシュアンドチップス.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,2,'ミックスナッツ','./image/alc/カクテル/ミックスナッツ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,2,'枝豆','./image/alc/カクテル/枝豆.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,2,'バターコーン','./image/alc/カクテル/バターコーン.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,2,'ポテトチップス','./image/alc/カクテル/ポテトチップス.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,2,'クラッカー','./image/alc/カクテル/クラッカー.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,3,'アイスクリーム','./image/alc/カクテル/アイスクリーム.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,3,'生チョコ','./image/alc/カクテル/生チョコ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,3,'ティラミス','./image/alc/カクテル/ティラミス.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,3,'オランジェ','./image/alc/カクテル/オランジェ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,3,'ガトーショコラ','./image/alc/カクテル/ガトーショコラ.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,3,'チーズマフィン','./image/alc/カクテル/チーズマフィン.png');
+INSERT INTO RECA(ALC,CATEGORY,DIETNAME,DIETPIC)
+VALUES(9,3,'プリン','./image/alc/カクテル/プリン.png');
