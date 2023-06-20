@@ -18,7 +18,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head><!--フォーム仮-->
 <body>
-<form method="POST" action="/d-suppo/ResultDsServlet" name="dsform">
+<form method="POST" action="/d-suppo/DsServlet" name="dsform">
     <input type="hidden" id="text1" name="date" value="">
     <input type="hidden" id="text2"  name="month" value="" >
     <input type="hidden" id="text3" name="year" value="" >
