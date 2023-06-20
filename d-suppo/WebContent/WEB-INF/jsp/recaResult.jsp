@@ -9,9 +9,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-
-	 <c:forEach var="recresult"  items="${cardList}">
-		<c:choose>
+	    <div>
+	        <div>
+				<c:forEach var="recresult"  items="${cardList}">
+				<c:choose>
 			<c:when test="${recresult.alc==0}">
 			　ビールにおすすめ！
 			</c:when>
@@ -43,10 +44,15 @@
 			　カクテルにおすすめ！
 			</c:when>
 		</c:choose>
-		<li><c:out value="${recresult.dietname}" /></li>
-		<img src = "${recresult.dietpic}">
-	 </c:forEach>
-	 <a href="/d-suppo/MenuServlet"><button>戻る</button></a>
+					<li><c:out value="${recresult.dietname}" /></li>
+					<img src = "${recresult.dietpic}">
+				</c:forEach>
+	        </div>
+			
+			<div>
+				<a href="/d-suppo/MenuServlet"><button>戻る</button></a>
+	        </div>
+        </div>
 	</body>
 	<div id="footer">
 	  <marquee>&copy;なんかいれたい</marquee>
