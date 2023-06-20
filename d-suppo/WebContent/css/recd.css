@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/*recaResultで使用*/
+
+body {
+  margin: 0 0 0 0;		/* マージンなし（後で個別に設定） */
+  padding: 0 0 0 0;		/* パディングなし（後で個別に設定） */
+  color: black;
+  font-size: 16px;
+  text-align:center;
+  background-color: #E2FFF7;
+}
+
+/* wrapperクラス */
+.wrapper {
+  margin: 0px auto;	/* 中央揃え */
+  max-width: 960px;	/* 幅を固定 */
+  padding: 10px;
+  overflow:hidden;
+}
+
+button{
+	text-align: center;
+}
+
+div.alc{
+  display:flex;
+  justify-content: center;
+  
+}
+
+div.diet{
+	display: flex;
+
+   gap: 30px;
+
+   padding: 300px 0;
+
+   max-width: 1000px;
+
+   margin: 0 auto;
+}
+
+.diettd{
+	width: 33.333%;
+}
+
+.dietpic{
+   width: 200%;
+
+   height: 200px;
+
+   object-fit: cover; /* width, heightといっしょに使います */
+
+   border: 1px solid #111;
+}
+
+/* id = footer */
+#footer {
+  background-image: url(images/footer-bg.png);
+  background-repeat: repeat-x;
+  padding: 0px;
+  font-size: smaller;
+  color: black;
+}
+
+#logo {
+  text-align: center;
+  margin:0;
+  padding: 0;
+
+}
+/*以下レスポンシブ*/
+
+@media (max-width: 720px) {
+    body{
+        background-color: #aaafa5;
+    }
+}
