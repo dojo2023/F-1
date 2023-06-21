@@ -1,20 +1,20 @@
 @charset "UTF-8";
 
-/*recaResultã§ä½¿ç”¨*/
+/*recaResult‚Åg—p*/
 
 body {
-  margin: 0 0 0 0;		/* ãƒãƒ¼ã‚¸ãƒ³ãªã—ï¼ˆå¾Œã§å€‹åˆ¥ã«è¨­å®šï¼‰ */
-  padding: 0 0 0 0;		/* ãƒ‘ãƒ‡ã‚£ãƒ³ã‚°ãªã—ï¼ˆå¾Œã§å€‹åˆ¥ã«è¨­å®šï¼‰ */
+  margin: 0 0 0 0;		/* ƒ}[ƒWƒ“‚È‚µiŒã‚ÅŒÂ•Ê‚Éİ’èj */
+  padding: 0 0 0 0;		/* ƒpƒfƒBƒ“ƒO‚È‚µiŒã‚ÅŒÂ•Ê‚Éİ’èj */
   color: black;
   font-size: 16px;
   text-align:center;
   background-color: #E2FFF7;
 }
 
-/* wrapperã‚¯ãƒ©ã‚¹ */
+/* wrapperƒNƒ‰ƒX */
 .wrapper {
-  margin: 0px auto;	/* ä¸­å¤®æƒãˆ */
-  max-width: 960px;	/* å¹…ã‚’å›ºå®š */
+  margin: 0px auto;	/* ’†‰›‘µ‚¦ */
+  max-width: 960px;	/* •‚ğŒÅ’è */
   padding: 10px;
   overflow:hidden;
 }
@@ -46,7 +46,7 @@ button{
 .dietpic img{
    width: 100%;
    height: 100%;
-   object-fit: cover; /* width, heightã¨ã„ã£ã—ã‚‡ã«ä½¿ã„ã¾ã™ */
+   object-fit: cover; /* width, height‚Æ‚¢‚Á‚µ‚å‚Ég‚¢‚Ü‚· */
    border: 1px solid #111;
    vertical-align: bottom;
 }
@@ -66,7 +66,7 @@ button{
   padding: 0;
 
 }
-/*ä»¥ä¸‹ãƒ¬ã‚¹ãƒãƒ³ã‚·ãƒ–*/
+/*ˆÈ‰ºƒŒƒXƒ|ƒ“ƒVƒu*/
 
 @media (max-width: 720px) {
     body{
@@ -74,7 +74,7 @@ button{
     }
 }
 
-/*ãƒã‚§ãƒƒã‚¯ãƒœãƒƒã‚¯ã‚¹ãƒ‡ã‚¶ã‚¤ãƒ³*/
+/*ƒ`ƒFƒbƒNƒ{ƒbƒNƒXƒfƒUƒCƒ“*/
  .ad_radio{
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;

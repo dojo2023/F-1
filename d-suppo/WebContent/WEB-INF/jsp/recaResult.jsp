@@ -4,7 +4,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>呑む人用提案結果表示ページ</title>
+		<title>�ۂސl�p��Č��ʕ\���y�[�W</title>
 		<link rel="stylesheet" type="text/css" href="./css/reca.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
@@ -16,52 +16,52 @@
 			 <c:choose>
 			  <c:when test="${recresult.alc == 0}">
 			   <c:if  test = "${status.index%3 == 0}">
-			　 ビールにおすすめ！
+			�@ �r�[���ɂ������߁I
 			   </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==1}">
 			   <c:if  test = "${status.index%3 == 0}">
-			　 日本酒におすすめ！
+			�@ ���{���ɂ������߁I
 			   </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==2}">
 			   <c:if  test = "${status.index%3 == 0}">
-			　 芋焼酎におすすめ！
+			�@ ���Ē��ɂ������߁I
 			    </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==3}">
 			   <c:if  test = "${status.index%3 == 0}">
-			　 麦焼酎におすすめ！
+			�@ ���Ē��ɂ������߁I
 			    </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==4}">
 			   <c:if  test = "${status.index%3 == 0}">
-			　 赤ワインにおすすめ！
+			�@ �ԃ��C���ɂ������߁I
 			   </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==5}">
 			   <c:if  test = "${status.index%3 == 0}">
-			　 白ワインにおすすめ！
+			�@ �����C���ɂ������߁I
 			   </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==6}">
 			   <c:if  test = "${status.index%3 == 0}">
-			   レモンサワーにおすすめ！
+			   �������T���[�ɂ������߁I
 			    </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==7}">
 			   <c:if  test = "${status.index%3 == 0}">
-			　 梅酒におすすめ！
+			�@ �~���ɂ������߁I
 			   </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==8}">
 			   <c:if  test = "${status.index%3 == 0}">
-			　 ハイボールにおすすめ！
+			�@ �n�C�{�[���ɂ������߁I
 			   </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==9}">
 			   <c:if  test = "${status.index%3 == 0}">
-			　 カクテルにおすすめ！
+			�@ �J�N�e���ɂ������߁I
 			   </c:if>
 			</c:when>
 		     </c:choose>
@@ -72,10 +72,10 @@
 		    </div>
 		  </c:forEach>
 		  </div>
-		<a href="/d-suppo/MenuServlet"><button>戻る</button></a>
+		<a href="/d-suppo/MenuServlet"><button>�߂�</button></a>
    </div>
 	</body>
 	<div id="footer">
-	  <marquee>&copy;なんかいれたい</marquee>
+	  <marquee>&copy;�Ȃ񂩂��ꂽ��</marquee>
 	</div>
 </html>
