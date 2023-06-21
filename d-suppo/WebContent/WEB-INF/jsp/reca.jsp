@@ -32,16 +32,16 @@
 		<div>
 			<p>食事の系統は？</p>
 		</div>
-			<div class = "ad_radio">
-				<div class = "box">
-				<input type="radio"  id="radio1" name="CATEGORY[]" value="0" checked>
-				<label for="radio1" >がっつり</label>
-				<input type="radio" id="radio2" name="CATEGORY[]" value="1">
-				<label for="radio2" >さっぱり</label>
-				<input type="radio" id="radio3" name="CATEGORY[]" value="2">
-				<label for="radio3" >おつまみ系</label>
-				<input type="radio" id="radio4" name="CATEGORY[]" value="3">
-				<label for="radio4" >デザート</label>
+			<div class="ad_radio">
+				<div class = "box" style="display:inline-flex">
+					<input type="radio"  id="radio1" name="CATEGORY[]" value="0" checked>
+					<label for="radio1" >がっつり</label>
+					<input type="radio" id="radio2" name="CATEGORY[]" value="1">
+					<label for="radio2" >さっぱり</label>
+					<input type="radio" id="radio3" name="CATEGORY[]" value="2">
+					<label for="radio3" >おつまみ系</label>
+					<input type="radio" id="radio4" name="CATEGORY[]" value="3">
+					<label for="radio4" >デザート</label>
 				</div>
 			</div>
 		<br>

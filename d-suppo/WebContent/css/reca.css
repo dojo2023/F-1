@@ -24,6 +24,19 @@ button{
 	width: 100px;
 }
 
+#nav li {
+  display: inline;		/* インラインで横に表示する */
+  list-style-type: none;	/* 先頭の記号をなくす */
+  padding-right: 30px;		/* 区切りを空ける */
+}
+#nav {
+  margin: 0 0 0 0;
+  padding: 15px 30px 12px 30px;
+  background: #a6e9fd;
+}
+
+/*提案結果表示*/
+
 .diettable{
 	display: flex;
 	justify-content: space-between;
@@ -51,30 +64,7 @@ button{
    vertical-align: bottom;
 }
 
-/* id = footer */
-#footer {
-  background-image: url(images/footer-bg.png);
-  background-repeat: repeat-x;
-  padding: 0px;
-  font-size: smaller;
-  color: black;
-}
-
-#logo {
-  text-align: center;
-  margin:0;
-  padding: 0;
-
-}
-/*以下レスポンシブ*/
-
-@media (max-width: 720px) {
-    body{
-        background-color: #aaafa5;
-    }
-}
-
-/*チェックボックスデザイン*/
+/*ラジオボタン*/
  .ad_radio{
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
@@ -109,6 +99,11 @@ button{
 	background: #ffffff;
 }
 .ad_radio label {
+	/*
+	margin-left: auto;
+    margin-right: auto;
+	width: 150px;
+	*/
 	font-size: 1em;
 	font-weight: bold;
 	line-height: 1;
@@ -149,3 +144,80 @@ button{
 	border-color: #ffffff;
 	background: #ffffff;
 }
+
+/*ボタン*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-malformation {
+  font-size: 2rem;
+
+  padding: 3rem 4rem;
+
+  color: #fff;
+  border-radius: 100% 80px / 80px 100%;
+  background-color: #eb6100;
+}
+
+a.btn-malformation:hover {
+  color: #fff;
+  border-radius: 60% 80% / 100% 80%;
+}
+
+/* id = footer */
+#footer {
+  background-image: url(images/footer-bg.png);
+  background-repeat: repeat-x;
+  padding: 0px;
+  font-size: smaller;
+  color: black;
+}
+
+#logo {
+  text-align: center;
+  margin:0;
+  padding: 0;
+
+}
+/*以下レスポンシブ*/
+
+@media (max-width: 720px) {
+    body{
+        background-color: #aaafa5;
+    }
+}
+
