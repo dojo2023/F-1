@@ -86,7 +86,9 @@
 <input type="submit" value="送信">
 </div>
   </form>
-<button onclick="/d-suppo/RecServlet">戻る</button>
+  <div>
+<a href="/d-suppo/MenuServlet"><button>戻る</button></a>
+</div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="./js/recdjs.js"></script>
