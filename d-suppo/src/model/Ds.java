@@ -10,11 +10,13 @@ public class Ds implements Serializable {
 	private String MONTH;
 	private String YEAR;
 	private int TIMESLOT;
+	private String UPLOADIMG;
 
-	public Ds(String DIETNAME, String CALORIE, String DIETCOST) {
+	public Ds(String DIETNAME, String CALORIE, String DIETCOST,String UPLOADIMG) {
 		this.DIETNAME = DIETNAME;
 		this.CALORIE = CALORIE;
 		this.DIETCOST = DIETCOST;
+		this.UPLOADIMG =UPLOADIMG;
 	}
 
 
@@ -29,12 +31,13 @@ public class Ds implements Serializable {
 		this.TIMESLOT = TIMESLOT;
 	}
 
-	public Ds(String DIETNAME, String CALORIE, String DIETCOST, String WEIGHT,int TIMESLOT) {
+	public Ds(String DIETNAME, String CALORIE, String DIETCOST, String WEIGHT,int TIMESLOT,String UPLOADIMG) {
 		this.DIETNAME = DIETNAME;
 		this.CALORIE = CALORIE;
 		this.DIETCOST = DIETCOST;
 		this.WEIGHT = WEIGHT;
 		this.TIMESLOT = TIMESLOT;
+		this.UPLOADIMG = UPLOADIMG;
 	}
 
 	public Ds() {
@@ -46,6 +49,7 @@ public class Ds implements Serializable {
 		this.MONTH = "";
 		this.YEAR = "";
 		this.TIMESLOT = 0;
+		this.UPLOADIMG= "";
 	}
 
 	public String getDIETNAME() {
@@ -110,5 +114,13 @@ public class Ds implements Serializable {
 
 	public void setTIMESLOT(int TIMESLOT) {
 		this.TIMESLOT = TIMESLOT;
+	}
+
+	public String getUPLOADIMG() {
+		return UPLOADIMG;
+	}
+
+	public void setUPLOADIMG(String UPLOADIMG) {
+		this.UPLOADIMG = UPLOADIMG;
 	}
 }

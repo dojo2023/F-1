@@ -24,7 +24,7 @@ public class DsDAO {
 			conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 			//SQL文を準備
-			String sql ="insert into Ds (DIETNAME,DIETCOST,YEAR,MONTH,DATE,CALORIE,WEIGHT,ID) values (?,?,?,?,?,?,?,?)";
+			String sql ="insert into Ds (DIETNAME,DIETCOST,YEAR,MONTH,DATE,CALORIE,WEIGHT,ID,UPLOADIMG) values (?,?,?,?,?,?,?,?,?)";
 			PreparedStatement pStmt = conn.prepareStatement(sql);
 
 			if (ds.getDIETNAME() != null && !ds.getDIETNAME().equals("")) {
@@ -48,6 +48,12 @@ public class DsDAO {
 				pStmt.setString(7, "");
 			}
 			pStmt.setString(8, id);//要修正
+
+			if (ds.getUPLOADIMG() != null && !ds.getUPLOADIMG().equals("")) {
+				pStmt.setString(9, ds.getUPLOADIMG());
+			}else {
+				pStmt.setString(9, "");
+			}
 
 			pStmt.setString(3, ymd.getYear());
 			pStmt.setString(4, ymd.getMonth());
@@ -92,13 +98,14 @@ public class DsDAO {
 			conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 			// SQL文を準備する
-			String sql = "select DIETNAME,CALORIE,DIETCOST from DS where YEAR = ? AND MONTH = ? AND DATE = ? AND ID = ?";
+			String sql = "select DIETNAME,CALORIE,DIETCOST,UPLOADIMG from DS where YEAR = ? AND MONTH = ? AND DATE = ? AND ID = ?";
 			PreparedStatement pStmt = conn.prepareStatement(sql);
 
 			pStmt.setString(1, ymd.getYear()); //年
 			pStmt.setString(2, ymd.getMonth());//月
 			pStmt.setString(3, ymd.getDate()); // 日
 			pStmt.setString(4, id); //id
+
 
 
 			// SQL文を実行し、結果表を取得する
@@ -109,7 +116,8 @@ public class DsDAO {
 				Ds dsresult = new Ds(
 					rs.getString("DIETNAME"),
 					rs.getString("CALORIE"),
-					rs.getString("DIETCOST")
+					rs.getString("DIETCOST"),
+					rs.getString("UPLOADIMG")
 					//rs.getInt("TIMESLOT")
 				);
 
