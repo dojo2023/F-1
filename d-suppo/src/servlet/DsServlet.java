@@ -1,6 +1,7 @@
 package servlet;
 
 import java.io.IOException;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -9,6 +10,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+
+import dao.DsDAO;
+import dao.IdpwDAO;
+import model.Date;
+import model.Ds;
 
 /**
  * Servlet implementation class DsServlet
@@ -38,21 +44,29 @@ public class DsServlet extends HttpServlet {
 	 */
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-/*
+		HttpSession session = request.getSession();
+
 		// リクエストパラメータを取得する
 		request.setCharacterEncoding("UTF-8");
 		String date = request.getParameter("date");
 		String month = request.getParameter("month");
 		String year = request.getParameter("year");
 
-		PrintWriter out = response.getWriter(); //データ取得確認用仮欄
+		//Date dmy = new Date(date,month,year);
 
-		out.println("<html><head></head><body>");
-		out.println("<p>date：" + date + "</p>");
-		out.println("<p>month：" + month + "</p>");
-		out.println("<p>year：" + year + "</p>");
-        out.println("</body></html>");
-*/
+		request.setAttribute("date",date );
+		request.setAttribute("month",month );
+		request.setAttribute("year",year );
+
+		Date ymd = new Date(date,month,year); //年月日まとめ
+		 //sessionIDからID特定
+		IdpwDAO iDao = new IdpwDAO();
+		String sid = String.valueOf(session.getAttribute("id"));
+		String id = iDao.checkid(sid);
+
+		DsDAO dsdao = new DsDAO();
+		List<Ds> dsList = dsdao.listdisplay(ymd,id);
+		request.setAttribute("dsList",dsList);
 
         // 管理ページにフォワードする
  		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/dsResult.jsp");

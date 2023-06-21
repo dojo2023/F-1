@@ -1,10 +1,23 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%
+	String date=(String)request.getAttribute("date");
+	String month=(String)request.getAttribute("month");
+	String year=(String)request.getAttribute("year");
+%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>メインメニュー(試作)</title>
 <link rel="stylesheet" type="text/css" href="./css/menu.css">
+<style type="text/css">
+@charset "UTF-8";
+
+ * {
+    outline: 1px solid #ff6666;
+}
+</style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -18,10 +31,11 @@
 			<li><a href="/d-suppo/LogoutServlet">ログアウト</a></li>
   		</ul>
 
-  		<form method="POST" action="/d-suppo/DsUpdateServlet">
+<div class = content>
+  		<form method="POST" action="/d-suppo/DsUpdateServlet" >
 
   			<!--カレンダーを押した年月日を持ってくる-->
-  			<label>xxxx年xx月xx日</label>
+  			<label><%=year%>年<%=month%>月<%=date%>日</label>
 
   			<div>
   				<label>時間帯</label>
@@ -29,30 +43,16 @@
   				<label>カロリー</label>
   				<label>食費</label>
   			</div>
-
   			<div>
-  				<label>朝</label>
-  				<input type="text" name="DIETNAME">
-  				<input type="number" name="CALORIE">kcal
-  				<input type="number" name="DIETCOST">円
-  			</div>
 
-  			<div>
-  				<label>昼</label>
-  				<input type="text" name="DIETNAME">
-  				<input type="number" name="CALORIE">kcal
-  				<input type="number" name="DIETCOST">円
-  			</div>
+  			<select name="TIMESLOT">
+    			<option value="0">-選択してください-</option>
+    			<option value="1">朝</option>
+   				<option value="2">昼</option>
+   				 <option value="3">夜</option>
+    			<option value="4">間食</option>
+			</select>
 
-  			<div>
-  				<label>夜</label>
-  				<input type="text" name="DIETNAME">
-  				<input type="number" name="CALORIE">kcal
-  				<input type="number" name="DIETCOST">円
-  			</div>
-
-  			<div>
-  				<label>間食</label>
   				<input type="text" name="DIETNAME">
   				<input type="number" name="CALORIE">kcal
   				<input type="number" name="DIETCOST">円
@@ -62,12 +62,25 @@
   				<label>今日の体重</label>
   				<input type="number" name="WEIGHT">kg
   			</div>
-
-
+			<input type="hidden" name="DATE" value=<%=date %>>
+			<input type="hidden" name="MONTH" value=<%=month %>>
+			<input type="hidden" name="YEAR" value=<%=year %>>
   			<br>
 			<input type="submit" value="送信">
   		</form>
+  		</div>
 
+  		<br><br>
+	<div class = content>
+  		<c:forEach var="e" items="${dsList}" >
+			<form method="POST" action="/d-suppo/MenuServlet"> <!--  urlはダミー -->
+   				<input type="text" name="DIETNAME" value="${e.DIETNAME}"><br>
+  				<input type="text" name="CALORIE" value ="${e.CALORIE}">kcal<br>
+  				<input type="text" name="DIETCOST" value ="${e.DIETCOST }">円<br>
+  				<input type="submit" value="送信">
+		</form>
+		</c:forEach>
+</div>
   		<a href="/d-suppo/DsServlet"><button>戻る</button></a>
 
 

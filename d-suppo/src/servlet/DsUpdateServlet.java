@@ -1,6 +1,8 @@
 package servlet;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -11,6 +13,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import dao.DsDAO;
+import dao.IdpwDAO;
+import model.Date;
 import model.Ds;
 import model.Result;
 
@@ -41,26 +45,52 @@ public class DsUpdateServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		HttpSession session = request.getSession();
+		if (session.getAttribute("id") == null) {
+			response.sendRedirect("/simpleBC/LoginServlet");
+			return;
+		}
+
 		// リクエストパラメータを取得する
 		request.setCharacterEncoding("UTF-8");
-		String DIETNAME = request.getParameter("DIETNAME");
-		String CALORIE = request.getParameter("CALORIE");
-		String DIETCOST = request.getParameter("DIETCOST");
-		String WEIGHT = request.getParameter("WEIGHT");
+		String dietname = request.getParameter("DIETNAME");
+		String calorie = request.getParameter("CALORIE");
+		String dietcost = request.getParameter("DIETCOST");
+		String weight = request.getParameter("WEIGHT");
+		String date = request.getParameter("DATE");
+		String month = request.getParameter("MONTH");
+		String year = request.getParameter("YEAR");
+		int timeslot = Integer.parseInt(request.getParameter("TIMESLOT"));
 
+		request.setAttribute("date",date );//ページ上部の日付用
+		request.setAttribute("month",month );
+		request.setAttribute("year",year );
+
+		Date ymd = new Date(date,month,year);
+		Ds ds = new Ds(dietname,calorie,dietcost,weight,timeslot);
+		DsDAO dsdao = new DsDAO();
+
+		List<Ds> dsList = new ArrayList<Ds>(); //リスト格納用
+
+		 //sessionIDからID特定
+		IdpwDAO iDao = new IdpwDAO();
+		String sid = String.valueOf(session.getAttribute("id"));
+		String id = iDao.checkid(sid);
 
 		// 登録処理を行う
-				DsDAO card = new DsDAO();
-				if (card.insert(new Ds(DIETNAME,CALORIE, DIETCOST, WEIGHT))) {	// 登録成功
-					request.setAttribute("result",
-					new Result("登録成功！", "レコードを登録しました。", "/d-suppo/DsServlet"));
+				if (dsdao.insert(ymd,ds,id)) {	// 登録成功
+					dsList = dsdao.listdisplay(ymd,id);
+					request.setAttribute("dsList",dsList);
+					RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/dsResult.jsp");
+					dispatcher.forward(request, response);
 				}
 				else {												// 登録失敗
 					request.setAttribute("result",
 					new Result("登録失敗！", "レコードを登録できませんでした。", "/d-suppo/DsServlet"));
+					RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/result.jsp");
+					dispatcher.forward(request, response);
 				}
-				// 結果ページにフォワードする
-				RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/result.jsp");
-				dispatcher.forward(request, response);	}
+
+			}
 	}
 
