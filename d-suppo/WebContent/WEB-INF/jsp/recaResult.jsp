@@ -66,6 +66,7 @@
 			</c:when>
 		     </c:choose>
 		     </div>
+		     
 		   <div class="item">
 		    <div><c:out value="${recresult.dietname}"/></div>
 		    <div class="dietpic"><img src = "${recresult.dietpic}"></div>
