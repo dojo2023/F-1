@@ -92,7 +92,7 @@ public class DsDAO {
 			conn = DriverManager.getConnection("jdbc:h2:file:C:/dojo6/data/test", "sa", "");
 
 			// SQL文を準備する
-			String sql = "select DIETNAME,CALORIE,DIETCOST from DS where YEAR = ? MONTH = ? DATE = ? ID = ?";
+			String sql = "select DIETNAME,CALORIE,DIETCOST from DS where YEAR = ? AND MONTH = ? AND DATE = ? AND ID = ?";
 			PreparedStatement pStmt = conn.prepareStatement(sql);
 
 			pStmt.setString(1, ymd.getYear()); //年

@@ -11,6 +11,13 @@
 <meta charset="UTF-8">
 <title>メインメニュー(試作)</title>
 <link rel="stylesheet" type="text/css" href="./css/menu.css">
+<style type="text/css">
+@charset "UTF-8";
+
+ * {
+    outline: 1px solid #ff6666;
+}
+</style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -24,6 +31,7 @@
 			<li><a href="/d-suppo/LogoutServlet">ログアウト</a></li>
   		</ul>
 
+<div class = content>
   		<form method="POST" action="/d-suppo/DsUpdateServlet" >
 
   			<!--カレンダーを押した年月日を持ってくる-->
@@ -60,18 +68,19 @@
   			<br>
 			<input type="submit" value="送信">
   		</form>
+  		</div>
 
   		<br><br>
-
+	<div class = content>
   		<c:forEach var="e" items="${dsList}" >
-			<form method="POST" action="/d-suppo/">
-  				<input type="text" name="DIETNAME" value="${e.DIETNAME}"><br>
-  				<input type="number" name="CALORIE" value ="${e.CALORIE}">kcal<br>
-  				<input type="number" name="DIETCOST" value ="${e.DIETCOST }">円<br>
+			<form method="POST" action="/d-suppo/MenuServlet"> <!--  urlはダミー -->
+   				<input type="text" name="DIETNAME" value="${e.DIETNAME}"><br>
+  				<input type="text" name="CALORIE" value ="${e.CALORIE}">kcal<br>
+  				<input type="text" name="DIETCOST" value ="${e.DIETCOST }">円<br>
   				<input type="submit" value="送信">
 		</form>
 		</c:forEach>
-
+</div>
   		<a href="/d-suppo/DsServlet"><button>戻る</button></a>
 
 
