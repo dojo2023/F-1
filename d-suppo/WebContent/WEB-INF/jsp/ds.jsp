@@ -7,7 +7,7 @@
 <title>カレンダーサンプル</title>
 <link rel="stylesheet" type="text/css" href="./css/ds.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <h1 id ="logo"><a href="/d-supooca.html" alt="メニュー"><img src="./img/title.png" width="300"  alt="管理ページ"></a></h1>
+    <h1 id ="logo"><a href="/d-suppo/MenuServlet" alt="メニュー"><img src="./image/title/title.png" width="100"  alt="管理ページ"></a></h1>
 
     <ul id="nav">
         <li><a href="/d-suppo/RecServlet">(試作1) 提案ページ</a></li>
