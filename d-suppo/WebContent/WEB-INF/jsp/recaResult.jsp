@@ -4,60 +4,75 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>提案結果表示ページ</title>
+		<title>呑む人用提案結果表示ページ</title>
 		<link rel="stylesheet" type="text/css" href="./css/reca.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-	    <div class="diet">
-	     <div>
-	      <table>
+	    <div>
+	     <div class="diettable">
 		   <c:forEach var="recresult"  items="${cardList}"  varStatus = "status" >
-			<tr>	
-			 <td>
+		    <div class="diettext">
 			 <c:choose>
 			  <c:when test="${recresult.alc == 0}">
-			   <c:when  test = "${status.index%3 == 0}">
+			   <c:if  test = "${status.index%3 == 0}">
 			　 ビールにおすすめ！
-			   </c:when>
+			   </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==1}">
+			   <c:if  test = "${status.index%3 == 0}">
 			　 日本酒におすすめ！
+			   </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==2}">
+			   <c:if  test = "${status.index%3 == 0}">
 			　 芋焼酎におすすめ！
+			    </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==3}">
+			   <c:if  test = "${status.index%3 == 0}">
 			　 麦焼酎におすすめ！
+			    </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==4}">
+			   <c:if  test = "${status.index%3 == 0}">
 			　 赤ワインにおすすめ！
+			   </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==5}">
+			   <c:if  test = "${status.index%3 == 0}">
 			　 白ワインにおすすめ！
+			   </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==6}">
+			   <c:if  test = "${status.index%3 == 0}">
 			   レモンサワーにおすすめ！
+			    </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==7}">
+			   <c:if  test = "${status.index%3 == 0}">
 			　 梅酒におすすめ！
+			   </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==8}">
+			   <c:if  test = "${status.index%3 == 0}">
 			　 ハイボールにおすすめ！
+			   </c:if>
 			  </c:when>
 			  <c:when test="${recresult.alc==9}">
+			   <c:if  test = "${status.index%3 == 0}">
 			　 カクテルにおすすめ！
+			   </c:if>
 			</c:when>
 		     </c:choose>
-		    </td>
-		    <td><c:out value="${recresult.dietname}"/></td>
-		    <td class="diettd"><img src = "${recresult.dietpic}" class="dietpic"></td>
-		    </tr>
+		     </div>
+		   <div class="item">
+		    <div><c:out value="${recresult.dietname}"/></div>
+		    <div class="dietpic"><img src = "${recresult.dietpic}"></div>
+		    </div>
 		  </c:forEach>
-		</table>
+		  </div>
 		<a href="/d-suppo/MenuServlet"><button>戻る</button></a>
-	    </div>
-
    </div>
 	</body>
 	<div id="footer">
