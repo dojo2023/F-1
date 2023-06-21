@@ -6,12 +6,35 @@ public class Ds implements Serializable {
 	private String CALORIE;
 	private String DIETCOST;
 	private String WEIGHT;
+	private String DATE;
+	private String MONTH;
+	private String YEAR;
+	private int TIMESLOT;
 
-	public Ds(String DIETNAME, String CALORIE, String DIETCOST, String WEIGHT) {
+	public Ds(String DIETNAME, String CALORIE, String DIETCOST) {
+		this.DIETNAME = DIETNAME;
+		this.CALORIE = CALORIE;
+		this.DIETCOST = DIETCOST;
+	}
+
+
+	public Ds(String DIETNAME, String CALORIE, String DIETCOST, String WEIGHT, String DATE,String MONTH,String YEAR,int TIMESLOT) {
 		this.DIETNAME = DIETNAME;
 		this.CALORIE = CALORIE;
 		this.DIETCOST = DIETCOST;
 		this.WEIGHT = WEIGHT;
+		this.DATE = DATE;
+		this.MONTH = MONTH;
+		this.YEAR = YEAR;
+		this.TIMESLOT = TIMESLOT;
+	}
+
+	public Ds(String DIETNAME, String CALORIE, String DIETCOST, String WEIGHT,int TIMESLOT) {
+		this.DIETNAME = DIETNAME;
+		this.CALORIE = CALORIE;
+		this.DIETCOST = DIETCOST;
+		this.WEIGHT = WEIGHT;
+		this.TIMESLOT = TIMESLOT;
 	}
 
 	public Ds() {
@@ -19,6 +42,10 @@ public class Ds implements Serializable {
 		this.CALORIE = "";
 		this.DIETCOST = "";
 		this.WEIGHT = "";
+		this.DATE = "";
+		this.MONTH = "";
+		this.YEAR = "";
+		this.TIMESLOT = 0;
 	}
 
 	public String getDIETNAME() {
@@ -51,5 +78,37 @@ public class Ds implements Serializable {
 
 	public void setWEIGHT(String WEIGHT) {
 		this.WEIGHT = WEIGHT;
+	}
+
+	public String getDATE() {
+		return DATE;
+	}
+
+	public void setDATE(String DATE) {
+		this.DATE = DATE;
+	}
+
+	public String getMONTH() {
+		return MONTH;
+	}
+
+	public void setMONTH(String MONTH) {
+		this.MONTH = MONTH;
+	}
+
+	public String getYEAR() {
+		return YEAR;
+	}
+
+	public void setYEAR(String YEAR) {
+		this.YEAR = YEAR;
+	}
+
+	public int getTIMESLOT() {
+		return TIMESLOT;
+	}
+
+	public void setTIMESLOT(int TIMESLOT) {
+		this.TIMESLOT = TIMESLOT;
 	}
 }
