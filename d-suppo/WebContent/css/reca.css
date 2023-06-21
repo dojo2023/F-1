@@ -73,3 +73,79 @@ button{
         background-color: #aaafa5;
     }
 }
+
+/*チェックボックスデザイン*/
+ .ad_radio{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.ad_radio:before,
+.ad_radio:after {
+	-webkit-box-sizing: inherit;
+	        box-sizing: inherit;
+}
+.ad_radio.box {
+	width: 90%;
+	margin: 2em auto;
+	text-align: left;
+	border: 1px solid white;
+	border-radius: 3px;
+	background: #ffffff;
+}
+.ad_radio input[type=radio] {
+	display: none;
+}
+.ad_radio label:focus,
+.ad_radio label:hover,
+.ad_radio label:active,
+.ad_radio input:checked + label {
+	color: #da3c41;
+}
+.ad_radio label:focus:before,
+.ad_radio label:hover:before,
+.ad_radio label:active:before,
+.ad_radio input:checked + label:before {
+	border-color: #da3c41;
+	background: #ffffff;
+}
+.ad_radio label {
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	padding: 1em 1em 1em 3em;
+	cursor: pointer;
+	-webkit-transition: all 0.15s ease;
+	        transition: all 0.15s ease;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	background: #ffffff;
+}
+.ad_radio label:before {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	width: 10px;
+	height: 10px;
+	content: '';
+	border: 0.2em solid #cccccc;
+	border-radius: 50%;
+}
+.ad_radio input:checked + label:before {
+	border-color: #da3c41;
+	background: #da3c41;
+}
+.ad_radio input:disabled + label {
+	cursor: not-allowed;
+	color: rgba(0, 0, 0, 0.5);
+	background: #efefef;
+}
+.ad_radio input:disabled + label:hover {
+	border-color: rgba(0, 0, 0, 0.1);
+}
+.ad_radio input:disabled + label:before {
+	border-color: #ffffff;
+	background: #ffffff;
+}
