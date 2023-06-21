@@ -12,12 +12,14 @@
 	    <div class="diet">
 	     <div>
 	      <table>
-		   <c:forEach var="recresult"  items="${cardList}">
+		   <c:forEach var="recresult"  items="${cardList}"  varStatus = "status" >
 			<tr>	
 			 <td>
 			 <c:choose>
-			  <c:when test="${recresult.alc==0}">
+			  <c:when test="${recresult.alc == 0}">
+			   <c:when  test = "${status.index%3 == 0}">
 			　 ビールにおすすめ！
+			   </c:when>
 			  </c:when>
 			  <c:when test="${recresult.alc==1}">
 			　 日本酒におすすめ！
@@ -26,7 +28,7 @@
 			　 芋焼酎におすすめ！
 			  </c:when>
 			  <c:when test="${recresult.alc==3}">
-			　 米焼酎におすすめ！
+			　 麦焼酎におすすめ！
 			  </c:when>
 			  <c:when test="${recresult.alc==4}">
 			　 赤ワインにおすすめ！
@@ -45,7 +47,7 @@
 			  </c:when>
 			  <c:when test="${recresult.alc==9}">
 			　 カクテルにおすすめ！
-			  </c:when>
+			</c:when>
 		     </c:choose>
 		    </td>
 		    <td><c:out value="${recresult.dietname}"/></td>
