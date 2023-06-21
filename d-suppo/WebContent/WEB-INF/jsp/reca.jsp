@@ -4,54 +4,54 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>?�ސl�p�y�[�W</title>
+		<title>吞む人用ページ</title>
 		<link rel="stylesheet" type="text/css" href="./css/reca.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
 		<div>
-			<p>�����̎�ނ́H</p>
+			<p>お酒の種類は？</p>
 		</div>
 		<form method="POST" action="/d-suppo/RecaServlet">
-		<!-- �ۂސl = 0 -->
+		<!-- 呑む人 = 0 -->
 			<input type = "hidden" name = "DRINK" value = "0">
 
 		<div>
-			<input type="checkbox"  class="alcCheck" name="ALC[]" value="0">�r�[��
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="1">���{��
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="2">���Ē�
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="3">���Ē�
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="4">�ԃ��C��
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="5">�����C��
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="6">�������T���[
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="7">�~��
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="8">�n�C�{�[��
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="9">�J�N�e��
+			<input type="checkbox"  class="alcCheck" name="ALC[]" value="0">ビール
+			<input type="checkbox" class="alcCheck" name="ALC[]" value="1">日本酒
+			<input type="checkbox" class="alcCheck" name="ALC[]" value="2">芋焼酎
+			<input type="checkbox" class="alcCheck" name="ALC[]" value="3">麦焼酎
+			<input type="checkbox" class="alcCheck" name="ALC[]" value="4">赤ワイン
+			<input type="checkbox" class="alcCheck" name="ALC[]" value="5">白ワイン
+			<input type="checkbox" class="alcCheck" name="ALC[]" value="6">レモンサワー
+			<input type="checkbox" class="alcCheck" name="ALC[]" value="7">梅酒
+			<input type="checkbox" class="alcCheck" name="ALC[]" value="8">ハイボール
+			<input type="checkbox" class="alcCheck" name="ALC[]" value="9">カクテル
 		</div>
 		<br>
 		<div>
-			<p>�H���̌n���́H</p>
+			<p>食事の系統は？</p>
 		</div>
 			<div class = "ad_radio">
 				<div class = "box">
 				<input type="radio"  id="radio1" name="CATEGORY[]" value="0" checked>
-				<label for="radio1" >������</label>
+				<label for="radio1" >がっつり</label>
 				<input type="radio" id="radio2" name="CATEGORY[]" value="1">
-				<label for="radio2" >�����ς�</label>
+				<label for="radio2" >さっぱり</label>
 				<input type="radio" id="radio3" name="CATEGORY[]" value="2">
-				<label for="radio3" >���܂݌n</label>
+				<label for="radio3" >おつまみ系</label>
 				<input type="radio" id="radio4" name="CATEGORY[]" value="3">
-				<label for="radio4" >�f�U�[�g</label>
+				<label for="radio4" >デザート</label>
 				</div>
 			</div>
 		<br>
 		<div>
-			<input type="submit" value="���M" onClick="return isCheck()">
+			<input type="submit" value="送信" onClick="return isCheck()">
 		</div>
 
 		</form>
 			<div>
-				<a href="/d-suppo/MenuServlet"><button>�߂�</button></a>
+				<a href="/d-suppo/MenuServlet"><button>戻る</button></a>
 			</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -59,6 +59,6 @@
 
 	</body>
 		<div id="footer">
-	    	<marquee>&copy;�Ȃ񂩂��ꂽ��</marquee>
+	    	<marquee>&copy;なんかいれたい</marquee>
 		</div>
 </html>
