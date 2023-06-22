@@ -73,8 +73,10 @@
 		<c:if  test = "${status.index%3 == 0}">
 		   <div class="item">
 		</c:if>
-			    <div><c:out value="${recresult.dietname}"/></div>
-			    <div class="dietpic"><img src = "${recresult.dietpic}"></div>
+			    <div class="dietpic">
+					<p><c:out value="${recresult.dietname}"/></p>
+			    <img src = "${recresult.dietpic}">
+			</div>
 
    			    <c:if  test = "${status.index%3 == 2}">
 	   			    <div class="kaigyou">
