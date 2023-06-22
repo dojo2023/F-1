@@ -66,11 +66,20 @@
 			</c:when>
 		     </c:choose>
 		     </div>
-		     
+
 		   <div class="item">
-		    <div><c:out value="${recresult.dietname}"/></div>
-		    <div class="dietpic"><img src = "${recresult.dietpic}"></div>
+			    <div><c:out value="${recresult.dietname}"/></div>
+			    <div class="dietpic"><img src = "${recresult.dietpic}"></div>
 		    </div>
+
+		    <div>
+   			    <c:if  test = "${status.index%3 == 2}">
+	   			    <div class="kaigyou">
+	   			    	<p> </p>
+	   			    </div>
+			    </c:if>
+			</div>
+
 		  </c:forEach>
 		  </div>
 		<a href="/d-suppo/MenuServlet"><button>戻る</button></a>

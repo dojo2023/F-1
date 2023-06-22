@@ -38,17 +38,24 @@ button{
 /*提案結果表示*/
 
 .diettable{
-	display: flex;
+	display: block;
 	justify-content: space-between;
-	flex-wrap: wrap;
 	padding: 15px;
   margin: 100px;
 }
 
 .diettext{
 	text-align: center;
+
 }
 
+.item {
+	float: left;
+}
+
+.kaigyou{
+    clear:both;
+}
 
 .dietpic {
   width: 250px;
