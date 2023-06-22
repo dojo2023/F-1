@@ -5,11 +5,12 @@
 <head>
 <meta charset="UTF-8">
 <title>PW更新ページ(試作)</title>
+<link rel="stylesheet" type="text/css" href="./css/chengepw.css">
 </head>
 <body>
 <p>PW更新ページ(試作)</p>
 <div class="wrapper">
-    <h1 id ="logo"><a href="/d-suppo/MenuServlet" alt="メニュー"><img src="./img/title.png" width="300"  alt="試作"></a></h1>
+    <h1 id ="logo"><a href="/d-suppo/MenuServlet" alt="メニュー"><img src="./image/title/title.png" width="100"  alt="試作"></a></h1>
 
     <ul id="nav">
     <li><a href="/d-suppo/RecServlet">(試作1) 提案ページ</a></li>
@@ -19,9 +20,11 @@
     </ul>
 
     <form method="POST" action="/d-suppo/ChengePwServlet">
+    <br>
     現在のPW<input type="password" name="PWNow"><br>
     <br>
     新しいPW<input type="password" name="PWNew"><br>
+    <br>
     <input type="submit" name="LOGIN" value="更新">
     </form>
    <br>
