@@ -2,6 +2,10 @@
 
 /*recaResultで使用*/
 
+* {
+  outline: 1px solid #ff6666;
+}
+
 body {
   margin: 0 0 0 0;		/* マージンなし（後で個別に設定） */
   padding: 0 0 0 0;		/* パディングなし（後で個別に設定） */
@@ -41,7 +45,7 @@ button{
 	display: block;
 	justify-content: space-between;
 	padding: 15px;
-  margin: 100px;
+  margin: 100 auto;
 }
 
 .diettext{
@@ -50,7 +54,8 @@ button{
 }
 
 .item {
-	float: left;
+	
+	margin: 45px;
 }
 
 .kaigyou{
@@ -58,9 +63,11 @@ button{
 }
 
 .dietpic {
+  float: left;
   width: 250px;
   height: 200px;
-  margin-bottom: 10px;
+  margin-right: 45px;
+  margin-bottom: 20px;
 }
 
 .dietpic img{
@@ -222,9 +229,9 @@ a.btn-malformation:hover {
 }
 /*以下レスポンシブ*/
 
-@media (max-width: 720px) {
+@media (max-width: 959px) {
     body{
-        background-color: #aaafa5;
+        background-color: #7fc23d;
     }
 }
 
