@@ -34,17 +34,18 @@
 <div class = content>
   		<form method="POST" action="/d-suppo/DsUpdateServlet" enctype="multipart/form-data">
 
+			<br>
   			<!--カレンダーを押した年月日を持ってくる-->
   			<label><%=year%>年<%=month%>月<%=date%>日</label>
 
   			<div>
+  			<br>
   				<label>時間帯</label>
   				<label>食事内容</label>
   				<label>カロリー</label>
   				<label>食費</label>
   			</div>
   			<div>
-
   			<select name="TIMESLOT">
     			<option value="0">-選択してください-</option>
     			<option value="1">朝</option>
@@ -53,12 +54,13 @@
     			<option value="4">間食</option>
 			</select>
 
-  				<input type="text" name="DIETNAME">
-  				<input type="number" name="CALORIE">kcal
-  				<input type="number" name="DIETCOST">円
+  				<input type="text" name="DIETNAME">&nbsp;
+  				<input type="number" name="CALORIE">kcal&nbsp;
+  				<input type="number" name="DIETCOST">円&nbsp;
   			</div>
 
   			<div>
+  			<br>
   				<label>今日の体重</label>
   				<input type="number" name="WEIGHT">kg
   			</div>
