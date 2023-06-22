@@ -5,7 +5,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>お酒質問</title>
-		<link rel="stylesheet" type="text/css" href="./css/reca.css">
+		<link rel="stylesheet" type="text/css" href="./css/recaButton.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>

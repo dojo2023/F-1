@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+/*recaResultで使用*/
+
+* {
+  outline: 1px solid #ff6666;
+}
+
+body {
+  margin: 0 0 0 0;		/* マージンなし（後で個別に設定） */
+  padding: 0 0 0 0;		/* パディングなし（後で個別に設定） */
+  color: black;
+  font-size: 16px;
+  text-align:center;
+  background-color: #E2FFF7;
+}
+
+/* wrapperクラス */
+.wrapper {
+  margin: 0px auto;	/* 中央揃え */
+  max-width: 960px;	/* 幅を固定 */
+  padding: 10px;
+  overflow:hidden;
+}
+
+button{
+	text-align: center;
+	width: 100px;
+}
+
+#nav li {
+  display: inline;		/* インラインで横に表示する */
+  list-style-type: none;	/* 先頭の記号をなくす */
+  padding-right: 30px;		/* 区切りを空ける */
+}
+#nav {
+  margin: 0 0 0 0;
+  padding: 15px 30px 12px 30px;
+  background: #a6e9fd;
+}
+
+/*ラジオボタン*/
+ .ad_radio{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.ad_radio:before,
+.ad_radio:after {
+	-webkit-box-sizing: inherit;
+	        box-sizing: inherit;
+}
+.ad_radio.box {
+	width: 90%;
+	margin: 2em auto;
+	text-align: left;
+	border: 1px solid white;
+	border-radius: 3px;
+	background: #ffffff;
+}
+.ad_radio input[type=radio] {
+	display: none;
+}
+.ad_radio label:focus,
+.ad_radio label:hover,
+.ad_radio label:active,
+.ad_radio input:checked + label {
+	color: #da3c41;
+}
+.ad_radio label:focus:before,
+.ad_radio label:hover:before,
+.ad_radio label:active:before,
+.ad_radio input:checked + label:before {
+	border-color: #da3c41;
+	background: #ffffff;
+}
+.ad_radio label {
+	/*
+	margin-left: auto;
+    margin-right: auto;
+	width: 150px;
+	*/
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1;
+	position: relative;
+	display: block;
+	overflow: hidden;
+	padding: 1em 1em 1em 3em;
+	cursor: pointer;
+	-webkit-transition: all 0.15s ease;
+	        transition: all 0.15s ease;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	background: #ffffff;
+}
+.ad_radio label:before {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	width: 10px;
+	height: 10px;
+	content: '';
+	border: 0.2em solid #cccccc;
+	border-radius: 50%;
+}
+.ad_radio input:checked + label:before {
+	border-color: #da3c41;
+	background: #da3c41;
+}
+.ad_radio input:disabled + label {
+	cursor: not-allowed;
+	color: rgba(0, 0, 0, 0.5);
+	background: #efefef;
+}
+.ad_radio input:disabled + label:hover {
+	border-color: rgba(0, 0, 0, 0.1);
+}
+.ad_radio input:disabled + label:before {
+	border-color: #ffffff;
+	background: #ffffff;
+}
+
+ /*チェックボックス*/
+
+ .al_check{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.al_check:before,
+.al_check:after {
+	-webkit-box-sizing: inherit;
+	        box-sizing: inherit;
+}
+.al_check.box {
+	width: 50%;
+	margin: 2em auto;
+	text-align: left;
+	display: flex;
+	border: 1px solid white;
+	border-radius: 3px;
+	background: #E2FFF7;
+}
+.al_check input[type=checkbox] {
+	display: "checkbox";
+}
+
+.al_check label:focus,
+.al_check label:hover,
+.al_check label:active,
+.al_check input:checked + label {
+	color: #d89aff;
+}
+.al_check label:focus:before,
+.al_check label:hover:before,
+.al_check label:active:before,
+.al_check input:checked + label:before {
+	border-color: #d89aff;
+	background: #ffffff;
+}
+.al_check label {
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1;
+	position: relative;
+	display:inline-block;
+	overflow: hidden;
+	padding: em 1em 1em 3em;
+	cursor: pointer;
+	-webkit-transition: all 0.15s ease;
+	        transition: all 0.15s ease;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	background: #ffffff;
+}
+.al_check {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	width: 10px;
+	height: 10px;
+	content: '';
+	border: 0.2em solid #cccccc;
+	border-radius: 50%;
+}
+.al_check input:checked + label:before{
+	border-color: #d89aff;
+	background: #d89aff;
+}
+.al_check input:disabled + label {
+	cursor: not-allowed;
+	color: rgba(0, 0, 0, 0.5);
+	background: #efefef;
+}
+.al_check input:disabled + label:hover {
+	border-color: rgba(0, 0, 0, 0.1);
+}
+.al_check input:disabled + label:before {
+	border-color: #ffffff;
+	background: #ffffff;
+}
+
+/*ボタン*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-malformation {
+  font-size: 2rem;
+
+  padding: 3rem 4rem;
+
+  color: #fff;
+  border-radius: 100% 80px / 80px 100%;
+  background-color: #eb6100;
+}
+
+a.btn-malformation:hover {
+  color: #fff;
+  border-radius: 60% 80% / 100% 80%;
+}
+
+/* id = footer */
+#footer {
+  background-image: url(images/footer-bg.png);
+  background-repeat: repeat-x;
+  padding: 0px;
+  font-size: smaller;
+  color: black;
+}
+
+#logo {
+  text-align: center;
+  margin:0;
+  padding: 0;
+
+}
+/*以下レスポンシブ*/
+
+@media (max-width: 959px) {
+    body{
+        background-color: #7fc23d;
+    }
+}
+

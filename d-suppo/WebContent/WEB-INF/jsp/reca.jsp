@@ -5,28 +5,42 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>吞む人用ページ</title>
-		<link rel="stylesheet" type="text/css" href="./css/reca.css">
+		<link rel="stylesheet" type="text/css" href="./css/recaButton.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-		<div>
-			<p>お酒の種類は？</p>
-		</div>
+
 		<form method="POST" action="/d-suppo/RecaServlet">
 		<!-- 呑む人 = 0 -->
 			<input type = "hidden" name = "DRINK" value = "0">
 
 		<div>
-			<input type="checkbox"  class="alcCheck" name="ALC[]" value="0">ビール
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="1">日本酒
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="2">芋焼酎
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="3">麦焼酎
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="4">赤ワイン
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="5">白ワイン
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="6">レモンサワー
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="7">梅酒
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="8">ハイボール
-			<input type="checkbox" class="alcCheck" name="ALC[]" value="9">カクテル
+			<p>お酒の種類は？</p>
+		</div>
+
+		<div class = "al_check">
+			 <div class = "box" style="display:inline-flex">
+				<input type="checkbox" class="alcCheck" id = "check1" name="ALC[]" value="0">
+				<label for="check1">ビール</label>
+				<input type="checkbox" class="alcCheck" id = "check2" name="ALC[]" value="1">
+				<label for="check2">日本酒</label>
+				<input type="checkbox" class="alcCheck" id = "check3" name="ALC[]" value="2">
+				<label for="check3">芋焼酎</label>
+				<input type="checkbox" class="alcCheck" id = "check4" name="ALC[]" value="3">
+				<label for="check4">麦焼酎</label>
+				<input type="checkbox" class="alcCheck" id = "check5" name="ALC[]" value="4">
+				<label for="check5">赤ワイン</label>
+				<input type="checkbox" class="alcCheck" id = "check6" name="ALC[]" value="5">
+				<label for="check6">白ワイン</label>
+				<input type="checkbox" class="alcCheck" id = "check7" name="ALC[]" value="6">
+				<label for="check7">レモンサワー</label>
+				<input type="checkbox" class="alcCheck" id =  name="ALC[]" value="7">
+				<label for="check8">梅酒</label>
+				<input type="checkbox" class="alcCheck" id = "check9" name="ALC[]" value="8">
+				<label for="check9">ハイボール</label>
+				<input type="checkbox" class="alcCheck" id = "check10" name="ALC[]" value="9">
+				<label for="check10">カクテル</label>
+			 </div>
 		</div>
 		<br>
 		<div>
