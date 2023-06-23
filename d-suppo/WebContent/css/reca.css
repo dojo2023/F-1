@@ -47,8 +47,7 @@ button.btn {
 }
 
 a.btn-3d-flip {
-  display: block;
-  width: 100px;
+  width: 200px;
   margin: 0 auto;
   padding: 0;
 
@@ -244,38 +243,38 @@ p.dietname{
         background-color: #7FC23D;
         min-width :580px;
     }
-    
+
     #logo{
     margin: 30px 0;
     }
-    
+
     #logo img{
     width: 30%;
     }
-    
+
     #nav li{
     display: block;
     }
-    
+
     .diettable {
      box-sizing: border-box;
 	 width: 100%;
   	 padding: auto;
 	 margin: auto;
 	}
-    
+
     .item{
     width: 100%;
     height: auto;
     padding: 0px ;
 	margin: 0px ;
     }
-    
+
     .diettext{
 	width: 70%;
 		text-align: center;
 }
-    
+
     .dietpic {
   width: 150px;
   height: 100px;
