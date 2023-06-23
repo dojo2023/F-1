@@ -32,7 +32,7 @@
   		</ul>
 
 <div class = content>
-  		<form method="POST" action="/d-suppo/DsUpdateServlet" enctype="multipart/form-data">
+  		<form method="POST"  action="/d-suppo/DsUpdateServlet" enctype="multipart/form-data">
 
 			<br>
   			<!--カレンダーを押した年月日を持ってくる-->
@@ -46,7 +46,7 @@
   				<label>食費</label>
   			</div>
   			<div>
-  			<select name="TIMESLOT">
+  			<select name="TIMESLOT" >
     			<option value="0">-選択してください-</option>
     			<option value="1">朝</option>
    				<option value="2">昼</option>
@@ -63,33 +63,50 @@
   				<label>今日の体重</label>
   				<input type="number" name="WEIGHT">kg
   			</div>
-			<input type="hidden" name="DATE" value=<%=date %>>
-			<input type="hidden" name="MONTH" value=<%=month %>>
-			<input type="hidden" name="YEAR" value=<%=year %>>
-			<br>好きな写真:<input type="file" name="pict">
+			<input type="hidden" name="DATE" value=<%=date %> >
+			<input type="hidden" name="MONTH" value=<%=month %> >
+			<input type="hidden" name="YEAR" value=<%=year %> >
+			<br>好きな写真:<input type="file" name="pict"  >
   			<br>
-			<input type="submit" value="送信">
+			<input type="submit"  value="送信" >
   		</form>
   		</div>
 
   		<br><br>
 	<div class = content>
   		<c:forEach var="e" items="${dsList}" >
-			<form method="GET" action="/d-suppo/DeleteDsServlet" enctype="multipart/form-data"> <!--  urlはダミー -->
-   				<div>
-   					<label>${e.TIMESLOT}</label><br>
+			<form method="POST" action="/d-suppo/DeleteDsServlet" >
+					<c:choose>
+			  			<c:when test="${e.TIMESLOT == 0}">
+			  				<div class="diettext">未入力</div><br>
+			  			</c:when>
+   						<c:when test="${e.TIMESLOT == 1}">
+			  				<div class="diettext">朝</div><br>
+			  			</c:when>
+			  			<c:when test="${e.TIMESLOT == 2}">
+			  				<div class="diettext">昼</div><br>
+			  			</c:when>
+			  			<c:when test="${e.TIMESLOT == 3}">
+			  				<div class="diettext">夜</div><br>
+			  			</c:when>
+			  			<c:when test="${e.TIMESLOT == 4}">
+			  				<div class="diettext">間食</div><br>
+			  			</c:when>
+   					</c:choose>
 	   				<img src=" ${'./upload/' +=e.UPLOADIMG}"><br>
 	   				<label>食事内容:</label>
 	   				<input type="text" name="DIETNAME" value="${e.DIETNAME}"><br>
 	   				<label>カロリー:</label>
-	  				<input type="text" name="CALORIE" value ="${e.CALORIE}">kcal<br>
+	  				<input type="text" name="CALORIE" value ="${e.CALORIE}" >kcal<br>
 	  				<label>食費:</label>
-	  				<input type="text" name="DIETCOST" value ="${e.DIETCOST }">円
-	  				<input type="hidden" name="NUM" value="${e.NUM}">
-  				</div>
-  				<div>
-  					<input type="submit" value="削除">
-  				</div>
+	  				<input type="text" name="DIETCOST" value ="${e.DIETCOST }" >円
+	  				<input type="hidden" name="NUM" value="${e.NUM}" >
+
+	  				<input type="hidden" name="DATE" value=<%=date %> >
+					<input type="hidden" name="MONTH" value=<%=month %> >
+					<input type="hidden" name="YEAR" value=<%=year %> >
+
+  					<input type="submit" value="削除" >
 		</form>
 		</c:forEach>
 </div>
