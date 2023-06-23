@@ -138,6 +138,7 @@ button{
 	margin: 2em auto;
 	text-align: left;
 	display: flex;
+	flex-wrap:wrap;
 	border: 1px solid white;
 	border-radius: 3px;
 	background: #E2FFF7;
@@ -160,13 +161,14 @@ button{
 	background: #ffffff;
 }
 .al_check label {
+	width: 100px;
 	font-size: 1em;
 	font-weight: bold;
 	line-height: 1;
 	position: relative;
-	display:inline-block;
 	overflow: hidden;
-	padding: em 1em 1em 3em;
+	margin-left: 5px;
+	margin-right: 5px;
 	cursor: pointer;
 	-webkit-transition: all 0.15s ease;
 	        transition: all 0.15s ease;
@@ -174,16 +176,7 @@ button{
 	text-overflow: ellipsis;
 	background: #ffffff;
 }
-.al_check {
-	position: absolute;
-	top: 1em;
-	left: 1em;
-	width: 10px;
-	height: 10px;
-	content: '';
-	border: 0.2em solid #cccccc;
-	border-radius: 50%;
-}
+
 .al_check input:checked + label:before{
 	border-color: #d89aff;
 	background: #d89aff;
