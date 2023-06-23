@@ -19,7 +19,7 @@
 		</div>
 
 		<div class = "al_check">
-			 <div class = "box" style="display:inline-flex">
+			 <div class = "box">
 				<input type="checkbox" class="alcCheck" id = "check1" name="ALC[]" value="0">
 				<label for="check1">ビール</label>
 				<input type="checkbox" class="alcCheck" id = "check2" name="ALC[]" value="1">
@@ -30,11 +30,13 @@
 				<label for="check4">麦焼酎</label>
 				<input type="checkbox" class="alcCheck" id = "check5" name="ALC[]" value="4">
 				<label for="check5">赤ワイン</label>
+			</div>
+			<div class = "box">
 				<input type="checkbox" class="alcCheck" id = "check6" name="ALC[]" value="5">
 				<label for="check6">白ワイン</label>
 				<input type="checkbox" class="alcCheck" id = "check7" name="ALC[]" value="6">
 				<label for="check7">レモンサワー</label>
-				<input type="checkbox" class="alcCheck" id =  name="ALC[]" value="7">
+				<input type="checkbox" class="alcCheck" id = "check7" name="ALC[]" value="7">
 				<label for="check8">梅酒</label>
 				<input type="checkbox" class="alcCheck" id = "check9" name="ALC[]" value="8">
 				<label for="check9">ハイボール</label>
