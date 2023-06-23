@@ -106,18 +106,18 @@ public class DsUpdateServlet extends HttpServlet {
 		String id = iDao.checkid(sid);
 
 		// 登録処理を行う
-				if (dsdao.insert(ymd,ds,id)) {	// 登録成功
-					dsList = dsdao.listdisplay(ymd,id);
-					request.setAttribute("dsList",dsList);
-					RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/dsResult.jsp");
-					dispatcher.forward(request, response);
-				}else {												// 登録失敗
-					request.setAttribute("result",
-					new Result("登録失敗！", "レコードを登録できませんでした。", "/d-suppo/DsServlet"));
-					RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/result.jsp");
-					dispatcher.forward(request, response);
-				}
+		if (dsdao.insert(ymd,ds,id)) {	// 登録成功
+			dsList = dsdao.listdisplay(ymd,id);
+			request.setAttribute("dsList",dsList);
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/dsResult.jsp");
+			dispatcher.forward(request, response);
+		}else {												// 登録失敗
+			request.setAttribute("result",
+			new Result("登録失敗！", "レコードを登録できませんでした。", "/d-suppo/DsServlet"));
+			RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/result.jsp");
+			dispatcher.forward(request, response);
+		}
 
-			}
 	}
+}
 

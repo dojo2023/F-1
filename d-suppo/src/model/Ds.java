@@ -2,6 +2,7 @@ package model;
 import java.io.Serializable;
 
 public class Ds implements Serializable {
+	private int NUM;
 	private String DIETNAME;
 	private String CALORIE;
 	private String DIETCOST;
@@ -12,11 +13,13 @@ public class Ds implements Serializable {
 	private int TIMESLOT;
 	private String UPLOADIMG;
 
-	public Ds(String DIETNAME, String CALORIE, String DIETCOST,String UPLOADIMG) {
+	public Ds(int NUM, String DIETNAME, String CALORIE, String DIETCOST,String UPLOADIMG, int TIMESLOT) {
+		this.NUM = NUM;
 		this.DIETNAME = DIETNAME;
 		this.CALORIE = CALORIE;
 		this.DIETCOST = DIETCOST;
 		this.UPLOADIMG =UPLOADIMG;
+		this.TIMESLOT = TIMESLOT;
 	}
 
 
@@ -41,6 +44,7 @@ public class Ds implements Serializable {
 	}
 
 	public Ds() {
+		this.NUM = 0;
 		this.DIETNAME = "";
 		this.CALORIE = "";
 		this.DIETCOST = "";
@@ -50,6 +54,14 @@ public class Ds implements Serializable {
 		this.YEAR = "";
 		this.TIMESLOT = 0;
 		this.UPLOADIMG= "";
+	}
+
+	public int getNUM() {
+		return NUM;
+	}
+
+	public void setNUM(int NUM) {
+		this.NUM = NUM;
 	}
 
 	public String getDIETNAME() {

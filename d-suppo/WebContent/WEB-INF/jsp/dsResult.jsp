@@ -53,7 +53,6 @@
    				 <option value="3">夜</option>
     			<option value="4">間食</option>
 			</select>
-
   				<input type="text" name="DIETNAME">&nbsp;
   				<input type="number" name="CALORIE">kcal&nbsp;
   				<input type="number" name="DIETCOST">円&nbsp;
@@ -76,12 +75,21 @@
   		<br><br>
 	<div class = content>
   		<c:forEach var="e" items="${dsList}" >
-			<form method="POST" action="/d-suppo/MenuServlet"enctype="multipart/form-data"> <!--  urlはダミー -->
-   				<input type="text" name="DIETNAME" value="${e.DIETNAME}"><br>
-  				<input type="text" name="CALORIE" value ="${e.CALORIE}">kcal<br>
-  				<input type="text" name="DIETCOST" value ="${e.DIETCOST }">円<br>
-  				<img src=" ${'./upload/' +=e.UPLOADIMG}">
-  				<input type="submit" value="送信">
+			<form method="GET" action="/d-suppo/DeleteDsServlet" enctype="multipart/form-data"> <!--  urlはダミー -->
+   				<div>
+   					<label>${e.TIMESLOT}</label><br>
+	   				<img src=" ${'./upload/' +=e.UPLOADIMG}"><br>
+	   				<label>食事内容:</label>
+	   				<input type="text" name="DIETNAME" value="${e.DIETNAME}"><br>
+	   				<label>カロリー:</label>
+	  				<input type="text" name="CALORIE" value ="${e.CALORIE}">kcal<br>
+	  				<label>食費:</label>
+	  				<input type="text" name="DIETCOST" value ="${e.DIETCOST }">円
+	  				<input type="hidden" name="NUM" value="${e.NUM}">
+  				</div>
+  				<div>
+  					<input type="submit" value="削除">
+  				</div>
 		</form>
 		</c:forEach>
 </div>
