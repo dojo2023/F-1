@@ -57,11 +57,8 @@
   				<input type="number" name="CALORIE">kcal&nbsp;
   				<input type="number" name="DIETCOST">円&nbsp;
   			</div>
-
   			<div>
-  			<br>
-  				<label>今日の体重</label>
-  				<input type="number" name="WEIGHT">kg
+  				<input type="hidden" name="WEIGHT" value="10">
   			</div>
 			<input type="hidden" name="DATE" value=<%=date %> >
 			<input type="hidden" name="MONTH" value=<%=month %> >
