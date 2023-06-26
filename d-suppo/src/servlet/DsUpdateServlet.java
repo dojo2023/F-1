@@ -83,11 +83,11 @@ public class DsUpdateServlet extends HttpServlet {
 			String path= "C:/dojo6/d-suppo/WebContent/upload/" + filename;  //getServletContext().getRealPath("/upload");
 
 			//実際にファイルが保存されるパス確認
-			System.out.println(path);
+			//System.out.println(path);
 			//書き込み
 			part.write(path);
 			path=getServletContext().getRealPath("/upload/");
-			System.out.println(path + "/" +filename);
+			//System.out.println(path + "/" +filename);
 			path = path + "/" +filename;
 			part.write(path);  //2回書き込むことで疑似的にどちらにも反映
 		/*	}catch(IOException e) {

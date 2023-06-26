@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>吞まない人用ページ</title>
-<link rel="stylesheet" type="text/css" href="./css/recd.css">
+<link rel="stylesheet" type="text/css" href="./css/recdButton.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>

@@ -10,14 +10,13 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<h1 id ="logo"><a href="/d-suppo/MenuServlet" alt="メニュー"><img src="./img/title.png" width="300"  alt="試作"></a></h1>
+			<h1 id ="logo"><a href="/d-suppo/MenuServlet" alt="メニュー"><img src="./image/title/title.png" width="150"  alt="試作"></a></h1>
 
 			<ul id="nav">
 				<li><a href="/d-suppo/RecServlet">(試作1) 提案ページ</a></li>
 				<li><a href="/d-suppo/DsServlet">(試作2) 管理ページ</a></li>
 				<li><a href="/d-suppo/ChengePwServlet">(3)pw変更</a></li>
 				<li><a href="/d-suppo/LogoutServlet">ログアウト</a></li>
-				<li><a href="/d-suppo/UploadServlet">試作3,画像</a></li>
 
 			</ul>
 			<p>お酒を呑みたい気分ですか？</p>
