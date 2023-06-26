@@ -326,7 +326,7 @@ INSERT INTO RECD(GENRE,DISH,HARVEST,DIETNAME,DIETPIC)
 VALUES(2,0,2,'醤油ラーメン','./image/diet/中華/しょうゆラーメン.png');
 
 INSERT INTO RECD(GENRE,DISH,HARVEST,DIETNAME,DIETPIC)
-VALUES(2,0,2,'担々麵','./image/diet/中華/担々麵.png');
+VALUES(2,0,2,'担々麵','./image/diet/中華/担々麺.png');
 
 INSERT INTO RECD(GENRE,DISH,HARVEST,DIETNAME,DIETPIC)
 VALUES(2,2,2,'酸辣湯麺','./image/diet/中華/酸辣湯麺.png');
