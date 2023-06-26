@@ -121,7 +121,8 @@
 	 </c:if> 
   </c:forEach>
  </div>
-	<a href="/d-suppo/MenuServlet"><button>戻る</button></a>
+    <a href="/d-suppo/RecaServlet"><button>質問画面へ戻る</button></a>
+	<a href="/d-suppo/MenuServlet"><button>メニューへ戻る</button></a>
 </div>
 <div id="footer">
  <marquee>&copy;なんかいれたい</marquee>
