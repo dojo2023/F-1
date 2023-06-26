@@ -67,19 +67,18 @@ public class RecaDAO {
 		return alcList;
 	}
 
-	public boolean distinct(List<Reca> reca) {
+	public boolean distinct(List<Reca> reca) { //重複チェック
 		List<String> compare = new ArrayList<String>();
 		for(Reca ALC : reca) {
 			String a =  ALC.getDietname();
 			compare.add(a);
-			System.out.println("a:" + a );
+			//検査用//System.out.println("a:" + a );
 		}
 
 		List<String> set = new ArrayList<String>( new HashSet<>(compare));
 
-		System.out.println("recs:" + reca + "\r\n");
 
-		System.out.println("set:" + set);
+		//検査用//ystem.out.println("set:" + set + "\r\n");
 
 		if(reca.size() != set.size()) {
 			return false;
