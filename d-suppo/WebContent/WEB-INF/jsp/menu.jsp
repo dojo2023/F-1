@@ -16,7 +16,6 @@
 <li><a href="/d-suppo/DsServlet">(試作2) 管理ページ</a></li>
 <li><a href="/d-suppo/ChengePwServlet">(3)pw変更</a></li>
 <li><a href="/d-suppo/LogoutServlet">ログアウト</a></li>
-<li><a href="/d-suppo/UploadServlet">試作3,画像</a></li>
 
   </ul>
   <!--上メニュー、下-->
