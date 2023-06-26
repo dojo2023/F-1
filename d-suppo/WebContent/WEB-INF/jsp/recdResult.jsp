@@ -77,7 +77,8 @@
  </div>	
 
  <div>
-  <a href="/d-suppo/MenuServlet"><button>戻る</button></a>
+  <a href="/d-suppo/RecdServlet"><button>質問画面へ戻る</button></a>
+  <a href="/d-suppo/MenuServlet"><button>メニューへ戻る</button></a>
  </div>
 </body>
 
