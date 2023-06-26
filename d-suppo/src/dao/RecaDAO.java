@@ -8,7 +8,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 import model.Reca;
 
@@ -69,7 +68,19 @@ public class RecaDAO {
 	}
 
 	public boolean distinct(List<Reca> reca) {
-		Set<Reca> set = new HashSet<Reca>(reca);
+		List<String> compare = new ArrayList<String>();
+		for(Reca ALC : reca) {
+			String a =  ALC.getDietname();
+			compare.add(a);
+			System.out.println("a:" + a );
+		}
+
+		List<String> set = new ArrayList<String>( new HashSet<>(compare));
+
+		System.out.println("recs:" + reca + "\r\n");
+
+		System.out.println("set:" + set);
+
 		if(reca.size() != set.size()) {
 			return false;
 	}

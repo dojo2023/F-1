@@ -74,7 +74,7 @@
      </div>
     </c:if>
   </c:forEach>
- </div>	
+ </div>
 
  <div>
   <a href="/d-suppo/RecdServlet"><button>質問画面へ戻る</button></a>
