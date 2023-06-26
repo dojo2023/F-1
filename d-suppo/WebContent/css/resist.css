@@ -199,7 +199,7 @@ body {
 
 .login {
   width: 400px;
-  margin: 16px auto;
+  margin: 11px auto;
   font-size: 16px;
 }
 
@@ -236,7 +236,7 @@ body {
 
 /* Every row inside .login-container is defined with p tags */
 .login p {
-  padding: 12px;
+  padding: 8px;
 }
 
 .login input {
@@ -272,6 +272,26 @@ body {
 }
 
 .login input[type="submit"]:hover {
+  background: #9DDCDC;
+}
+
+.login input[type="submit"]:hover {
+  background: #9DDCDC;
+}
+
+
+.login input[type="reset"] {
+  background: #decdb2;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="reset"]:hover {
+  background: #9DDCDC;
+}
+
+.login input[type="reset"]:hover {
   background: #9DDCDC;
 }
 
