@@ -264,8 +264,7 @@ p.dietname{
     }
 
     .diettext{
-	width: 70%;
-		text-align: center;
+	width: 100%;
 }
 
     .dietpic {
