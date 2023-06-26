@@ -26,7 +26,7 @@
   <span class="btn-3d-flip-box2">
     <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">新規登録
     <i class="fas fa-angle-right fa-position-right"></i></span>
-    <span class="btn-3d-flip-box-face  btn-3d-flip-box-face--back2">アカウント登録できます
+    <span class="btn-3d-flip-box-face  btn-3d-flip-box-face--back2">アカウント登録へ
     <i class="fas fa-angle-right fa-position-right"></i></span>
   </span>
 </a>
