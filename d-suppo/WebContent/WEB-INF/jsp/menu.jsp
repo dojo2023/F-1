@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html><!-- style="zoom:67%" -->
 <head>
 <meta charset="UTF-8">
 <title>メインメニュー(試作)</title>
@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="wrapper">
-<h1 id ="logo"><a href="/d-suppo/MenuServlet" alt="メニュー"><img src="./image/title/title.png" width="200"  alt="試作"></a></h1>
+<h1 id ="logo"><a href="/d-suppo/MenuServlet" alt="メニュー"><img src="./image/title/tori.gif" width="150"  alt="試作"><img src="./image/title/tori.gif" width="150"  alt="試作"><img src="./image/title/title.png" width="150"  alt="試作"><img src="./image/title/tori.gif" width="150"  alt="試作"><img src="./image/title/tori.gif" width="150"  alt="試作"></a></h1>
 
   <ul id="nav">
 <li><a href="/d-suppo/RecServlet">(試作1) 提案ページ</a></li>
@@ -61,7 +61,12 @@
 (　 ＼　／ ＿ノ　|　 |
 .＼　“　　／＿＿|　 | 　
 　　＼ ／＿＿＿ ／　　 </pre></marquee>
-  </div>
+<!--
+<div class="marquee">
+<marquee scrollamount="30"><img class="amongas" src="./image/title/amongas.gif"><img class="inu" src="./image/title/inu.gif">
+</marquee> -->
+</div>
+</div>
 </div>
 </body>
 </html>
