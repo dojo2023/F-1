@@ -6,6 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 import model.Date;
@@ -142,6 +143,12 @@ public class DsDAO {
 				}
 			}
 		}
+		Comparator<Ds> compare = Comparator.comparing(Ds::getTIMESLOT);
+		dsList.sort(compare);
+		//確認用--------------------------------------------------------------------
+		 for (Ds e : dsList) {
+	            System.out.println("TimeSlot" + e.getTIMESLOT() + " : ");
+	        }
 
 		// 結果を返す
 		return dsList;
