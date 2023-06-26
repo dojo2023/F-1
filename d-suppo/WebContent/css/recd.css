@@ -229,48 +229,49 @@ p.dietname{
 
 /*以下レスポンシブ*/
 @media (max-width: 867px) {
-    body{
-        background-color: #7FC23D;
-        min-width :580px;
-    }
-    #logo{
-    margin: 30px 0;
-    }
-    #logo img{
-    width: 30%;
-    }
-    #nav li{
-    display: block;
-    }
-    .diettable {
-     box-sizing: border-box;
-	 width: 100%;
-  	 padding: auto;
-	 margin: auto;
-	}
-	
-.diettext{
-	width: 100%;
+body{
+ background-color: #7FC23D;
+ min-width :580px;
+}
+
+#logo{
+ margin: 30px 0;
+}
+
+#logo img{
+ width: 30%;
+}
+    
+.diettable {
+ box-sizing: border-box;
+ width: 100%;
+ padding: auto;
+ margin: auto;
 }
 	
-    .item{
-    width: 100%;
-    height: auto;
-    padding: 0px ;
-	margin: 0px ;
-    }
-    .dietpic {
-  width: 180px;
-  height: 150px;
+.diettext{
+ width: 100%;
+}
+	
+.item{
+ width: 100%;
+ height: auto;
+ padding: 0px;
+ margin: 0px ;
+}
+
+.dietpic {
+ width: 180px;
+ height: 150px;
 }
 
 .btn-3d-flip-box-face {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
 .btn-3d-flip-box-face--back2 {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 

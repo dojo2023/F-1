@@ -36,7 +36,7 @@
 				<label for="check6">白ワイン</label>
 				<input type="checkbox" class="alcCheck" id = "check7" name="ALC[]" value="6">
 				<label for="check7">レモンサワー</label>
-				<input type="checkbox" class="alcCheck" id = "check7" name="ALC[]" value="7">
+				<input type="checkbox" class="alcCheck" id = "check8" name="ALC[]" value="7">
 				<label for="check8">梅酒</label>
 				<input type="checkbox" class="alcCheck" id = "check9" name="ALC[]" value="8">
 				<label for="check9">ハイボール</label>
