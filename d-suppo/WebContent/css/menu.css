@@ -7,7 +7,10 @@ body {
   color: black;
   font-size: 16px;
   text-align:center;
-  background-color: #E2FFF7;
+  background-image: url(/d-suppo/image/background/haikei1.jpg);
+  background-size: cover;               /* 全画面 */
+  background-attachment: fixed;         /* 固定 */
+  background-position: center center;   /* 縦横中央 */
   /*background-image:  url(/d-suppo/image/title/back.png);
   background-repeat: no-repeat;
   top: 0;
