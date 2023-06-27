@@ -53,7 +53,7 @@ public class DsDAO {
 			if (ds.getUPLOADIMG() != null && !ds.getUPLOADIMG().equals("")) {
 				pStmt.setString(9, ds.getUPLOADIMG());
 			}else {
-				pStmt.setString(9, "");
+				pStmt.setString(9, "./image/dummy/noimage.png");
 			}
 			pStmt.setInt(10, ds.getTIMESLOT());
 
