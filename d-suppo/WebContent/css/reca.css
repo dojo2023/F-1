@@ -7,7 +7,10 @@ body {
   color: black;
   font-size: 16px;
   text-align:center;
-  background-color: #E2FFF7;
+  background-image: url(/d-suppo/image/background/haikei1.jpg); /* 画像 */
+  background-size: cover;               /* 全画面 */
+  background-attachment: fixed;         /* 固定 */
+  background-position: center center;   /* 縦横中央 */
 }
 
 #nav li {
@@ -180,15 +183,21 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
 }
 
 .diettext{
+	padding: 0.5em 1em;
+	display: inline-block;
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 20px;
+	border: 5px solid red;
+	border-radius: 50%;
+	background-color: white;
 }
 .item {
 	padding-bottom: 250px;
 	margin-top: 10px;
 	margin-right: 10px;
 	margin-left: 10px;
+	background-color: white;
 }
 .kaigyou{
     clear:both;
@@ -197,6 +206,8 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
 p.dietname{
 	padding: 0 auto;
 	margin: 0 auto;
+	background-color: white;
+	border: 5px solid black;
 }
 
 .dietpic {
