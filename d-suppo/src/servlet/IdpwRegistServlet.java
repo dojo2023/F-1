@@ -47,11 +47,11 @@ public class IdpwRegistServlet extends HttpServlet {
 					new Result("登録成功！", "ID,PWを登録しました。", "/d-suppo/LoginServlet"));
 		}else {
 			request.setAttribute("result",
-					new Result("登録失敗！", "Id,PWを登録できませんでした", "/d-suppo/LoginServlet"));
+					new Result("登録失敗！", "Id,PWを登録できませんでした", "/d-suppo/IdpwRegistServlet"));
 		}
 		}else {
 			request.setAttribute("result",
-					new Result("登録失敗！", "IDまたはPWが重複しています。", "/d-suppo/LoginServlet"));
+					new Result("登録失敗！", "IDまたはPWが重複しています。", "/d-suppo/IdpwRegistServlet"));
 		}
 		// 結果ページにフォワードする
 				RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/result.jsp");

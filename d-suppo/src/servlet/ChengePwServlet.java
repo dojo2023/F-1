@@ -64,14 +64,14 @@ public class ChengePwServlet extends HttpServlet {
 		    }
 		    else {									// 更新失敗
 			    request.setAttribute("result",
-			    new Result("更新失敗！", "エラー、メニューに戻ります", "/d-suppo/MenuServlet"));
+			    new Result("更新失敗！", "エラー、メニューに戻ります", "/d-suppo/ChengePwServlet"));
 			    // 結果ページにフォワードする
 			    RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/result.jsp");
 			    dispatcher.forward(request, response);
 		    }
         }else{  //現在のパスワードが違う
             request.setAttribute("result",
-			    new Result("更新失敗！", "エラー、メニューに戻ります", "/d-suppo/MenuServlet"));
+			    new Result("更新失敗！", "エラー、メニューに戻ります", "/d-suppo/ChengePwServlet"));
 
 			    // 結果ページにフォワードする
 			    RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/result.jsp");
