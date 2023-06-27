@@ -21,7 +21,7 @@
         countdownElement.innerHTML = seconds + "秒後に登録画面へ戻ります";
         seconds--;
         if (seconds < 0) {
-          window.history.back();
+        	window.location.href = "${result.backTo}";
         } else {
           setTimeout(countdown, 1000);
         }
