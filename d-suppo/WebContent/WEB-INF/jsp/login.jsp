@@ -10,7 +10,7 @@
 <body>
 
 
-<a href="/d-suppo/MenuServlet"><img src="./image/title/title.png" width="150" class="logo"></a>
+<a href="/d-suppo/MenuServlet"><img src="./image/title/titlelg169.png" width="220" class="logo"></a>
 
 	<div class="login">
   <div class="login-triangle"></div>
