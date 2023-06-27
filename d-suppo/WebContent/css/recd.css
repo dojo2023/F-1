@@ -16,13 +16,13 @@ body {
 
 #nav li {
   display: inline;		/* インラインで横に表示する */
-  list-style-type: none;	
+  list-style-type: none;
   padding: 0px;/* 先頭の記号をなくす */		/* 区切りを空ける */
 }
 #nav {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  background: #A6E9FD;
+  background: #decdb2;
 }
 
 /*3Dボタン*/
@@ -243,18 +243,18 @@ body{
 #logo img{
  width: 30%;
 }
-    
+
 .diettable {
  box-sizing: border-box;
  width: 100%;
  padding: auto;
  margin: auto;
 }
-	
+
 .diettext{
  width: 100%;
 }
-	
+
 .item{
  width: 100%;
  height: auto;

@@ -21,7 +21,7 @@ body {
 #nav {
   margin: 0 0 0 0;
   padding: 15px 30px 12px 30px;
-  background: #a6e9fd;
+  background: #decdb2;
   text-align: center;
 }
 
@@ -30,7 +30,7 @@ body {
   max-width: 700px;
 }
 .container-calendar {
-  background:rgb(255, 255, 0);
+  background:rgb(255, 234, 234);
   padding: 15px;
   width: 80%;
   margin: 0 auto;
