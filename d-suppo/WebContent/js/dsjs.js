@@ -59,7 +59,7 @@ function generate_year_range(start, end) {
 
     tbl.innerHTML = "";
 
-    monthAndYear.innerHTML = months[month] + " " + year;
+    monthAndYear.innerHTML = year + "年 " + months[month];
     selectYear.value = year;
     selectMonth.value = month;
 
