@@ -4,16 +4,32 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>シンプル名刺管理</title>
+<title>result</title>
+<link rel="stylesheet" type="text/css" href="./css/result.css">
 </head>
 <body>
-	<h1>
-		<c:out value="${result.title}" />
-	</h1>
-	<hr>
-	<p>
-		<c:out value="${result.message}" />
-	</p>
-	<a href="${result.backTo}">メニューへ戻る</a>
+  <h1>
+    <c:out value="${result.title}" />
+  </h1>
+  <div id="countdown">
+  </div>
+  <script>
+    var seconds = 3;
+    window.onload = function () {
+      var countdownElement = document.getElementById("countdown");
+      function countdown() {
+        countdownElement.innerHTML = seconds + "秒後に登録画面へ戻ります";
+        seconds--;
+        if (seconds < 0) {
+          window.history.back();
+        } else {
+          setTimeout(countdown, 1000);
+        }
+      }
+      countdown();
+    };
+  </script>
+  <hr>
+  <h2><c:out value="${result.message}" /></h2>
 </body>
 </html>
