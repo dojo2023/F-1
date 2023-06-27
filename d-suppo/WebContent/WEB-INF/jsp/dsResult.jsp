@@ -10,14 +10,7 @@
 <head>
 <meta charset="UTF-8">
 <title>メインメニュー(試作)</title>
-<link rel="stylesheet" type="text/css" href="./css/menu.css">
-<style type="text/css">
-@charset "UTF-8";
-
- * {
-    outline: 1px solid #ff6666;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="./css/dsresult.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -33,19 +26,13 @@
 
 <div class = content>
   		<form method="POST"  action="/d-suppo/DsUpdateServlet" enctype="multipart/form-data">
-
-			<br>
+			<ul>
   			<!--カレンダーを押した年月日を持ってくる-->
-  			<label><%=year%>年<%=month%>月<%=date%>日</label>
-
-  			<div>
-  			<br>
-  				<label>時間帯</label>
-  				<label>食事内容</label>
-  				<label>カロリー</label>
-  				<label>食費</label>
-  			</div>
-  			<div>
+			  <li class = "formday" >
+  			<span><%=year%>年<%=month%>月<%=date%>日</span>
+			  </li>
+  			<li>
+				<label>時間帯</label>
   			<select name="TIMESLOT" >
     			<option value="0">-選択してください-</option>
     			<option value="1">朝</option>
@@ -53,22 +40,32 @@
    				 <option value="3">夜</option>
     			<option value="4">間食</option>
 			</select>
+			</li>
+			<li >
+			<label >食事内容</label>
   				<input type="text" name="DIETNAME">&nbsp;
+			</li>
+			<li>
+			<label>カロリー</label>
   				<input type="number" name="CALORIE">kcal&nbsp;
+			</li>
+			<li>
+			<label>食費</label>
   				<input type="number" name="DIETCOST">円&nbsp;
-  			</div>
-  			<div>
-  				<input type="hidden" name="WEIGHT" value="10">
-  			</div>
-			<input type="hidden" name="DATE" value=<%=date %> >
-			<input type="hidden" name="MONTH" value=<%=month %> >
-			<input type="hidden" name="YEAR" value=<%=year %> >
-			<br>好きな写真:<input type="file" name="pict"  >
-  			<br>
-			<input type="submit"  value="送信" >
-  		</form>
-  		</div>
+  			</li>
 
+  			<input type="hidden" name="WEIGHT" value="10">
+			<input type="hidden" name="DATE" value=<%=date %>>
+			<input type="hidden" name="MONTH" value=<%=month %>>
+			<input type="hidden" name="YEAR" value=<%=year %>>
+			<li>
+			<label>好きな写真:</label><input type="file" name="pict"  >
+			</li>
+  			<br>
+			<input class="button" type="submit"  value="送信" >
+		</ul>
+		</form>
+      </div>
   		<br><br>
 	<div class = content>
   		<c:forEach var="e" items="${dsList}" >
@@ -103,11 +100,11 @@
 					<input type="hidden" name="MONTH" value=<%=month %> >
 					<input type="hidden" name="YEAR" value=<%=year %> >
 
-  					<input type="submit" value="削除" >
+  					<input class="button"  type="submit" value="削除" >
 		</form>
 		</c:forEach>
 </div>
-  		<a href="/d-suppo/DsServlet"><button>戻る</button></a>
+  		<a href="/d-suppo/DsServlet" ><button>戻る</button></a>
 
 
   <!--上メニュー、下-->
