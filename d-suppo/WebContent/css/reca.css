@@ -183,14 +183,20 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
 }
 
 .diettext{
-	padding: 0.5em 1em;
-	display: inline-block;
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 20px;
-	border: 5px solid red;
-	border-radius: 50%;
-	background-color: white;
+ font-size:2em;
+     background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    display: inline-block;
+  animation: flowing 1s linear infinite;
+  transform: translateX(100%);/*初期位置*/
+}
+
+@keyframes flowing {
+  100% {
+    transform: translateX(-100%);
+  }
 }
 .item {
 	padding-bottom: 250px;
