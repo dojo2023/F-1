@@ -5,7 +5,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>お酒質問</title>
-		<link rel="stylesheet" type="text/css" href="./css/recaButton.css">
+		<link rel="stylesheet" type="text/css" href="./css/recad.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
@@ -19,7 +19,7 @@
 				<li><a href="/d-suppo/LogoutServlet">ログアウト</a></li>
 
 			</ul>
-			<p>お酒を呑みたい気分ですか？</p>
+			<p class="question">お酒を呑みたい気分ですか？</p>
 				<a href="/d-suppo/RecaServlet" class="btn btn-malformation">呑む</a>
 				<a href="/d-suppo/RecdServlet" class="btn btn-malformation">呑まない</a>
 				<!--

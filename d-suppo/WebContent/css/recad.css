@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+/*recaResultで使用*/
+
+* {
+  outline: 1px solid #ff6666;
+}
+
+body {
+  margin: 0 0 0 0;		/* マージンなし（後で個別に設定） */
+  padding: 0 0 0 0;		/* パディングなし（後で個別に設定） */
+  color: black;
+  font-size: 16px;
+  text-align:center;
+  background-image: url(/d-suppo/image/background/haikei1.jpg); /* 画像 */
+  background-size: cover;               /* 全画面 */
+  background-attachment: fixed;         /* 固定 */
+  background-position: center center;   /* 縦横中央 */
+}
+
+/* wrapperクラス */
+.wrapper {
+  margin: 0px auto;	/* 中央揃え */
+  max-width: 960px;	/* 幅を固定 */
+  padding: 10px;
+  overflow:hidden;
+}
+
+#nav li {
+  display: inline;		/* インラインで横に表示する */
+  list-style-type: none;	/* 先頭の記号をなくす */
+  padding: 5px;
+}
+#nav {
+  margin: 0 0 0 0;
+  padding: 15px 30px 12px 30px;
+  background: #decdb2;
+}
+
+/*文字*/
+
+.question{
+	color: white;
+	font-size: 200%;
+	font-weight: bold;
+	background-image: url(/d-suppo/image/background/woodyaji.png);
+}
+
+
+
+/*ボタン*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+  border: 5px #4ec4d3;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
+}
+
+a.btn-malformation {
+  font-size: 2rem;
+
+  padding: 3rem 4rem;
+
+  color: #fff;
+  border-radius: 100% 80px / 80px 100%;
+  background-color: #eb6100;
+}
+
+a.btn-malformation:hover {
+  color: #fff;
+  border-radius: 60% 80% / 100% 80%;
+}
+
+a.btn-3d-flip {
+  width: 200px;
+  margin: 0 auto;
+  padding: 0;
+
+  -webkit-perspective: 600px;
+
+  perspective: 600px;
+}
+
+a.btn-3d-flip:hover .btn-3d-flip-box {
+  -webkit-transform: translateY(-50%) rotateX(90deg);
+  transform: translateY(-50%) rotateX(90deg);
+}
+
+a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
+  -webkit-transform: translateX(-50%) rotateY(-90deg);
+  transform: translateX(-50%) rotateY(-90deg);
+}
+
+.btn-3d-flip-box {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #fff;
+
+  -webkit-transform-style: preserve-3d;
+
+  transform-style: preserve-3d;
+}
+
+.btn-3d-flip-box2 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+
+  -webkit-transition: all 0.4s;
+
+  transition: all 0.4s;
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #fff;
+
+  -webkit-transform-style: preserve-3d;
+
+  transform-style: preserve-3d;
+}
+
+.btn-3d-flip-box-face {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 1.3rem 0;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  color: #fff;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.btn-3d-flip-box-face--front {
+  background: #eb6100;
+}
+
+.btn-3d-flip-box-face--back {
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  -webkit-transform: translateY(-1px) rotateX(-90deg);
+
+  transform: translateY(-1px) rotateX(-90deg);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+
+  background: #dc5b00;
+}
+
+.btn-3d-flip-box-face--front2 {
+  color: #000;
+  border: 2px solid #000;
+  background: #fff;
+}
+
+.btn-3d-flip-box-face--back2 {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  font-size: 12px;
+  -webkit-transform: translateX(-1px) rotateY(90deg);
+  transform: translateX(-1px) rotateY(90deg);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  color: #fff;
+  border: 2px solid #000;
+  background: #000;
+}
+
+.fa-position-right {
+  position: absolute;
+  top: calc(50% - 0.5em);
+  right: 1rem;
+}
+
+
+/* id = footer */
+#footer {
+  background-image: url(images/footer-bg.png);
+  background-repeat: repeat-x;
+  padding: 0px;
+  font-size: smaller;
+  color: black;
+}
+
+#logo {
+  text-align: center;
+  margin:0;
+  padding: 0;
+
+}
+/*以下レスポンシブ*/
+
+@media (max-width: 959px) {
+    body{
+        background-color: #7fc23d;
+    }
+}
+
