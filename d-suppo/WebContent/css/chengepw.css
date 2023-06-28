@@ -342,11 +342,6 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
   padding: 0;
 }
 
-#logo a img{
-	height: 35vh;
-	width: auto;
-}
-
 /*以下レスポンシブ*/
 @media (max-width: 867px) {
 body{
