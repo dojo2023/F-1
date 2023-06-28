@@ -243,6 +243,10 @@ body{
   min-width :580px;
 }
 
+h1{
+	display: inline-flex;
+}
+
 #logo{
   margin: 30px 0;
 }
