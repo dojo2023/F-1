@@ -18,8 +18,8 @@
     <li><a href="/d-suppo/ChengePwServlet">PW変更</a></li>
     <li><a href="/d-suppo/LogoutServlet">ログアウト</a></li>
     </ul>
-    
-    
+
+
 <div class="login">
  <div class="login-triangle"></div>
   <h2 class="login-header">PW変更</h2>
@@ -29,7 +29,7 @@
     <p><input type="submit" name="LOGIN" value="更新"></p>
   </form>
 </div>
-    
+
 <br>
 <div class="login">
 <div class="login-triangle"></div>
@@ -51,4 +51,7 @@
 
 </div>
 </body>
+<div id="footer">
+			<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
+		</div>
 </html>

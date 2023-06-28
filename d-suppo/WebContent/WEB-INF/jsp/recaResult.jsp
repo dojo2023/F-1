@@ -9,7 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-	
+
 	<h1 id ="logo"><a href="/d-suppo/MenuServlet" alt="メニュー"><img src="./image/title/titlelg169.png" width="220"  alt="試作"></a></h1>
 	<nav class="menu">
 <ul>
@@ -49,7 +49,7 @@
 </li>
   </ul>
   </nav>
-	
+
 <div>
  <div class="diettable">
   <c:forEach var="recresult"  items="${cardList}"  varStatus = "status" >
@@ -120,14 +120,13 @@
 	 </c:if>
 	 <c:if  test = "${status.index%3 == 2}">
 	  </div>
-	 </c:if> 
+	 </c:if>
   </c:forEach>
  </div>
     <a href="/d-suppo/RecaServlet"><button>質問画面へ戻る</button></a>
 	<a href="/d-suppo/MenuServlet"><button>メニューへ戻る</button></a>
 </div>
 <div id="footer">
- <marquee>&copy;なんかいれたい</marquee>
-</div>   
-</body>
+			<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
+		</div></body>
 </html>

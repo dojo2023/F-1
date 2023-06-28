@@ -19,7 +19,7 @@
 				<li><a href="/d-suppo/LogoutServlet">ログアウト</a></li>
 
 			</ul>
-			<div"> 
+			<div">
 			<div class="alcq">
 			<div>
 			<img src="./image/title/yajileft.png" width="50" >
@@ -27,7 +27,7 @@
 			<img src="./image/title/yajiright.png" width="50">
 			</div>
 			</div>
-			
+
 				<a href="/d-suppo/RecaServlet" class="btn btn-malformation">呑む</a>
 				<a href="/d-suppo/RecdServlet" class="btn btn-malformation">呑まない</a>
 
@@ -42,6 +42,6 @@
 		<script src="./js/recdjq.js"></script>
 	</body>
 	<div id="footer">
-		<marquee>&copy;なんかいれたい</marquee>
-	</div>
+			<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
+		</div>
 </html>
