@@ -4,6 +4,11 @@
 
 /*recaResultで使用*/
 
+/*copyright*/
+#footer {
+  margin-top: 22px;
+}
+
 * {
   outline: 1px solid #ff6666;
 }
@@ -28,15 +33,33 @@ body {
   overflow:hidden;
 }
 
-#nav li {
-  display: inline;		/* インラインで横に表示する */
-  list-style-type: none;	/* 先頭の記号をなくす */
-  padding: 5px;
-}
-#nav {
+.menu{
   margin: 0 0 0 0;
-  padding: 15px 30px 12px 30px;
+  padding: 0 0 0 0;
   background: #decdb2;
+}
+
+.menu ul{
+   display: flex;
+   justify-content: center;
+   margin: 0;
+   padding: 0;
+}
+.menu li{
+   list-style: none;
+   margin: 10px;
+}
+.menu a{
+   display: block;
+   padding: 10px;
+   border: 1px solid #999;
+   border-right: none;
+   text-decoration: none;
+   color: #333;
+   background: #f2f2f2;
+}
+.menu li:last-child a{
+    border-right: 1px solid #999;
 }
 
 /*ラジオボタン*/
@@ -377,13 +400,51 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
   text-align: center;
   margin:0;
   padding: 0;
-
 }
+
+#logo a img{
+	height: 35vh;
+	width: auto;
+}
+
 /*以下レスポンシブ*/
-
-@media (max-width: 959px) {
-    body{
-        background-color: #7fc23d;
-    }
+@media (max-width: 867px) {
+body{
+  background-color: #7FC23D;
+  min-width :580px;
 }
 
+#logo{
+  margin: 30px 0;
+}
+
+#logo img{
+  width: 30%;
+}
+
+.menu ul{
+   flex-wrap: wrap;
+   border-bottom: 1px solid #999;
+}
+.menu li{
+   width: 50%;
+   margin: 0;
+}
+.menu a{
+   border-bottom: none;
+}
+.menu li:last-child a{
+   border-right: none;
+}
+
+.btn-3d-flip-box-face {
+  width: 100%;
+  height: auto;
+}
+
+.btn-3d-flip-box-face--back2 {
+  width: 100%;
+  height: auto;
+}
+
+}

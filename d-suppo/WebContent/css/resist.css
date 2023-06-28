@@ -3,6 +3,11 @@
 /* {
  /* outline: 1px solid #FF6666;
 
+/*copyright*/
+#footer {
+  margin-top: 22px;
+}
+
 
 /*新規登録*/
 @import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";

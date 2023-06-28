@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+	<%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -31,7 +31,7 @@
   </span>
 </a>
 </body>
-<div id="footer">
+<footer id="footer">
 	    	<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
-		</div>
+		</footer>
 </html>

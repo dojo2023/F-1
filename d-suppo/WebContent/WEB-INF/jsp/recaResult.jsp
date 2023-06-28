@@ -126,7 +126,7 @@
     <a href="/d-suppo/RecaServlet"><button>質問画面へ戻る</button></a>
 	<a href="/d-suppo/MenuServlet"><button>メニューへ戻る</button></a>
 </div>
-<div id="footer">
+<footer id="footer">
 			<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
-		</div></body>
+		</footer></body>
 </html>
