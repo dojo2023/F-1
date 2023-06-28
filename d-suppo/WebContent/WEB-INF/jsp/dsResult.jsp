@@ -97,6 +97,7 @@
 			<form method="POST" action="/d-suppo/DeleteDsServlet" >
 
 	   				<img src=" ${'./upload/' +=e.UPLOADIMG}"><br>
+	   				<label>食事時間:</label>
 	   				<c:choose>
 			  			<c:when test="${e.TIMESLOT == 0}">
 			  				<div class="diettext">未入力</div><br>
@@ -115,13 +116,37 @@
 			  			</c:when>
    					</c:choose>
 	   				<label>食事内容:</label>
-	   				<span>"${e.DIETNAME}"</span><br>
-	   				<label>カロリー:</label>
-	  				<input type="text" name="CALORIE" value ="${e.CALORIE}" >kcal<br>
-	  				<label>食費:</label>
-	  				<input type="text" name="DIETCOST" value ="${e.DIETCOST }" >円
-	  				<input type="hidden" name="NUM" value="${e.NUM}" >
+	   				<c:choose>
+	   					<c:when  test = "${e.DIETNAME == ''}">
+	   						<span>入力されていません</span><br>
+	   					</c:when>
+	   					<c:otherwise>
+        					<span>${e.DIETNAME}</span><br>
+    					</c:otherwise>
+					</c:choose>
 
+	   				<label>カロリー:</label>
+	   				<c:choose>
+	   					<c:when  test = "${e.CALORIE == 0.0}">
+	   						<span>入力されていません</span><br>
+	   					</c:when>
+	   					<c:otherwise>
+        					<span>"${e.CALORIE}"</span><br>
+    					</c:otherwise>
+					</c:choose>
+
+	  				<label>食費:</label>
+	  				<c:choose>
+	   					<c:when  test = "${e.DIETCOST == -1}">
+	   						<span>入力されていません</span><br>
+	   					</c:when>
+	   					<c:otherwise>
+        					<span>"${e.DIETCOST}"</span><br>
+    					</c:otherwise>
+					</c:choose>
+
+
+	  				<input type="hidden" name="NUM" value="${e.NUM}" >
 	  				<input type="hidden" name="DATE" value=<%=date %> >
 					<input type="hidden" name="MONTH" value=<%=month %> >
 					<input type="hidden" name="YEAR" value=<%=year %> >
