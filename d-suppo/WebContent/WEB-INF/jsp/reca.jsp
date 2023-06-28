@@ -94,7 +94,7 @@
 			</div>
 		<br>
 		<div>
-			<input type="submit" value="送信" onClick="return isCheck()">
+			<input type="submit" value="送信" class = "super" onClick="return isCheck()">
 		</div>
 
 		</form>
