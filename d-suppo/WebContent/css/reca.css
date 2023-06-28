@@ -36,6 +36,20 @@ body {
     width: 20%;
 }
 
+.menu a{
+	display: block;
+    padding: 10px;
+    border: 1px solid #999;
+    border-right: none;
+    text-decoration: none;
+    color: #333;
+    background: #f2f2f2;
+}
+
+.menu li:last-child a{
+	border-right: 1px solid #999;
+}
+
 
 
 /*3Dボタン*/
@@ -204,7 +218,7 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
     -webkit-text-fill-color: transparent;
     font-weight: bold;
     display: inline-block;
-  animation: flowing 1s linear infinite;
+  animation: flowing 3s linear infinite;
   transform: translateX(100%);/*初期位置*/
 }
 
@@ -271,45 +285,63 @@ p.dietname{
 
 /*以下レスポンシブ*/
 @media (max-width: 867px) {
-    body{
-        background-color: #7FC23D;
+body{
         min-width :580px;
-    }
+}
 
-    #logo{
+#logo{
     margin: 30px 0;
-    }
+}
 
-    #logo img{
+#logo img{
     width: 30%;
-    }
+}
 
-    #nav li{
+    /*#nav li{
     display: block;
-    }
+    }*/
+    
+.menu ul{
+    flex-wrap: wrap;
+    border-bottom: 1px solid #999;
+    border-right: 1px solid #999;
+}
 
-    .diettable {
-     box-sizing: border-box;
-	 width: 100%;
-  	 padding: auto;
-	 margin: auto;
-	}
+.menu li{
+	width: 50%;
+    margin: 0;
+}
 
-    .item{
+.menu a{
+	border-bottom: none;
+}
+
+.menu li:last-child a{
+	border-right: none;
+}
+
+.diettable {
+    box-sizing: border-box;
+	width: 100%;
+  	padding: auto;
+	margin: auto;
+}
+
+.item{
     width: 100%;
     height: auto;
     padding: 0px ;
 	margin: 0px ;
-    }
+}
 
-    .diettext{
+.diettext{
 	width: 70%;
 	text-align: center;
 }
 
-    .dietpic {
-  width: 150px;
-  height: 100px;
+.dietpic {
+  width: 165px;
+  height: 120px;
 }
 
 .btn-3d-flip-box-face {
