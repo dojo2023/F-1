@@ -19,13 +19,18 @@
 				<li><a href="/d-suppo/LogoutServlet">ログアウト</a></li>
 
 			</ul>
-			<p class="question">お酒を呑みたい気分ですか？</p>
+			<div"> 
+			<div class="alcq">
+			<div>
+			<img src="./image/title/yajileft.png" width="50" >
+			<span class="question">お酒を呑みたい気分ですか？</span>
+			<img src="./image/title/yajiright.png" width="50">
+			</div>
+			</div>
+			
 				<a href="/d-suppo/RecaServlet" class="btn btn-malformation">呑む</a>
 				<a href="/d-suppo/RecdServlet" class="btn btn-malformation">呑まない</a>
-				<!--
-				<a href="/d-suppo/RecaServlet"><button type="button">呑む</button></a>
-				<a href="/d-suppo/RecdServlet"><button type="button">呑まない</button></a>
-				-->
+
 		</div>
 
 		<div>

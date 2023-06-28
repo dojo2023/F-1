@@ -41,13 +41,38 @@ body {
 
 /*文字*/
 
+.alcq{
+	background-image: url(/d-suppo/image/background/wood.jpg);
+}
+
 .question{
 	color: white;
 	font-size: 200%;
 	font-weight: bold;
-	background-image: url(/d-suppo/image/background/woodyaji.png);
 }
 
+span{
+	text-align: center;
+}
+
+.yajileft{
+	text-align: left;
+	position: relative;
+}
+
+.yajileft img{
+	background-color: white;	
+}
+
+.yajiright{
+	text-align: right;
+	position: relative;
+
+}
+
+.yajiright img{
+	background-color: white;
+}
 
 
 /*ボタン*/
