@@ -8,7 +8,6 @@
 <link rel="stylesheet" type="text/css" href="./css/chengepw.css">
 </head>
 <body>
-<p>PW更新ページ(試作)</p>
 <div class="wrapper">
     <h1 id ="logo"><a href="/d-suppo/MenuServlet" alt="メニュー"><img src="./image/title/titlelg169.png" width="220"  alt="試作"></a></h1>
 
