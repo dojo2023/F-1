@@ -121,6 +121,6 @@
 	<a href="/d-suppo/MenuServlet"><button>メニューへ戻る</button></a>
 </div>
 <footer id="footer">
-			<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
+			<p>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</p>
 		</footer></body>
 </html>

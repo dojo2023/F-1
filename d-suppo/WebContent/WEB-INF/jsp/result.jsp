@@ -34,6 +34,6 @@
   <a href="${result.backTo}"><button>戻る</button></a>
 </body>
 <div id="footer">
-			<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
+			<p>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</p>
 		</div>
 </html>

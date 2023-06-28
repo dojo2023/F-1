@@ -208,8 +208,6 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
     -webkit-text-fill-color: transparent;
     font-weight: bold;
     display: inline-block;
-    animation: flowing 3s linear infinite;
-    transform: translateX(100%);/*初期位置*/
 	margin-top: 30px;
 	margin-bottom: 20px;
 }
