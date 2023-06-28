@@ -76,23 +76,25 @@ public class DsUpdateServlet extends HttpServlet {
 		request.setAttribute("year",year );
 
 		//画像アップロード
-		//try {
 			Part part=request.getPart("pict");
 			//ファイル名を取得
-			String filename=part.getSubmittedFileName();
+			System.out.println("Partチェック" +part);
+			String filename="";
+			if(part.getSize() == 0 ){
+			 //ファイル名指定のみ
+				 filename="no_image_square.jpg";
+
+			}else{
+				filename=part.getSubmittedFileName();
 			String path= "C:/dojo6/d-suppo/WebContent/upload/" + filename;  //getServletContext().getRealPath("/upload");
 
-			//実際にファイルが保存されるパス確認
-			//System.out.println(path);
 			//書き込み
 			part.write(path);
 			path=getServletContext().getRealPath("/upload/");
-			//System.out.println(path + "/" +filename);
+
 			path = path + "/" +filename;
 			part.write(path);  //2回書き込むことで疑似的にどちらにも反映
-		/*	}catch(IOException e) {
-			String filename =  null;
-			}*/
+			}
 
 		Date ymd = new Date(date,month,year);
 		Ds ds = new Ds(dietname,calorie,dietcost,weight,timeslot,filename);
