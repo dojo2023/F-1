@@ -1,6 +1,12 @@
 @charset "UTF-8";
 /*recaResultで使用*/
 
+/*copyright*/
+footer {
+  margin-top: 22px;
+  background: #44aa33;
+}
+
 body {
   margin: 0 0 0 0;		/* マージンなし（後で個別に設定） */
   padding: 0 0 0 0;		/* パディングなし（後で個別に設定） */

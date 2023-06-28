@@ -4,6 +4,11 @@
 
 /*recaResultで使用*/
 
+/*copyright*/
+#footer {
+  margin-top: 22px;
+}
+
 * {
   outline: 1px solid #ff6666;
 }

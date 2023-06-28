@@ -4,6 +4,11 @@
     outline: 1px solid #ff6666;
 }
 
+/*copyright*/
+#footer {
+  margin-top: 22px;
+}
+
 body {
  margin: 0 0 0 0;
   padding: 0 0 0 0;
@@ -88,12 +93,12 @@ body {
     float: left;
 }
 
-button { 
+button {
   display: block;
   margin: 0 auto;
 }
 
-.button { 
+.button {
   display: block;
   margin: 0 auto;
 }
@@ -115,14 +120,14 @@ button {
       padding-left: 0;
       outline: 1px solid #252424;
     }
-    
+
     .content ul li {
         list-style: none;
         padding: 0 auto;
         margin-right: auto;
         margin-left: auto;
       }
-    
+
       .content ul li label {
         width: 20vw;
         float: left;
