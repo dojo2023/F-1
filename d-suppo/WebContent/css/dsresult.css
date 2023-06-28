@@ -273,6 +273,11 @@ button {
 .formday{
     text-align:center;
 }
+
+.content{
+  text-align: center;
+}
+
 /*以下レスポンシブ*/
 
 @media (max-width: 750px) {
