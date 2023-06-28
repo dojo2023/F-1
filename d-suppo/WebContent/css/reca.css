@@ -24,6 +24,10 @@ body {
 /*  background: #decdb2;
 /*}*/
 
+.menu{
+	background: #decdb2;
+}
+
 .menu ul{
 	display: flex;
     justify-content: center;
