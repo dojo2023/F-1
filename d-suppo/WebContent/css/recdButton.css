@@ -12,11 +12,7 @@
 /* {
   outline: 1px solid #ff6666;
 }*/
-/*pタグ*/
-p {
-	font-size:20px;
-	font-weight:bold;
-}
+
 
 body {
   margin: 0 0 0 0;		/* マージンなし（後で個別に設定） */
@@ -68,6 +64,14 @@ body {
     border-right: 1px solid #999;
 }
 
+/*pタグ*/
+p {
+	font-size:20px;
+	font-weight:bold;
+}
+
+
+
 
 /*ラジオボタン*/
 /*ラジオボタン 赤*/
@@ -107,14 +111,14 @@ body {
 .ad_radio label {
 	margin-left: auto;
     margin-right: auto;
-	width: 150px;;
-	font-size: 1em;
+	width: 150px;
+	font-size: 18px;
 	font-weight: bold;
 	line-height: 1;
 	position: relative;
 	display: block;
 	overflow: hidden;
-	padding: 1em 1em 1em 3em;
+	padding: 1em 3em 1em 3em;
 	cursor: pointer;
 	-webkit-transition: all 0.15s ease;
 	transition: all 0.15s ease;
@@ -173,20 +177,20 @@ body {
 .ad_radio2 label:hover,
 .ad_radio2 label:active,
 .ad_radio2 input:checked + label {
-	color: #38a1db;
+	color: #ba473d;
 }
 .ad_radio2 label:focus:before,
 .ad_radio2 label:hover:before,
 .ad_radio2 label:active:before,
 .ad_radio2 input:checked + label:before {
-	border-color: #38a1db;
+	border-color: #ba473d;
 	background: #ffffff;
 }
 .ad_radio2 label {
 	margin-left: auto;
     margin-right: auto;
 	width: 150px;
-	font-size: 1em;
+	font-size: 20px;
 	font-weight: bold;
 	line-height: 1;
 	position: relative;
@@ -211,8 +215,8 @@ body {
 	border-radius: 50%;
 }
 .ad_radio2 input:checked + label:before {
-	border-color: #38a1db;
-	background: #38a1db;
+	border-color: #ba473d;
+	background: #ba473d;
 }
 .ad_radio2 input:disabled + label {
 	cursor: not-allowed;
@@ -390,8 +394,15 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
 	height: 35vh;
 	width: auto;
 }
+.super {
+	height:30px;
+	width:100px;
+	
+}
 
-.button {
+button {
+	height:30px;
+	width:100px;
 	margin-top:20px;
 }
 
