@@ -41,4 +41,7 @@ max-width: 80%;
 <p>好きな写真:<br><img src="./upload/<%=filename %>"></p>
 </div>
 </body>
+<div id="footer">
+			<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
+		</div>
 </html>

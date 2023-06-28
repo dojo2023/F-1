@@ -64,7 +64,7 @@
     <div class="item">
    </c:if>
     <div class="dietpic">
-     <p class="dietname"><c:out value="${recresult.dietname}"/></p>
+     <p class="dietname"><b><c:out value="${recresult.dietname}"/></b></p>
      <img src = "${recresult.dietpic}">
     </div>
     <c:if  test = "${status.index%3 == 2}">
@@ -83,6 +83,6 @@
 </body>
 
 	<div id="footer">
-	  <marquee>&copy;なんかいれたい</marquee>
-	</div>
+			<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
+		</div>
 </html>

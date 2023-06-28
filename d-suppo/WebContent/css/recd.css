@@ -183,20 +183,40 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
 }
 
 .diettext{
-	text-align: center;
+	font-size:2em;
+    background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    display: inline-block;
+    animation: flowing 3s linear infinite;
+    transform: translateX(100%);/*初期位置*/
 	margin-top: 30px;
 	margin-bottom: 20px;
 }
 
+@keyframes flowing {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 .item {
+	padding-bottom: 250px;
 	margin-top: 20px;
 	margin-right: 0px;
 	margin-left: 0px;
+	border: 5px #4ec4d3;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
+	background-image: url(/d-suppo/image/background/wood.jpg);
+	background-size: 1000px;
 }
 
 p.dietname{
 	padding: 0 auto;
 	margin: 0 auto;
+	color: black;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
 }
 
 .dietpic {

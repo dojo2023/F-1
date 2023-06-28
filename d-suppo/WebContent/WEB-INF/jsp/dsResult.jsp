@@ -110,7 +110,7 @@
   <!--上メニュー、下-->
 
 		<div id="footer">
-			<marquee>&copy;なんかいれたい</marquee>
+			<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
 		</div>
 
 	</div>

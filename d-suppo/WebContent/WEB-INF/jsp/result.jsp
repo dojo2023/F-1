@@ -31,5 +31,9 @@
   </script>
   <hr>
   <h2><c:out value="${result.message}" /></h2>
+  <a href="${result.backTo}"><button>戻る</button></a>
 </body>
+<div id="footer">
+			<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
+		</div>
 </html>

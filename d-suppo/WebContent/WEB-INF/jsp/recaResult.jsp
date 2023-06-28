@@ -9,9 +9,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-	
+
 	<h1 id ="logo"><a href="/d-suppo/MenuServlet" alt="メニュー"><img src="./image/title/titlelg169.png" width="220"  alt="試作"></a></h1>
-	  <ul id="nav">
+	<nav class="menu">
+<ul>
 <li><a href="/d-suppo/RecServlet" class="btn btn-3d-flip btn-3d-flip2">
   <span class="btn-3d-flip-box2">
     <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">(試作1) 提案ページ<i class="fas fa-angle-right fa-position-right"></i></span>
@@ -47,7 +48,8 @@
   </span></a>
 </li>
   </ul>
-	
+  </nav>
+
 <div>
  <div class="diettable">
   <c:forEach var="recresult"  items="${cardList}"  varStatus = "status" >
@@ -110,7 +112,7 @@
 	  <div class="item">
 	 </c:if>
 	 <div class="dietpic">
-	  <p class="dietname"><c:out value="${recresult.dietname}"/></p>
+	  <p class="dietname"><b><c:out value="${recresult.dietname}"/></b></p>
 	  <img src = "${recresult.dietpic}">
 	 </div>
 	 <c:if  test = "${status.index%3 == 2}">
@@ -118,14 +120,13 @@
 	 </c:if>
 	 <c:if  test = "${status.index%3 == 2}">
 	  </div>
-	 </c:if> 
+	 </c:if>
   </c:forEach>
  </div>
     <a href="/d-suppo/RecaServlet"><button>質問画面へ戻る</button></a>
 	<a href="/d-suppo/MenuServlet"><button>メニューへ戻る</button></a>
 </div>
 <div id="footer">
- <marquee>&copy;なんかいれたい</marquee>
-</div>   
-</body>
+			<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
+		</div></body>
 </html>

@@ -31,4 +31,7 @@
   </span>
 </a>
 </body>
+<div id="footer">
+	    	<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
+		</div>
 </html>
