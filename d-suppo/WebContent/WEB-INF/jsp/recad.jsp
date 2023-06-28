@@ -41,10 +41,12 @@
   </li>
  </ul>
 </nav>
+<br>
 <div class="wrapper">
 <div class="alcq">
 <span class="question">お酒を呑みたい気分ですか？</span>
-</div>			
+</div>
+<br>
  <a href="/d-suppo/RecaServlet" class="btn btn-malformation">呑む</a>
  <a href="/d-suppo/RecdServlet" class="btn btn-malformation">呑まない</a>
 </div>
