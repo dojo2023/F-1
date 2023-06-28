@@ -13,16 +13,30 @@ body {
   background-position: center center;   /* 縦横中央 */
 }
 
-#nav li {
-  display: inline;		/* インラインで横に表示する */
-  list-style-type: none;	/* 先頭の記号をなくす */
-  padding: 10px;		/* 区切りを空ける */
+/*#nav li {
+/*  display: inline; 	/* インラインで横に表示する */
+/*  list-style-type: none;	/* 先頭の記号をなくす */
+/*  padding: 10px;		/* 区切りを空ける */
+/*}
+/*#nav {
+/*  margin: 0 0 0 0;
+/*  padding: 0 0 0 0;
+/*  background: #decdb2;
+/*}*/
+
+.menu ul{
+	display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
-#nav {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-  background: #decdb2;
+
+.menu li{
+	list-style: none;
+    width: 20%;
 }
+
+
 
 /*3Dボタン*/
 .btn,
@@ -151,6 +165,7 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
   position: absolute;
   top: 0;
   left: 100%;
+  height: 20px;
   font-size: 12px;
   -webkit-transform: translateX(-1px) rotateY(90deg);
   transform: translateX(-1px) rotateY(90deg);
@@ -203,7 +218,10 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
 	margin-top: 10px;
 	margin-right: 10px;
 	margin-left: 10px;
-	background-color: white;
+	border: 5px #4ec4d3;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
+	background-image: url(/d-suppo/image/background/wood.jpg);
+	background-size: 1000px;
 }
 .kaigyou{
     clear:both;
@@ -212,8 +230,8 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
 p.dietname{
 	padding: 0 auto;
 	margin: 0 auto;
-	background-color: white;
-	border: 5px solid black;
+	color: black;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
 }
 
 .dietpic {
@@ -243,6 +261,11 @@ p.dietname{
   text-align: center;
   margin:0;
   padding: 0;
+}
+
+#logo a img{
+	height: 35vh;
+	width: auto;
 }
 
 
@@ -280,7 +303,8 @@ p.dietname{
     }
 
     .diettext{
-	width: 100%;
+	width: 70%;
+	text-align: center;
 }
 
     .dietpic {
