@@ -63,13 +63,34 @@ public class DsUpdateServlet extends HttpServlet {
 		// リクエストパラメータを取得する
 		request.setCharacterEncoding("UTF-8");
 		String dietname = request.getParameter("DIETNAME");
-		String calorie = request.getParameter("CALORIE");
-		String dietcost = request.getParameter("DIETCOST");
-		String weight = request.getParameter("WEIGHT");
+		String r_c = request.getParameter("CALORIE");
+		String r_d = request.getParameter("DIETCOST");
+		String r_w = request.getParameter("WEIGHT");
 		String date = request.getParameter("DATE");
 		String month = request.getParameter("MONTH");
 		String year = request.getParameter("YEAR");
 		int timeslot = Integer.parseInt(request.getParameter("TIMESLOT"));
+
+		Double calorie;
+		int dietcost;
+		Double weight;
+
+		//formがnullの場合の処理
+		if (r_c != null && !r_c.equals("")) {
+			calorie =  Double.parseDouble( r_c);
+		}else {
+			calorie = -1.0;
+		}
+		if (r_d != null && !r_d.equals("")) {
+			dietcost = Integer.parseInt( r_d);
+		}else {
+			dietcost = 0;
+		}
+		if (r_w != null && !r_w.equals("")) {
+			weight =Double.parseDouble( r_w);
+		}else {
+			weight = -1.0;
+		}
 
 		request.setAttribute("date",date );//ページ上部の日付用
 		request.setAttribute("month",month );

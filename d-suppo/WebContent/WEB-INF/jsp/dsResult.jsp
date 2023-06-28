@@ -70,7 +70,9 @@
 	<div class = content>
   		<c:forEach var="e" items="${dsList}" >
 			<form method="POST" action="/d-suppo/DeleteDsServlet" >
-					<c:choose>
+
+	   				<img src=" ${'./upload/' +=e.UPLOADIMG}"><br>
+	   				<c:choose>
 			  			<c:when test="${e.TIMESLOT == 0}">
 			  				<div class="diettext">未入力</div><br>
 			  			</c:when>
@@ -87,9 +89,8 @@
 			  				<div class="diettext">間食</div><br>
 			  			</c:when>
    					</c:choose>
-	   				<img src=" ${'./upload/' +=e.UPLOADIMG}"><br>
 	   				<label>食事内容:</label>
-	   				<input type="text" name="DIETNAME" value="${e.DIETNAME}"><br>
+	   				<span>"${e.DIETNAME}"</span><br>
 	   				<label>カロリー:</label>
 	  				<input type="text" name="CALORIE" value ="${e.CALORIE}" >kcal<br>
 	  				<label>食費:</label>

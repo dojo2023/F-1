@@ -4,16 +4,16 @@ import java.io.Serializable;
 public class Ds implements Serializable {
 	private int NUM;
 	private String DIETNAME;
-	private String CALORIE;
-	private String DIETCOST;
-	private String WEIGHT;
+	private Double CALORIE;
+	private int DIETCOST;
+	private Double WEIGHT;
 	private String DATE;
 	private String MONTH;
 	private String YEAR;
 	private int TIMESLOT;
 	private String UPLOADIMG;
 
-	public Ds(int NUM, String DIETNAME, String CALORIE, String DIETCOST,String UPLOADIMG, int TIMESLOT) {
+	public Ds(int NUM, String DIETNAME, Double CALORIE, int DIETCOST,String UPLOADIMG, int TIMESLOT) {
 		this.NUM = NUM;
 		this.DIETNAME = DIETNAME;
 		this.CALORIE = CALORIE;
@@ -23,7 +23,7 @@ public class Ds implements Serializable {
 	}
 
 
-	public Ds(String DIETNAME, String CALORIE, String DIETCOST, String WEIGHT, String DATE,String MONTH,String YEAR,int TIMESLOT) {
+	public Ds(String DIETNAME, Double CALORIE, int DIETCOST, Double WEIGHT, String DATE,String MONTH,String YEAR,int TIMESLOT) {
 		this.DIETNAME = DIETNAME;
 		this.CALORIE = CALORIE;
 		this.DIETCOST = DIETCOST;
@@ -34,7 +34,7 @@ public class Ds implements Serializable {
 		this.TIMESLOT = TIMESLOT;
 	}
 
-	public Ds(String DIETNAME, String CALORIE, String DIETCOST, String WEIGHT,int TIMESLOT,String UPLOADIMG) {
+	public Ds(String DIETNAME, Double CALORIE, int DIETCOST, Double WEIGHT,int TIMESLOT,String UPLOADIMG) {
 		this.DIETNAME = DIETNAME;
 		this.CALORIE = CALORIE;
 		this.DIETCOST = DIETCOST;
@@ -46,9 +46,9 @@ public class Ds implements Serializable {
 	public Ds() {
 		this.NUM = 0;
 		this.DIETNAME = "";
-		this.CALORIE = "";
-		this.DIETCOST = "";
-		this.WEIGHT = "";
+		this.CALORIE = 0.0;
+		this.DIETCOST = 0;
+		this.WEIGHT = 0.0;
 		this.DATE = "";
 		this.MONTH = "";
 		this.YEAR = "";
@@ -72,27 +72,27 @@ public class Ds implements Serializable {
 		this.DIETNAME = DIETNAME;
 	}
 
-	public String getCALORIE() {
+	public Double getCALORIE() {
 		return CALORIE;
 	}
 
-	public void setCALORIE(String CALORIE) {
+	public void setCALORIE(Double CALORIE) {
 		this.CALORIE = CALORIE;
 	}
 
-	public String getDIETCOST() {
+	public int getDIETCOST() {
 		return DIETCOST;
 	}
 
-	public void DIETCOST(String DIETCOST) {
+	public void DIETCOST(int DIETCOST) {
 		this.DIETCOST = DIETCOST;
 	}
 
-	public String getWEIGHT() {
+	public Double getWEIGHT() {
 		return WEIGHT;
 	}
 
-	public void setWEIGHT(String WEIGHT) {
+	public void setWEIGHT(Double WEIGHT) {
 		this.WEIGHT = WEIGHT;
 	}
 

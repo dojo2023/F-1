@@ -88,12 +88,12 @@ body {
     float: left;
 }
 
-button { 
+button {
   display: block;
   margin: 0 auto;
 }
 
-.button { 
+.button {
   display: block;
   margin: 0 auto;
 }
@@ -101,6 +101,11 @@ button {
 .formday{
     text-align:center;
 }
+
+.content{
+  text-align: center;
+}
+
 /*以下レスポンシブ*/
 
 @media (max-width: 750px) {
@@ -115,14 +120,14 @@ button {
       padding-left: 0;
       outline: 1px solid #252424;
     }
-    
+
     .content ul li {
         list-style: none;
         padding: 0 auto;
         margin-right: auto;
         margin-left: auto;
       }
-    
+
       .content ul li label {
         width: 20vw;
         float: left;

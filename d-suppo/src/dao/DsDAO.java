@@ -33,28 +33,14 @@ public class DsDAO {
 			}else {
 				pStmt.setString(1, "");
 			}
-			if (ds.getCALORIE() != null && !ds.getCALORIE().equals("")) {
-				pStmt.setString(2, ds.getCALORIE());
-			}else {
-				pStmt.setString(2, "");
-			}
-			if (ds.getDIETCOST() != null && !ds.getDIETCOST().equals("")) {
-				pStmt.setString(6, ds.getDIETCOST());
-			}else {
-				pStmt.setString(6, "");
-			}
-			if (ds.getWEIGHT() != null && !ds.getWEIGHT().equals("")) {
-				pStmt.setString(7, ds.getWEIGHT());
-			}else {
-				pStmt.setString(7, "");
-			}
-			pStmt.setString(8, id);
+				pStmt.setDouble(2, ds.getCALORIE());
+				pStmt.setInt(6, ds.getDIETCOST());
+				pStmt.setDouble(7, ds.getWEIGHT());
+			    pStmt.setString(8, id);
 
-			if (ds.getUPLOADIMG() != null && !ds.getUPLOADIMG().equals("")) {
+
 				pStmt.setString(9, ds.getUPLOADIMG());
-			}else {
-				pStmt.setString(9, "./image/dummy/noimage.png");
-			}
+
 			pStmt.setInt(10, ds.getTIMESLOT());
 
 			pStmt.setString(3, ymd.getYear());
@@ -118,8 +104,8 @@ public class DsDAO {
 				Ds dsresult = new Ds(
 					rs.getInt("NUM"),
 					rs.getString("DIETNAME"),
-					rs.getString("CALORIE"),
-					rs.getString("DIETCOST"),
+					rs.getDouble("CALORIE"),
+					rs.getInt("DIETCOST"),
 					rs.getString("UPLOADIMG"),
 					rs.getInt("TIMESLOT")
 				);
