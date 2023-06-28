@@ -98,7 +98,7 @@
 		</div>
 
 		</form>
-			<div>
+			<div class = "button">
 				<a href="/d-suppo/MenuServlet"><button>戻る</button></a>
 			</div>
 

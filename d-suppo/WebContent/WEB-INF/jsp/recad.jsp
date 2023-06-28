@@ -53,7 +53,7 @@
 
 <br>
 <div>
- <a href="/d-suppo/MenuServlet"><button class="back">戻る</button></a>
+	<a href="/d-suppo/MenuServlet"><button class="back">戻る</button></a>
 </div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
