@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
- * {
-    outline: 1px solid #ff6666;
-}
-
 /*copyright*/
 #footer {
   margin-top: 22px;
@@ -57,12 +53,13 @@ body {
 .menu ul{
    display: flex;
    justify-content: center;
-   margin: 0;
+   margin-left: 10px;
+   margin-right: 10px;
    padding: 0;
 }
 .menu li{
    list-style: none;
-   margin: 10px;
+   margin: 18px;
 }
 .menu a{
    display: block;
@@ -104,7 +101,7 @@ button.btn {
 }
 
 a.btn-3d-flip {
-  width: 200px;
+  width: 180px;
   margin: 0 auto;
   padding: 0;
 
@@ -169,7 +166,7 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
   display: block;
   position: relative;
   width: 100%;
-  padding: 1.5rem 0;
+  padding: 1.1rem 0;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   color: #fff;
@@ -237,15 +234,13 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
   padding: 0;
 }
 
-#logo a img{
-	height: 35vh;
-	width: auto;
+.formday span{
+    padding-left: 230px;
 }
 
 .content ul{
   margin: 0 auto;
   padding-left: 0;
-  outline: 1px solid #252424;
 }
 
 .content ul li {
@@ -254,8 +249,12 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
     margin-right: 20%;
     margin-left: 20%;
   }
+  
+.content li{
+	    text-align:left;
+}
 
-  .content ul li label {
+.content ul li label {
     width:15vw;
     float: left;
 }
@@ -270,9 +269,6 @@ button {
   margin: 0 auto;
 }
 
-.formday{
-    text-align:center;
-}
 
 .content{
   text-align: center;
@@ -286,7 +282,7 @@ body{
   font-size: 12px;
   min-width :580px;
 }
-    
+
 #logo{
   margin: 30px 0;
 }

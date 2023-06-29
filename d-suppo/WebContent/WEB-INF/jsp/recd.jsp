@@ -9,18 +9,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<h1 id ="logo"><a href="/d-suppo/MenuServlet" alt="メニュー"><img src="./image/title/titlelg169.png" width="220"  alt="試作"></a></h1>
-  <ul id="nav">
+	<h1 id ="logo"><a href="/d-suppo/MenuServlet" alt="メニュー"><img src="./image/title/titlelgB169.png" width="220"  alt="試作"></a></h1>
+
+<nav class="menu">
+ <ul>
 	<li><a href="/d-suppo/RecServlet" class="btn btn-3d-flip btn-3d-flip2">
   	 <span class="btn-3d-flip-box2">
-     <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">(試作1) 提案ページ<i class="fas fa-angle-right fa-position-right"></i></span>
+     <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">提案ページ<i class="fas fa-angle-right fa-position-right"></i></span>
      <span class="btn-3d-flip-box-face  btn-3d-flip-box-face--back2">お酒と食事の提案をします<i class="fas fa-angle-right fa-position-right"></i></span>
   	 </span></a>
 	</li>
 	<li>
 	<a href="/d-suppo/DsServlet" class="btn btn-3d-flip btn-3d-flip2">
   	<span class="btn-3d-flip-box2">
-    <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">(試作2) 管理ページ<i class="fas fa-angle-right fa-position-right"></i></span>
+    <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">管理ページ<i class="fas fa-angle-right fa-position-right"></i></span>
     <span class="btn-3d-flip-box-face  btn-3d-flip-box-face--back2">食事の管理ができます<i class="fas fa-angle-right fa-position-right"></i></span>
   	</span></a>
  	</li>
@@ -38,16 +40,11 @@
      <span class="btn-3d-flip-box-face  btn-3d-flip-box-face--back2">ログアウトします<i class="fas fa-angle-right fa-position-right"></i></span>
      </span></a>
 	</li>
-	<li>
-	 <a href="/d-suppo/UploadServlet" class="btn btn-3d-flip btn-3d-flip2">
-  	 <span class="btn-3d-flip-box2">
-     <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">試作3,画像<i class="fas fa-angle-right fa-position-right"></i></span>
-     <span class="btn-3d-flip-box-face  btn-3d-flip-box-face--back2">側面です<i class="fas fa-angle-right fa-position-right"></i></span>
-  	 </span></a>
-	</li>
- </ul>
 
-<p>おススメ</p>
+ </ul>
+</nav>
+
+<p class = "sakura">おススメ</p>
 
 <form method="POST" action="/d-suppo/RecdServlet" id="recd-form" name="recdform">
     <!-- 呑まない人 = 1 -->
@@ -130,15 +127,23 @@
 	</div>
 </form>
 	<div class = "button">
-		<a href="/d-suppo/MenuServlet"><button>戻る</button></a>
+		<a href="/d-suppo/RecServlet"><button>戻る</button></a>
 	</div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="./js/recdjs.js"></script>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script>
+	$(function() {
+	    $(".ad_radio").click(function() {
+	        $(".ad_radio2").slideToggle("");
+	    });
+	});
+</script>	
 
 </body>
 <div id="footer">
-			<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
+			<p>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</p>
 		</div>
 </html>

@@ -204,14 +204,12 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
 }
 
 .diettext{
- font-size:2em;
-     background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+    font-size: 2em;
+    background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
     display: inline-block;
-  animation: flowing 3s linear infinite;
-  transform: translateX(100%);/*初期位置*/
 }
 
 @keyframes flowing {

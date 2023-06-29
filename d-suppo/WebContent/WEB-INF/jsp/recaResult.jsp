@@ -16,14 +16,14 @@
   <li>
    <a href="/d-suppo/RecServlet" class="btn btn-3d-flip btn-3d-flip2">
    <span class="btn-3d-flip-box2">
-   <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">(試作1) 提案ページ<i class="fas fa-angle-right fa-position-right"></i></span>
+   <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">提案ページ<i class="fas fa-angle-right fa-position-right"></i></span>
    <span class="btn-3d-flip-box-face  btn-3d-flip-box-face--back2">お酒と食事の提案をします<i class="fas fa-angle-right fa-position-right"></i></span>
    </span></a>
   </li>
   <li>
    <a href="/d-suppo/DsServlet" class="btn btn-3d-flip btn-3d-flip2">
    <span class="btn-3d-flip-box2">
-   <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">(試作2) 管理ページ<i class="fas fa-angle-right fa-position-right"></i></span>
+   <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">管理ページ<i class="fas fa-angle-right fa-position-right"></i></span>
    <span class="btn-3d-flip-box-face  btn-3d-flip-box-face--back2">食事の管理ができます<i class="fas fa-angle-right fa-position-right"></i></span>
    </span></a>
   </li>
@@ -121,6 +121,6 @@
 	<a href="/d-suppo/MenuServlet"><button>メニューへ戻る</button></a>
 </div>
 <footer id="footer">
-			<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
+			<p>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</p>
 		</footer></body>
 </html>

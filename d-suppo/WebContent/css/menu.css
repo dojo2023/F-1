@@ -59,7 +59,7 @@ body {
 }
 .menu li{
    list-style: none;
-   margin: 10px;
+   margin: 18px;
 }
 .menu a{
    display: block;
@@ -140,7 +140,7 @@ button.btn {
 }
 
 a.btn-3d-flip {
-  width: 200px;
+  width: 180px;
   margin: 0 auto;
   padding: 0;
 

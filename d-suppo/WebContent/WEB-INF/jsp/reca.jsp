@@ -15,14 +15,14 @@
   <li>
    <a href="/d-suppo/RecServlet" class="btn btn-3d-flip btn-3d-flip2">
    <span class="btn-3d-flip-box2">
-   <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">(試作1) 提案ページ<i class="fas fa-angle-right fa-position-right"></i></span>
+   <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">提案ページ<i class="fas fa-angle-right fa-position-right"></i></span>
    <span class="btn-3d-flip-box-face  btn-3d-flip-box-face--back2">お酒と食事の提案をします<i class="fas fa-angle-right fa-position-right"></i></span>
    </span></a>
   </li>
   <li>
    <a href="/d-suppo/DsServlet" class="btn btn-3d-flip btn-3d-flip2">
    <span class="btn-3d-flip-box2">
-   <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">(試作2) 管理ページ<i class="fas fa-angle-right fa-position-right"></i></span>
+   <span class="btn-3d-flip-box-face btn-3d-flip-box-face--front2">管理ページ<i class="fas fa-angle-right fa-position-right"></i></span>
    <span class="btn-3d-flip-box-face  btn-3d-flip-box-face--back2">食事の管理ができます<i class="fas fa-angle-right fa-position-right"></i></span>
    </span></a>
   </li>
@@ -47,7 +47,7 @@
 			<input type = "hidden" name = "DRINK" value = "0">
 
 		<div>
-			<p>お酒の種類は？</p>
+			<p class = "inc">お酒の種類は？</p>
 		</div>
 
 		<div class = "al_check">
@@ -78,7 +78,7 @@
 		</div>
 		<br>
 		<div>
-			<p>食事の系統は？</p>
+			<p class = "inc">食事の系統は？</p>
 		</div>
 			<div class="ad_radio">
 				<div class = "box" style="display:inline-flex">
@@ -99,7 +99,7 @@
 
 		</form>
 			<div class = "button">
-				<a href="/d-suppo/MenuServlet"><button>戻る</button></a>
+				<a href="/d-suppo/RecServlet"><button>戻る</button></a>
 			</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -107,6 +107,6 @@
 
 	</body>
 		<div id="footer">
-			<marquee>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</marquee>
+			<p>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</p>
 		</div>
 </html>
