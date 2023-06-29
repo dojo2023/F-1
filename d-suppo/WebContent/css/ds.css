@@ -17,6 +17,8 @@ body {
   background-size: cover;               /* 全画面 */
   background-attachment: fixed;         /* 固定 */
   background-position: center center;   /* 縦横中央 */
+  margin: 0px auto;	/* 中央揃え */
+  max-width: 960px;	/* 幅を固定 */
 }
 
 #logo a {
@@ -33,7 +35,8 @@ body {
 .menu ul{
    display: flex;
    justify-content: center;
-   margin: 0;
+   margin-left: 10px;
+   margin-right: 10px;
    padding: 0;
 }
 .menu li{
@@ -145,7 +148,7 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
   display: block;
   position: relative;
   width: 100%;
-  padding: 1.5rem 0;
+  padding: 1.1rem 0;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   color: #fff;

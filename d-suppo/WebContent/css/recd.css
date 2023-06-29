@@ -265,11 +265,11 @@ p.dietname{
 
 }
 
-#logo a img{
-height: 35vh;
-  width: auto;
+button{
+	width:10em;
+	height: 3em;
+	margin-top:20px;
 }
-
 
 /*以下レスポンシブ*/
 @media (max-width: 867px) {
