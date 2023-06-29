@@ -3,6 +3,7 @@
 /*copyright*/
 #footer {
   margin-top: 22px;
+  text-align: center;
 }
 
 body {
@@ -249,7 +250,7 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
     margin-right: 20%;
     margin-left: 20%;
   }
-  
+
 .content li{
 	    text-align:left;
 }
