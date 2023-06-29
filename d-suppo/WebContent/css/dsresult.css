@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
- * {
-    outline: 1px solid #ff6666;
-}
-
 /*copyright*/
 #footer {
   margin-top: 22px;
@@ -57,7 +53,8 @@ body {
 .menu ul{
    display: flex;
    justify-content: center;
-   margin: 0;
+   margin-left: 10px;
+   margin-right: 10px;
    padding: 0;
 }
 .menu li{
@@ -237,10 +234,6 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
   padding: 0;
 }
 
-#logo a img{
-	height: 35vh;
-	width: auto;
-}
 
 .content ul{
   margin: 0 auto;
