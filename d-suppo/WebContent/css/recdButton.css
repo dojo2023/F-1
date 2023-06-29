@@ -196,7 +196,7 @@ p.sakura {
 	        transition: all 0.15s ease;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	
+
 }
 
 .ad_radio2 label:before {
@@ -402,9 +402,9 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
 
 /*ボタン操作で移動しないように編集中---------------------------------*/
 
-*{	 outline: 1px solid #ff6666;}
+/**{	 outline: 1px solid #ff6666;}*/
 #recd-form{
-  background-image: url(/d-suppo/image/background/wood.jpg);
+  /*background-image: url(/d-suppo/image/background/wood.jpg);*/
 	padding: 20px;
 }
 
