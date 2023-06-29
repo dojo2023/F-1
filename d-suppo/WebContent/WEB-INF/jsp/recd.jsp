@@ -127,7 +127,7 @@
 	</div>
 </form>
 	<div class = "button">
-		<a href="/d-suppo/MenuServlet"><button>戻る</button></a>
+		<a href="/d-suppo/RecServlet"><button>戻る</button></a>
 	</div>
 </div>
 
