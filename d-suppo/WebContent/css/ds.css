@@ -19,8 +19,8 @@ body {
   background-position: center center;   /* 縦横中央 */
 }
 
-a:hover {
-	text-decoration: underline;
+#logo a {
+	text-decoration: none;
 }
 
 /*メニューバー*/
