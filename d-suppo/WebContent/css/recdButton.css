@@ -110,8 +110,8 @@ body {
 .ad_radio label {
 	margin-left: auto;
     margin-right: auto;
-	width: 200px;;
-	font-size: 17px;
+	width: 200px;
+	font-size: 15px;
 	font-weight: bold;
 	line-height: 1;
 	position: relative;
@@ -435,14 +435,14 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
 
 }
 
-
 /*送信ボタン*/
 .super {
-	width:100px;
-    
+	width:10em;
+	height: 3em;
+    margin-top:20px;
 }
 button {
-	width:100px;
+	width:10em;
     margin-top:20px;
 }
 /*以下レスポンシブ*/
