@@ -59,7 +59,7 @@ public class ChengePwServlet extends HttpServlet {
 			    new Result("更新成功！", "メニューに戻ります", "/d-suppo/MenuServlet"));
 
 			    // 結果ページにフォワードする
-			    RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/result.jsp");
+			    RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/result2.jsp");
 			    dispatcher.forward(request, response);
 		    }
 		    else {									// 更新失敗
