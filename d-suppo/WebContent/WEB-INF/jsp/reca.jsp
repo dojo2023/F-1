@@ -47,7 +47,7 @@
 			<input type = "hidden" name = "DRINK" value = "0">
 
 		<div>
-			<p>お酒の種類は？</p>
+			<p class = "inc">お酒の種類は？</p>
 		</div>
 
 		<div class = "al_check">
@@ -78,7 +78,7 @@
 		</div>
 		<br>
 		<div>
-			<p>食事の系統は？</p>
+			<p class = "inc">食事の系統は？</p>
 		</div>
 			<div class="ad_radio">
 				<div class = "box" style="display:inline-flex">

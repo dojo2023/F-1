@@ -13,6 +13,11 @@
   outline: 1px solid #ff6666;
 }*/
 
+/*pタグ*/
+p.sakura {
+	font-size:20px;
+	font-weight:bold;
+}
 
 body {
   margin: 0 0 0 0;		/* マージンなし（後で個別に設定） */
@@ -34,7 +39,6 @@ body {
   overflow:hidden;
 }
 
-/*メニューバー*/
 .menu{
   margin: 0 0 0 0;
   padding: 0 0 0 0;
@@ -64,11 +68,6 @@ body {
     border-right: 1px solid #999;
 }
 
-/*pタグ*/
-p {
-	font-size:20px;
-	font-weight:bold;
-}
 
 
 
@@ -111,14 +110,14 @@ p {
 .ad_radio label {
 	margin-left: auto;
     margin-right: auto;
-	width: 150px;
-	font-size: 18px;
+	width: 200px;;
+	font-size: 17px;
 	font-weight: bold;
 	line-height: 1;
 	position: relative;
 	display: block;
 	overflow: hidden;
-	padding: 1em 3em 1em 3em;
+	padding: 1em 1em 1em 3em;
 	cursor: pointer;
 	-webkit-transition: all 0.15s ease;
 	transition: all 0.15s ease;
@@ -190,7 +189,7 @@ p {
 	margin-left: auto;
     margin-right: auto;
 	width: 150px;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: bold;
 	line-height: 1;
 	position: relative;
@@ -202,8 +201,9 @@ p {
 	        transition: all 0.15s ease;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-
+	
 }
+
 .ad_radio2 label:before {
 	position: absolute;
 	top: 1em;
@@ -231,16 +231,41 @@ p {
 	background: #ffffff;
 }
 
+ad_radio {
+    display: inline-block;
+    background: #b6beff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+ad_radio2{
+    background: #ffaf74;
+    height: 100px;
+}
+
 /*3Dボタン*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
 .btn,
 a.btn,
 button.btn {
-
+  font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.5;
   position: relative;
   display: inline-block;
-  padding: 0px;
+  padding: 1rem 4rem;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -254,6 +279,21 @@ button.btn {
   letter-spacing: 0.1em;
   color: #212529;
   border-radius: 0.5rem;
+}
+
+a.btn-malformation {
+  font-size: 2rem;
+
+  padding: 3rem 4rem;
+
+  color: #fff;
+  border-radius: 100% 80px / 80px 100%;
+  background-color: #eb6100;
+}
+
+a.btn-malformation:hover {
+  color: #fff;
+  border-radius: 60% 80% / 100% 80%;
 }
 
 a.btn-3d-flip {
@@ -322,7 +362,7 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
   display: block;
   position: relative;
   width: 100%;
-  padding: 1.5rem 0;
+  padding: 1.3rem 0;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   color: #fff;
@@ -375,6 +415,10 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
 }
 
 
+
+
+
+
 /* id = footer */
 #footer {
   background-image: url(images/footer-bg.png);
@@ -388,30 +432,25 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
   text-align: center;
   margin:0;
   padding: 0;
+
 }
 
-#logo a img{
-	height: 35vh;
-	width: auto;
-}
+
+/*送信ボタン*/
 .super {
-	height:30px;
 	width:100px;
-	
+    
 }
-
 button {
-	height:30px;
 	width:100px;
-	margin-top:20px;
+    margin-top:20px;
 }
-
 /*以下レスポンシブ*/
-@media (max-width: 867px) {
-body{
-  background-color: #7FC23D;
-  min-width :580px;
-}
+
+@media (max-width: 959px) {
+    body{
+        background-color: #7fc23d;
+    }
 
 #logo{
   margin: 30px 0;
@@ -445,5 +484,5 @@ body{
   width: 100%;
   height: auto;
 }
-
 }
+

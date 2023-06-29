@@ -44,7 +44,7 @@
  </ul>
 </nav>
 
-<p>おススメ</p>
+<p class = "sakura">おススメ</p>
 
 <form method="POST" action="/d-suppo/RecdServlet" id="recd-form" name="recdform">
     <!-- 呑まない人 = 1 -->
@@ -133,6 +133,14 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="./js/recdjs.js"></script>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script>
+	$(function() {
+	    $(".ad_radio").click(function() {
+	        $(".ad_radio2").slideToggle("");
+	    });
+	});
+</script>	
 
 </body>
 <div id="footer">
