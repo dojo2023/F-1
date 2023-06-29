@@ -264,11 +264,6 @@ p.dietname{
   padding: 0;
 }
 
-#logo a img{
-	height: 35vh;
-	width: auto;
-}
-
 button{
 	width:10em;
 	height: 3em;
