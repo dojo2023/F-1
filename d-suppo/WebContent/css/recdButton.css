@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-@charset "UTF-8";
-
 /*recaResultで使用*/
 
 /*copyright*/
@@ -9,9 +7,6 @@
   margin-top: 22px;
 }
 
-/* {
-  outline: 1px solid #ff6666;
-}*/
 
 
 
@@ -231,16 +226,7 @@ p.sakura {
 	background: #ffffff;
 }
 
-ad_radio {
-    display: inline-block;
-    background: #b6beff;
-    padding: 5px 10px;
-    cursor: pointer;
-}
-ad_radio2{
-    background: #ffaf74;
-    height: 100px;
-}
+
 
 /*3Dボタン*/
 
@@ -414,7 +400,29 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
   right: 1rem;
 }
 
+/*ボタン操作で移動しないように編集中---------------------------------*/
 
+*{	 outline: 1px solid #ff6666;}
+#recd-form{
+  background-image: url(/d-suppo/image/background/wood.jpg);
+	padding: 20px;
+}
+
+#frap{
+	display:flex;
+	justify-content: center
+}
+
+.form-check{
+  width:200px;
+}
+
+
+#genreList,
+#dishList,
+#havList{
+  visibility: hidden;
+}
 
 
 

@@ -62,7 +62,7 @@
 	        <label class="form-check-label" for="check3"> 主食から選ぶ</label>
 	    </div>
     </div>
-	</ul>
+	<div id = "frap">
 	<div class="ad_radio2" >
 		<div class = "box" id="genreList">
 		    <div class="form-check">
@@ -122,10 +122,12 @@
 		    </div>
 		</div>
 	</div>
+	</div>
 	<div>
 		<input type="submit" value="送信" class = "super">
 	</div>
 </form>
+
 	<div class = "button">
 		<a href="/d-suppo/RecServlet"><button>戻る</button></a>
 	</div>
@@ -134,14 +136,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="./js/recdjs.js"></script>
 <script src="https://code.jquery.com/jquery.min.js"></script>
-<script>
-	$(function() {
-	    $(".ad_radio").click(function() {
-	        $(".ad_radio2").slideToggle("");
-	    });
-	});
-</script>	
-
 </body>
 <div id="footer">
 			<p>&copy;Copyright 2023 F1 ネットワーク動物園. All rights reserved.</p>
