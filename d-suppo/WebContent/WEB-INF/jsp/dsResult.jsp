@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="wrapper">
-		<h1 id ="logo"><a href="/d-suppo/MenuServlet" alt="メニュー"><img src="./image/title/titlelg169.png" width="220"  alt="試作"></a></h1>
+		<h1 id ="logo"><a href="/d-suppo/MenuServlet" alt="メニュー"><img src="./image/title/titlelg169.png" width="220"  alt="試作"><img src="./image/title/titlelgB169.png" width="220"  alt="試作"></a></h1>
 <nav class="menu">
  <ul>
   <li>
