@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/*copyright*/
+#footer {
+  margin-top: 22px;
+}
+
+body {
+  font-size: 16px;
+  text-align:center;
+   background-image: url(/d-suppo/image/background/haikei1.jpg); /* 画像 */
+   background-size: cover;               /* 全画面 */
+   background-attachment: fixed;         /* 固定 */
+   background-position: center center;   /* 縦横中央 */
+}
+
+button{
+	width:10em;
+}
+
+#AA{
+	text-align:left;
+	padding-left:35vw;
+}

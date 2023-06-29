@@ -14,7 +14,7 @@
   <div id="countdown">
   </div>
   <script>
-    var seconds = 300;
+    var seconds = 30;
     window.onload = function () {
       var countdownElement = document.getElementById("countdown");
       function countdown() {

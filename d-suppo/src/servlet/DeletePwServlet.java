@@ -58,19 +58,12 @@ public class DeletePwServlet extends HttpServlet {
 			    new Result("削除成功！", "今までありがとうございました", "/d-suppo/LogoutServlet"));
 
 			    // 結果ページにフォワードする
-			    RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/result.jsp");
+			    RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/result2.jsp");
 			    dispatcher.forward(request, response);
 		    }
-		    else {				
-			    request.setAttribute("result",
-			    new Result("削除失敗！", "エラー1、メニューに戻ります", "/d-suppo/MenuServlet"));
-			    // 結果ページにフォワードする
-			    RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/result.jsp");
-			    dispatcher.forward(request, response);
-		    }
-        }else{  
+        	}else{
             request.setAttribute("result",
-			    new Result("削除失敗！", "エラー2、メニューに戻ります", "/d-suppo/MenuServlet"));
+			    new Result("削除失敗！", "パスワードが違います、メニューに戻ります", "/d-suppo/MenuServlet"));
 
 			    // 結果ページにフォワードする
 			    RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/result.jsp");

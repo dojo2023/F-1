@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>result</title>
-<link rel="stylesheet" type="text/css" href="./css/result.css">
+<link rel="stylesheet" type="text/css" href="./css/result2.css">
 </head>
 <body>
   <h1>
@@ -14,7 +14,7 @@
   <div id="countdown">
   </div>
   <script>
-    var seconds = 300;
+    var seconds = 30;
     window.onload = function () {
       var countdownElement = document.getElementById("countdown");
       function countdown() {

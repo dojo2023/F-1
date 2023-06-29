@@ -45,7 +45,10 @@ public class IdpwRegistServlet extends HttpServlet {
 			if(registIdpw.insertIdpw(new Idpw(id, pw))) {
 			request.setAttribute("result",
 					new Result("登録成功！", "ID,PWを登録しました。", "/d-suppo/LoginServlet"));
-		}else {
+		    // 結果ページにフォワードする
+		    RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/jsp/result2.jsp");
+		    dispatcher.forward(request, response);}
+			else {
 			request.setAttribute("result",
 					new Result("登録失敗！", "Id,PWを登録できませんでした", "/d-suppo/IdpwRegistServlet"));
 		}
