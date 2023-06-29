@@ -262,11 +262,16 @@ a.btn-3d-flip.btn-3d-flip2:hover .btn-3d-flip-box2 {
 button {
   display: block;
   margin: 0 auto;
+	width:10em;
+    margin-top:20px;
 }
 
 .button {
   display: block;
   margin: 0 auto;
+  width:10em;
+	height: 3em;
+    margin-top:20px;
 }
 
 
