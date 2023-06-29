@@ -131,7 +131,7 @@
 	   						<span>入力されていません</span><br>
 	   					</c:when>
 	   					<c:otherwise>
-        					<span>"${e.CALORIE}"</span><br>
+        					<span>${e.CALORIE} kcal</span><br>
     					</c:otherwise>
 					</c:choose>
 
@@ -141,7 +141,7 @@
 	   						<span>入力されていません</span><br>
 	   					</c:when>
 	   					<c:otherwise>
-        					<span>"${e.DIETCOST}"</span><br>
+        					<span>${e.DIETCOST} 円</span><br>
     					</c:otherwise>
 					</c:choose>
 

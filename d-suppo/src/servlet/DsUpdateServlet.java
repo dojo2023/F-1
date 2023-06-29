@@ -69,7 +69,8 @@ public class DsUpdateServlet extends HttpServlet {
 		String date = request.getParameter("DATE");
 		String month = request.getParameter("MONTH");
 		String year = request.getParameter("YEAR");
-		int timeslot = Integer.parseInt(request.getParameter("TIMESLOT"));
+		String  r_t = request.getParameter("TIMESLOT");
+		int timeslot = Integer.parseInt(r_t);
 
 		Double calorie;
 		int dietcost;

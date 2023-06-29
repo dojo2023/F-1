@@ -13,11 +13,7 @@
   outline: 1px solid #ff6666;
 }*/
 
-/*pタグ*/
-p.sakura {
-	font-size:20px;
-	font-weight:bold;
-}
+
 
 body {
   margin: 0 0 0 0;		/* マージンなし（後で個別に設定） */
@@ -70,6 +66,10 @@ body {
 
 
 
+p.sakura {
+	font-size:20px;
+	font-weight:bold;
+}
 
 
 /*ラジオボタン*/
